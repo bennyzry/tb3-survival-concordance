@@ -161,7 +161,7 @@
     {
       "criterion": "task_toml_schema",
       "manual_status": "supported",
-      "reason": "The exact pinned Harbor Task parser accepted the configuration. The rubric inventory omits the supported network_mode field; that upstream inventory drift is not a reason to modify the valid task."
+      "reason": "The pinned Harbor parser recognizes network_mode and parses public; see network-field-schema-check.json. The substituted reviewer followed an outdated rubric inventory and suggested the deprecated allow_internet field. Preserve that raw verdict but keep the valid frozen configuration unchanged."
     },
     {
       "criterion": "no_extraneous_files",
@@ -213,5 +213,6 @@
     "reward_0": 0,
     "invalid_original_codex_attempt_excluded": true,
     "adversarial_checks": "Unavailable; neither is a valid graded model outcome."
-  }
+  },
+  "substituted_review_followup": "review-followup.json; source-only review 33 pass, 2 fail, 1 not applicable; human authorship remains noncompliant and empirical compatibility coverage remains unresolved."
 }

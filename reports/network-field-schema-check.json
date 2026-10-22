@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-22T22:59:10.328139+00:00",
+  "harbor_version": "0.23.1.dev202609170426",
+  "environment_model_class": "EnvironmentConfig",
+  "network_mode_is_recognized_model_field": true,
+  "parsed_network_mode": "public",
+  "schema_source_sha256": "d8c62a49acefb8cd6a0be4c4d48dc0f4f52f31f8a8a6728439aad04e1c62e9fb",
+  "conclusion": "The pinned Harbor parser recognizes network_mode; it is not an invented or silently ignored field.",
+  "native_exit_code": 0
+}

@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-22T23:02:59.754082+00:00",
+  "review_type": "substituted automated, not official",
+  "native_harbor_exit_code": 0,
+  "exception_info": null,
+  "verifier_rewards": {
+    "reward": 1.0
+  },
+  "reward_meaning": "Only validates that all rubric verdict entries have the required JSON structure; it does not mean that the task passed the rubric.",
+  "agent": {
+    "name": "codex",
+    "version": "0.163.0",
+    "model_name": "gpt-6.1-sol",
+    "extra": {
+      "originator": "codex_exec",
+      "cwd": "/app"
+    }
+  },
+  "trajectory_steps": 22,
+  "native_model_contexts": [
+    {
+      "model": "gpt-6.1-sol",
+      "effort": "xhigh"
+    }
+  ],
+  "trajectory_sha256": "10ee009e739d794363b997ff6983ed3c2bcaa06b7947e6826bdd1372c3364acc",
+  "result_sha256": "4a4e0b6528f0d36b18264e479913aae7fd66385c2960a92f517b97db933c2eac",
+  "verdict_counts": {
+    "pass": 33,
+    "fail": 2,
+    "warn": 0,
+    "not_applicable": 1
+  },
+  "scope_limit": "Reviews the frozen package; it was not supplied the six-model outcome record or the post-hoc compatibility fixture."
+}

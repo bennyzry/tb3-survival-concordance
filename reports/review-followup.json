@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-22T23:03:36.547286+00:00",
+  "review_type": "substituted automated, not official",
+  "review_counts": {
+    "pass": 33,
+    "fail": 2,
+    "warn": 0,
+    "not_applicable": 1
+  },
+  "review_native_exit_code": 0,
+  "raw_verdicts_sha256": "55ae5e12802fb7ee3d4d082f5f5fcffeaf6e0ba2318bf05a3287b3b2b635df2b",
+  "authorship_failure": "Confirmed. The instruction and four README explanations were AI-generated; contributor authorization and fluent wording do not satisfy the upstream human-written requirement.",
+  "schema_failure_followup": "The raw review recommended allow_internet because its rubric field inventory omits network_mode. The normative criterion is recognition by Harbor. Pinned Harbor 0.23.1.dev202609170426 recognizes network_mode as an EnvironmentConfig model field and parses public. Its own source deprecates allow_internet in favor of network_mode. The original raw fail is preserved; no task field was changed.",
+  "schema_evidence": "network-field-schema-check.json",
+  "review_limit": "The reviewer inspected the frozen package and ran a copied Oracle suite; it did not receive the six standard model outcomes or the confirmed post-hoc compatibility mismatch. Its source-based pass on verifiability/difficulty does not override those empirical limitations.",
+  "standard_results": {
+    "valid_completed": 6,
+    "observed_reward_1": 6,
+    "observed_reward_0": 0,
+    "each_passed": 333,
+    "original_infrastructure_invalid_attempt_excluded": true
+  },
+  "known_grading_gap": "codex-standard-3 received 333/333 reward 1 but differs from pristine 0.28.0 on the analytical float16 negative-tolerance fixture. This remains an ungraded finding; no case or reward was changed.",
+  "adversarial": "Codex request blocked by provider safety check; corresponding DeepSeek request withheld. Neither produced a valid adversarial result; no retry or rerouting occurred.",
+  "publication": {
+    "status": "blocked; no verified repository URL",
+    "latest_native_error": "GitHub API 401 /user Bad credentials",
+    "public_repository_lookup": "404 via the connected GitHub app"
+  },
+  "readiness": "Not ready to claim a complete, compliant TB3 submission. Preserve the usable experimental artifact and all actual successes, gaps and unavailable checks."
+}

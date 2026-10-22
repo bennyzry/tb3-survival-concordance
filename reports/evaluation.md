@@ -45,3 +45,9 @@ GitHub publication was initially blocked by an invalid saved credential (401). T
 Task difficulty and model-success claims require the completed trajectory analysis. Do not interpret preliminary rewards, authentication smokes, or the blocked adversarial requests as established frontier-model difficulty or verifier robustness.
 
 Readiness: this is an executable experimental artifact, not a fully compliant submission. Human authorship, unavailable adversarial checks, the demonstrated ungraded compatibility gap, and the missing verified GitHub publication remain explicit limitations. No task redesign or threshold change was made to improve failure statistics.
+
+## Final review follow-up
+
+The substituted review returned 33 pass, 2 fail and 1 not applicable (native Harbor exit 0). Its JSON-format reward is not an approval of the task. The generated-authorship failure is confirmed. Its schema failure follows an outdated field inventory: the pinned Harbor parser recognizes `network_mode` and parses `public`; its source deprecates `allow_internet`. The raw failure is retained, with [independent parser evidence](network-field-schema-check.json) and [the technical follow-up](review-followup.json). The frozen configuration is unchanged.
+
+All six required standard runs completed with 333/333 and observed reward 1. Full trajectory and source reviews found general input-dependent implementations, including a vectorized sorted-block alternative. The known ungraded Codex compatibility mismatch remains a real grading limitation. Neither unavailable adversarial result is counted as a model failure.
