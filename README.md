@@ -18,6 +18,22 @@ harbor run --path tasks/survival-concordance --agent nop --n-concurrent 1 --max-
 
 Each task/verifier container is configured for one CPU and 2 GiB RAM. Agent timeout is 14,400 seconds; verifier timeout is 1,200 seconds. Avoid oversubscribing the host. Dependencies come from ordinary public package sources; local wheel caches and undocumented images are not required.
 
+## Reproduce a standard model trial
+
+The pinned native CLI setup avoids Harbor's Node/npm APT bootstrap, which encountered package-download failures on the development host. It downloads official npm artifacts, checks registry integrity, and preserves Codex's complete helper layout. It does not install tools globally.
+
+```bash
+python3 scripts/setup_agents.py --directory "$HOME/.cache/tb3-survival-agents"
+# Point CODEX_AUTH_JSON_PATH to your existing private ChatGPT auth.json.
+python3 scripts/run_standard.py codex --id codex-reproduction-1
+# DeepSeek uses the protected ~/.config/tb3/deepseek.key file (mode 600).
+python3 scripts/run_standard.py deepseek --id deepseek-reproduction-1
+```
+
+Use fresh trial IDs. Keep generated `jobs/` files private; they are ignored by Git. The local DeepSeek adapter forwards unchanged inference bodies to the official TLS endpoint and records model/effort/status metadata without logging the key or message bodies. Agent CLI mounts and the adapter are removed before the separate verifier runs. The scripts do not purchase credits or alter billing or global Codex configuration.
+
+Adversarial evaluation is currently unavailable: the official adversarial prompt was rejected by the Codex provider's safety check, and the same prompt was withheld from DeepSeek rather than rerouted. No adversarial robustness pass or valid adversarial model failure is claimed.
+
 ## Observed validation
 
 | Implementation | Passed | Failed | Reward |

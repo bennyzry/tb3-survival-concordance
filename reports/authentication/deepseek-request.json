@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/anthropic/v1/messages",
+    "destination": "https://api.deepseek.com/anthropic/v1/messages",
+    "model": "deepseek-flash",
+    "effort": "max",
+    "thinking": "adaptive",
+    "max_tokens": 128000,
+    "stream": true,
+    "status": 200,
+    "elapsed_sec": 0.9878110959980404,
+    "utc": "2026-10-22T21:32:15.180191+00:00"
+  }
+]

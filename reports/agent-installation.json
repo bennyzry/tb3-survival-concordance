@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-22T21:27:56.135420+00:00",
+  "artifacts": [
+    {
+      "package": "@openai/codex",
+      "version": "0.163.0-linux-x64",
+      "metadata_url": "https://registry.npmjs.org/@openai/codex/0.163.0-linux-x64",
+      "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.163.0-linux-x64.tgz",
+      "integrity": "sha512-uwRaOsrYogLQhcxAM/GoeWrw0QIWEMRo7c9gM8sKAviVkZQHlu9kRLJ5PkufbV+ABGjyZgIwiFdJ0LCJ0N6e8w==",
+      "archive_bytes": 162055867,
+      "binary_sha256": "d6d2b6c62398c55f79420a0f4cd44fe4d27a38ca60453889399eeafffbf4d6b7",
+      "binary": "[LOCAL_HOME]/tb3-final-submission-20261023/cli/codex-complete",
+      "argv": [
+        "[LOCAL_HOME]/tb3-final-submission-20261023/cli/codex-complete",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "codex-cli 0.163.0\n",
+      "stderr": "WARNING: proceeding, even though we could not create PATH aliases: CODEX_HOME points to \"[LOCAL_HOME]/tb3-final-submission-20261023/bundle-version-check-home\", but that path does not exist\n",
+      "elapsed_sec": 32.625968535998254,
+      "original_native_binary": "[LOCAL_HOME]/tb3-final-submission-20261023/cli/codex/package/vendor/x86_64-unknown-linux-musl/bin/codex",
+      "original_native_binary_sha256": "399ff69c431c066e40de318fba45c2b07f45a76b19939d247ee4828fc70c4215",
+      "packaging": "Complete official native package in an offline self-extracting launcher; all sibling helpers/resources retained.",
+      "launcher_check_elapsed_sec": 6.807845910996548,
+      "bundle_created_utc": "2026-10-22T21:42:54.932543+00:00",
+      "code_mode_host_sha256": "8724d73ec190536233ab4628d24a071bfbcf27e5124f08fe35129f26fe48b916"
+    },
+    {
+      "package": "@anthropic-ai/claude-code-linux-x64",
+      "version": "2.1.308",
+      "metadata_url": "https://registry.npmjs.org/@anthropic-ai/claude-code-linux-x64/2.1.308",
+      "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-code-linux-x64/-/claude-code-linux-x64-2.1.308.tgz",
+      "integrity": "sha512-ffUryevpH7POStPJ/xpUI5R1ozYbH9o/Dbh/xPSmyVJehELnRMZmRnejdQmq0TejOW/SbNnJFhCGMgwIsOqFTQ==",
+      "archive_bytes": 132044055,
+      "binary_sha256": "356733f185fa988e6bf3aa9a555269fdd167982a2e2a80d3c8a78037bb92ad58",
+      "binary": "[LOCAL_HOME]/tb3-final-submission-20261023/cli/claude/package/claude",
+      "argv": [
+        "[LOCAL_HOME]/tb3-final-submission-20261023/cli/claude/package/claude",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "2.1.308 (Claude Code)\n",
+      "stderr": "",
+      "elapsed_sec": 24.691453952000302
+    }
+  ]
+}

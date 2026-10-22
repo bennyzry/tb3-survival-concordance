@@ -1,0 +1,30 @@
+{
+  "task": {
+    "path": "[LOCAL_HOME]/tb3-final-submission-20261023/tasks/survival-concordance"
+  },
+  "trial_name": "survival-concordance__UZsGnjB",
+  "trials_dir": "[LOCAL_HOME]/tb3-final-submission-20261023/jobs/deepseek-standard-1",
+  "agent": {
+    "name": "claude-code",
+    "model_name": "deepseek-flash",
+    "kwargs": {
+      "reasoning_effort": "max",
+      "version": "2.1.308"
+    }
+  },
+  "environment": {
+    "type": "docker",
+    "mounts": [
+      {
+        "type": "bind",
+        "source": "[LOCAL_HOME]/tb3-final-submission-20261023/cli/claude/package/claude",
+        "target": "/usr/local/bin/claude",
+        "read_only": true
+      }
+    ],
+    "extra_docker_compose": [
+      "[LOCAL_HOME]/tb3-final-submission-20261023/configs/deepseek-standard-1-provider.compose.json"
+    ]
+  },
+  "job_id": "8c97c0ba-7b46-4f11-ac80-c2001b05b5f6"
+}

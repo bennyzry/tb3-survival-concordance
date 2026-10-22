@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-22T21:33:57.959956+00:00",
+  "auth_status_command": [
+    "codex",
+    "login",
+    "status"
+  ],
+  "exit_code": 0,
+  "output": "WARNING: proceeding, even though we could not create PATH aliases: Operation not permitted (os error 1)\nLogged in using ChatGPT\n",
+  "subscription_status_not_api_invoice": true,
+  "codex_session_metadata": [
+    {
+      "model": "gpt-6.1-sol",
+      "effort": "xhigh",
+      "approval_policy": "never",
+      "sandbox_policy": {
+        "type": "danger-full-access"
+      }
+    }
+  ]
+}
