@@ -1,6 +1,6 @@
 # Evaluation record
 
-Generated: 2026-10-22T21:59:35.806472+00:00. Task revision SHA-256: `37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b`.
+Generated: 2026-10-22T22:10:44.395501+00:00. Task revision SHA-256: `37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b`.
 
 The task remains the frozen 333-test revision. Both images previously completed public-source cold builds. Accepted validation: Oracle 333/333, reward 1; independent alternative 333/333, reward 1; Nop 328/333, reward 0, with five performance failures. All 28 current upstream static checks passed again after verified author metadata was filled in.
 
@@ -8,13 +8,15 @@ The task remains the frozen 333-test revision. Both images previously completed 
 
 | Trial | Configuration | Reward | Status / validity |
 | --- | --- | ---: | --- |
-| deepseek-standard-1 | claude-code / deepseek-flash / max | 1 | completed; valid-execution; trajectory review pending |
+| deepseek-standard-1 | claude-code / deepseek-flash / max | 1 | completed; valid legitimate model completion |
 | codex-standard-1 | codex / openai/gpt-6.1-sol / xhigh | 0 | completed; invalid infrastructure attempt |
 | codex-adversarial-1 | codex / openai/gpt-6.1-sol / xhigh | pending | execution-error; unavailable: provider safety restriction; not a valid task failure |
-| codex-standard-2 | codex / openai/gpt-6.1-sol / xhigh | pending | running; pending |
-| deepseek-adversarial-1 | claude-code / deepseek-flash / max | pending | running; withheld: do not route the same blocked adversarial prompt through another provider |
+| codex-standard-2 | codex / openai/gpt-6.1-sol / xhigh | 1 | completed; valid-execution; trajectory review pending |
+| deepseek-adversarial-1 | claude-code / deepseek-flash / max | pending | execution-error; withheld: do not route the same blocked adversarial prompt through another provider |
+| deepseek-standard-2 | claude-code / deepseek-flash / max | pending | running; pending |
+| codex-standard-3 | codex / openai/gpt-6.1-sol / xhigh | pending | running; pending |
 
-Standard configurations still unfinished or not started at this timestamp: codex-standard-1-replacement, codex-standard-2, codex-standard-3, deepseek-standard-2, deepseek-standard-3. A missing or unfinished result is not a model failure. The original `codex-standard-1` attempt is excluded: the CLI preload omitted a required helper, and its trajectory shows that all workspace commands failed. Its observed reward is preserved; one independent replacement is scheduled after the complete native package repair.
+Standard configurations still unfinished or not started at this timestamp: codex-standard-1-replacement, codex-standard-3, deepseek-standard-2, deepseek-standard-3. A missing or unfinished result is not a model failure. The original `codex-standard-1` attempt is excluded: the CLI preload omitted a required helper, and its trajectory shows that all workspace commands failed. Its observed reward is preserved; one independent replacement is scheduled after the complete native package repair.
 
 The Codex adversarial request was rejected by the provider safety check before task actions. It was stopped and will not be retried or rephrased. The matching DeepSeek adversarial request was withheld rather than routing the same blocked prompt through another provider. Neither is a valid model failure or a successful anti-cheating validation.
 

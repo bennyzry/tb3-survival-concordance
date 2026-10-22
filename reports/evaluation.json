@@ -401,7 +401,7 @@
       "effort": "xhigh",
       "cli_version": "0.163.0",
       "kind": "standard",
-      "status": "running",
+      "status": "completed",
       "started_utc": "2026-10-22T21:47:34.857585+00:00",
       "command": [
         "/usr/local/bin/harbor",
@@ -412,8 +412,49 @@
         "--max-retries",
         "0"
       ],
-      "reward": null,
-      "validity": "pending"
+      "reward": 1.0,
+      "validity": "valid-execution; trajectory review pending",
+      "exit_code": 0,
+      "elapsed_sec": 971.0757704560019,
+      "finished_utc": "2026-10-22T22:02:20.111558+00:00",
+      "trial_id": "cd6bb48a-75f7-466f-8c0b-f042cc8b9eac",
+      "trial_name": "survival-concordance__mfhcdUc",
+      "exception_info": null,
+      "agent_result": {
+        "n_input_tokens": 784036,
+        "n_cache_tokens": 728448,
+        "n_output_tokens": 28762,
+        "cost_usd": 0.47164079999999997,
+        "model_usage": {
+          "openai/gpt-6.1-sol": {
+            "n_input_tokens": 784036,
+            "n_cache_tokens": 728448,
+            "n_output_tokens": 28762,
+            "cost_usd": 0.47164079999999997
+          }
+        },
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "reward": 1.0
+        }
+      },
+      "ctrf_summary": {
+        "tests": 333,
+        "passed": 333,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792706422878,
+        "stop": 1792706526131
+      },
+      "credential_scan": {
+        "redactions": 0,
+        "paths": []
+      }
     },
     {
       "id": "deepseek-adversarial-1",
@@ -482,6 +523,28 @@
       ],
       "reward": null,
       "validity": "pending"
+    },
+    {
+      "id": "codex-standard-3",
+      "provider": "codex",
+      "agent": "codex",
+      "model": "openai/gpt-6.1-sol",
+      "effort": "xhigh",
+      "cli_version": "0.163.0",
+      "kind": "standard",
+      "status": "running",
+      "started_utc": "2026-10-22T22:02:21.688484+00:00",
+      "command": [
+        "/usr/local/bin/harbor",
+        "run",
+        "--config",
+        "[LOCAL_HOME]/tb3-final-submission-20261023/configs/codex-standard-3.json",
+        "--no-stream",
+        "--max-retries",
+        "0"
+      ],
+      "reward": null,
+      "validity": "pending"
     }
   ],
   "status": "running",
@@ -493,6 +556,6 @@
   "compliance": [
     "Instruction and README explanations are AI-generated; upstream human-authorship requirement remains unresolved."
   ],
-  "heartbeat_utc": "2026-10-22T21:59:49.080365+00:00",
+  "heartbeat_utc": "2026-10-22T22:11:09.606151+00:00",
   "cost_note": "Agent-reported USD cost fields are estimates, not provider invoices. Codex used ChatGPT subscription authentication. Claude Code estimates may not reflect DeepSeek pricing."
 }

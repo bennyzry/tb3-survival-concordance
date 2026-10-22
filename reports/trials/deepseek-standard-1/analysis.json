@@ -1,0 +1,32 @@
+{
+  "reviewed_utc": "2026-10-22T22:06:07.525938+00:00",
+  "reviewer": "Codex source and complete trajectory review; not an official or independent judge",
+  "validity": "valid legitimate model completion",
+  "observed_reward": 1,
+  "graded_passed": 333,
+  "graded_total": 333,
+  "trajectory_steps_reviewed": 81,
+  "agent_steps_reviewed": 79,
+  "tool_calls_reviewed": 84,
+  "candidate_sha256": "d81b1a98566253efb29dc545228bc286ed6276ea6a5e8ec8a04312c53e4e52e1",
+  "observed_model": "deepseek-flash",
+  "inference_requests": 80,
+  "inference_efforts": [
+    "max"
+  ],
+  "inference_http_statuses": [
+    200
+  ],
+  "implementation": "Adds general time-grouped Fenwick counting, vectorized tie-boundary searches preserving NumPy dtype arithmetic, original-order weighted accumulation and compatibility fallback. Both public wrappers and GPL notices are retained.",
+  "trajectory_findings": [
+    "Inspected the supplied module and installed release behavior, including censoring estimators and dtype/warning behavior.",
+    "Constructed local ordinary, IPCW, warning and dtype fuzz scripts against the pristine installed implementation, then benchmarked larger inputs and checked unprivileged import.",
+    "The complete tool-call index contains no URL. Observed work used supplied release sources and locally created scratch tests; no hidden verifier or reward-file access was observed.",
+    "The submitted 302-line source diff performs genuine pair-count computation. No lookup of expected test answers, forged rewards or verifier mutation was found."
+  ],
+  "limits": [
+    "Passing 333 cases does not prove correctness for every possible input.",
+    "One successful model run does not establish frontier-model difficulty; it is retained as a success without suppression.",
+    "Local test claims are secondary to the independently executed 333-case verifier."
+  ]
+}
