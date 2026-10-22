@@ -1,0 +1,4025 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "timestamp": "2026-10-22T19:52:11.976357+00:00",
+  "generatedBy": "pytest",
+  "results": {
+    "tool": {
+      "name": "pytest",
+      "version": "9.1.1"
+    },
+    "summary": {
+      "tests": 333,
+      "passed": 333,
+      "failed": 0,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792698626293,
+      "stop": 1792698731975
+    },
+    "environment": {
+      "buildName": "Pytest JSON CTRF Report",
+      "buildNumber": "000",
+      "buildUrl": "https://ctrf.io"
+    },
+    "tests": [
+      {
+        "name": "test_state.py::test_public_behavior[all-concordant]",
+        "status": "passed",
+        "duration": 2276,
+        "start": 1792698625318,
+        "stop": 1792698627594,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[all-concordant]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[all-discordant]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627595,
+        "stop": 1792698627596,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[all-discordant]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[mixed-equal-times]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627596,
+        "stop": 1792698627598,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[mixed-equal-times]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[one-time-events-censors]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627598,
+        "stop": 1792698627600,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[one-time-events-censors]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[nontransitive-risk-ties]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627600,
+        "stop": 1792698627602,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[nontransitive-risk-ties]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[rounded-tolerance-boundary]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627602,
+        "stop": 1792698627603,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[rounded-tolerance-boundary]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[early-censor]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627604,
+        "stop": 1792698627605,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[early-censor]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float16-0.0-False]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627605,
+        "stop": 1792698627606,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float16-0.0-False]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float16-0.0-True]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627607,
+        "stop": 1792698627608,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float16-0.0-True]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float16-1e-08-False]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627608,
+        "stop": 1792698627610,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float16-1e-08-False]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float16-1e-08-True]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627610,
+        "stop": 1792698627611,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float16-1e-08-True]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float16-0.5-False]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627612,
+        "stop": 1792698627613,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float16-0.5-False]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float16-0.5-True]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627613,
+        "stop": 1792698627615,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float16-0.5-True]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float16-1.0-False]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627615,
+        "stop": 1792698627617,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float16-1.0-False]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float16-1.0-True]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627617,
+        "stop": 1792698627619,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float16-1.0-True]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float32-0.0-False]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627620,
+        "stop": 1792698627621,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float32-0.0-False]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float32-0.0-True]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627621,
+        "stop": 1792698627623,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float32-0.0-True]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float32-1e-08-False]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627623,
+        "stop": 1792698627624,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float32-1e-08-False]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float32-1e-08-True]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627624,
+        "stop": 1792698627626,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float32-1e-08-True]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float32-0.5-False]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627626,
+        "stop": 1792698627628,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float32-0.5-False]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float32-0.5-True]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627628,
+        "stop": 1792698627629,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float32-0.5-True]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float32-1.0-False]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627630,
+        "stop": 1792698627631,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float32-1.0-False]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float32-1.0-True]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627632,
+        "stop": 1792698627634,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float32-1.0-True]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float64-0.0-False]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627634,
+        "stop": 1792698627635,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float64-0.0-False]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float64-0.0-True]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627635,
+        "stop": 1792698627637,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float64-0.0-True]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float64-1e-08-False]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627637,
+        "stop": 1792698627639,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float64-1e-08-False]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float64-1e-08-True]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627640,
+        "stop": 1792698627642,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float64-1e-08-True]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float64-0.5-False]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627642,
+        "stop": 1792698627643,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float64-0.5-False]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float64-0.5-True]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627643,
+        "stop": 1792698627645,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float64-0.5-True]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float64-1.0-False]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627645,
+        "stop": 1792698627647,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float64-1.0-False]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[boundary-float64-1.0-True]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627647,
+        "stop": 1792698627649,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[boundary-float64-1.0-True]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-0]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627649,
+        "stop": 1792698627651,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-0]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-1]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698627651,
+        "stop": 1792698627657,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-1]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-2]",
+        "status": "passed",
+        "duration": 10,
+        "start": 1792698627657,
+        "stop": 1792698627667,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-2]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-3]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627667,
+        "stop": 1792698627669,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-3]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-4]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698627669,
+        "stop": 1792698627676,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-4]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-5]",
+        "status": "passed",
+        "duration": 9,
+        "start": 1792698627676,
+        "stop": 1792698627685,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-5]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-6]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627685,
+        "stop": 1792698627687,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-6]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-7]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627688,
+        "stop": 1792698627690,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-7]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-8]",
+        "status": "passed",
+        "duration": 10,
+        "start": 1792698627690,
+        "stop": 1792698627700,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-8]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-9]",
+        "status": "passed",
+        "duration": 11,
+        "start": 1792698627701,
+        "stop": 1792698627712,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-9]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-10]",
+        "status": "passed",
+        "duration": 15,
+        "start": 1792698627712,
+        "stop": 1792698627727,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-10]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-11]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627728,
+        "stop": 1792698627730,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-11]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-12]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627730,
+        "stop": 1792698627732,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-12]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-13]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698627732,
+        "stop": 1792698627735,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-13]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-14]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698627736,
+        "stop": 1792698627739,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-14]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-15]",
+        "status": "passed",
+        "duration": 9,
+        "start": 1792698627740,
+        "stop": 1792698627749,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-15]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-16]",
+        "status": "passed",
+        "duration": 14,
+        "start": 1792698627750,
+        "stop": 1792698627764,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-16]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-17]",
+        "status": "passed",
+        "duration": 13,
+        "start": 1792698627764,
+        "stop": 1792698627777,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-17]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-18]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698627777,
+        "stop": 1792698627784,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-18]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-19]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698627784,
+        "stop": 1792698627790,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-19]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-20]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627790,
+        "stop": 1792698627792,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-20]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-21]",
+        "status": "passed",
+        "duration": 9,
+        "start": 1792698627792,
+        "stop": 1792698627801,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-21]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-22]",
+        "status": "passed",
+        "duration": 9,
+        "start": 1792698627801,
+        "stop": 1792698627810,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-22]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-23]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698627810,
+        "stop": 1792698627813,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-23]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-24]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698627813,
+        "stop": 1792698627817,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-24]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-25]",
+        "status": "passed",
+        "duration": 12,
+        "start": 1792698627817,
+        "stop": 1792698627829,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-25]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-26]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627829,
+        "stop": 1792698627831,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-26]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-27]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627831,
+        "stop": 1792698627832,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-27]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-28]",
+        "status": "passed",
+        "duration": 11,
+        "start": 1792698627833,
+        "stop": 1792698627844,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-28]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-29]",
+        "status": "passed",
+        "duration": 14,
+        "start": 1792698627844,
+        "stop": 1792698627858,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-29]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-30]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698627859,
+        "stop": 1792698627866,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-30]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-31]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698627867,
+        "stop": 1792698627874,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-31]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-32]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627874,
+        "stop": 1792698627876,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-32]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-33]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698627876,
+        "stop": 1792698627882,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-33]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-34]",
+        "status": "passed",
+        "duration": 9,
+        "start": 1792698627882,
+        "stop": 1792698627891,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-34]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-35]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698627892,
+        "stop": 1792698627898,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-35]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-36]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627898,
+        "stop": 1792698627900,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-36]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-37]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627901,
+        "stop": 1792698627902,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-37]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-38]",
+        "status": "passed",
+        "duration": 11,
+        "start": 1792698627902,
+        "stop": 1792698627913,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-38]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-39]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627914,
+        "stop": 1792698627916,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-39]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-40]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698627917,
+        "stop": 1792698627922,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-40]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-41]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698627923,
+        "stop": 1792698627927,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-41]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-42]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698627927,
+        "stop": 1792698627934,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-42]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-43]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698627934,
+        "stop": 1792698627939,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-43]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-44]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627939,
+        "stop": 1792698627941,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-44]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-45]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698627942,
+        "stop": 1792698627948,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-45]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-46]",
+        "status": "passed",
+        "duration": 11,
+        "start": 1792698627949,
+        "stop": 1792698627960,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-46]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-47]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698627960,
+        "stop": 1792698627967,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-47]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-48]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698627968,
+        "stop": 1792698627972,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-48]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-49]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698627972,
+        "stop": 1792698627975,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-49]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-50]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627976,
+        "stop": 1792698627977,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-50]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-51]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698627978,
+        "stop": 1792698627979,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-51]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-52]",
+        "status": "passed",
+        "duration": 12,
+        "start": 1792698627980,
+        "stop": 1792698627992,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-52]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-53]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698627992,
+        "stop": 1792698627994,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-53]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-54]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698627994,
+        "stop": 1792698627998,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-54]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-55]",
+        "status": "passed",
+        "duration": 9,
+        "start": 1792698627998,
+        "stop": 1792698628007,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-55]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-56]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628007,
+        "stop": 1792698628011,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-56]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-57]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628012,
+        "stop": 1792698628015,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-57]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-58]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628015,
+        "stop": 1792698628019,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-58]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-59]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698628019,
+        "stop": 1792698628025,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-59]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-60]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628025,
+        "stop": 1792698628028,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-60]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-61]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628028,
+        "stop": 1792698628029,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-61]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-62]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698628030,
+        "stop": 1792698628037,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-62]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-63]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628037,
+        "stop": 1792698628039,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-63]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-64]",
+        "status": "passed",
+        "duration": 12,
+        "start": 1792698628040,
+        "stop": 1792698628052,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-64]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-65]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628052,
+        "stop": 1792698628054,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-65]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-66]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628054,
+        "stop": 1792698628056,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-66]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-67]",
+        "status": "passed",
+        "duration": 8,
+        "start": 1792698628056,
+        "stop": 1792698628064,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-67]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-68]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628064,
+        "stop": 1792698628066,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-68]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-69]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628066,
+        "stop": 1792698628070,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-69]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-70]",
+        "status": "passed",
+        "duration": 11,
+        "start": 1792698628070,
+        "stop": 1792698628081,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-70]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-71]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628081,
+        "stop": 1792698628083,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-71]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-72]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698628083,
+        "stop": 1792698628089,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-72]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-73]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628090,
+        "stop": 1792698628091,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-73]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-74]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698628092,
+        "stop": 1792698628098,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-74]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-75]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628098,
+        "stop": 1792698628100,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-75]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-76]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628100,
+        "stop": 1792698628102,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-76]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-77]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698628102,
+        "stop": 1792698628108,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-77]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-78]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628108,
+        "stop": 1792698628110,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-78]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-79]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698628110,
+        "stop": 1792698628117,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-79]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-80]",
+        "status": "passed",
+        "duration": 9,
+        "start": 1792698628117,
+        "stop": 1792698628126,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-80]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-81]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628126,
+        "stop": 1792698628129,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-81]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-82]",
+        "status": "passed",
+        "duration": 10,
+        "start": 1792698628129,
+        "stop": 1792698628139,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-82]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-83]",
+        "status": "passed",
+        "duration": 10,
+        "start": 1792698628139,
+        "stop": 1792698628149,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-83]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-84]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628149,
+        "stop": 1792698628151,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-84]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-85]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628152,
+        "stop": 1792698628153,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-85]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-86]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628154,
+        "stop": 1792698628155,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-86]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-87]",
+        "status": "passed",
+        "duration": 8,
+        "start": 1792698628155,
+        "stop": 1792698628163,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-87]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-88]",
+        "status": "passed",
+        "duration": 10,
+        "start": 1792698628163,
+        "stop": 1792698628173,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-88]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-89]",
+        "status": "passed",
+        "duration": 13,
+        "start": 1792698628173,
+        "stop": 1792698628186,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-89]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-90]",
+        "status": "passed",
+        "duration": 17,
+        "start": 1792698628186,
+        "stop": 1792698628203,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-90]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-91]",
+        "status": "passed",
+        "duration": 14,
+        "start": 1792698628203,
+        "stop": 1792698628217,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-91]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-92]",
+        "status": "passed",
+        "duration": 13,
+        "start": 1792698628218,
+        "stop": 1792698628231,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-92]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-93]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698628231,
+        "stop": 1792698628237,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-93]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-94]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628237,
+        "stop": 1792698628240,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-94]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-95]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698628240,
+        "stop": 1792698628247,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-95]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-96]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628247,
+        "stop": 1792698628249,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-96]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-97]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628249,
+        "stop": 1792698628252,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-97]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-98]",
+        "status": "passed",
+        "duration": 8,
+        "start": 1792698628252,
+        "stop": 1792698628260,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-98]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-99]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628261,
+        "stop": 1792698628264,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-99]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-100]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628264,
+        "stop": 1792698628267,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-100]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-101]",
+        "status": "passed",
+        "duration": 16,
+        "start": 1792698628268,
+        "stop": 1792698628284,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-101]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-102]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628284,
+        "stop": 1792698628287,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-102]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-103]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628287,
+        "stop": 1792698628291,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-103]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-104]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628292,
+        "stop": 1792698628293,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-104]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-105]",
+        "status": "passed",
+        "duration": 11,
+        "start": 1792698628293,
+        "stop": 1792698628304,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-105]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-106]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628304,
+        "stop": 1792698628305,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-106]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-107]",
+        "status": "passed",
+        "duration": 13,
+        "start": 1792698628305,
+        "stop": 1792698628318,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-107]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-108]",
+        "status": "passed",
+        "duration": 9,
+        "start": 1792698628319,
+        "stop": 1792698628328,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-108]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-109]",
+        "status": "passed",
+        "duration": 10,
+        "start": 1792698628328,
+        "stop": 1792698628338,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-109]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-110]",
+        "status": "passed",
+        "duration": 14,
+        "start": 1792698628338,
+        "stop": 1792698628352,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-110]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-111]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698628352,
+        "stop": 1792698628359,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-111]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-112]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628359,
+        "stop": 1792698628363,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-112]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-113]",
+        "status": "passed",
+        "duration": 16,
+        "start": 1792698628364,
+        "stop": 1792698628380,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-113]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-114]",
+        "status": "passed",
+        "duration": 12,
+        "start": 1792698628380,
+        "stop": 1792698628392,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-114]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-115]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628392,
+        "stop": 1792698628396,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-115]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-116]",
+        "status": "passed",
+        "duration": 12,
+        "start": 1792698628396,
+        "stop": 1792698628408,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-116]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-117]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628408,
+        "stop": 1792698628410,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-117]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-118]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628410,
+        "stop": 1792698628415,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-118]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-119]",
+        "status": "passed",
+        "duration": 13,
+        "start": 1792698628415,
+        "stop": 1792698628428,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-119]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-120]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628428,
+        "stop": 1792698628431,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-120]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-121]",
+        "status": "passed",
+        "duration": 12,
+        "start": 1792698628431,
+        "stop": 1792698628443,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-121]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-122]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628443,
+        "stop": 1792698628445,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-122]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-123]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628445,
+        "stop": 1792698628450,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-123]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-124]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628451,
+        "stop": 1792698628453,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-124]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-125]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698628453,
+        "stop": 1792698628460,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-125]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-126]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628461,
+        "stop": 1792698628463,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-126]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-127]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698628463,
+        "stop": 1792698628469,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-127]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-128]",
+        "status": "passed",
+        "duration": 9,
+        "start": 1792698628469,
+        "stop": 1792698628478,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-128]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-129]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628478,
+        "stop": 1792698628483,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-129]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-130]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628483,
+        "stop": 1792698628485,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-130]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-131]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628485,
+        "stop": 1792698628487,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-131]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-132]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628487,
+        "stop": 1792698628489,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-132]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-133]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628489,
+        "stop": 1792698628493,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-133]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-134]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628494,
+        "stop": 1792698628497,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-134]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-135]",
+        "status": "passed",
+        "duration": 10,
+        "start": 1792698628497,
+        "stop": 1792698628507,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-135]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-136]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698628507,
+        "stop": 1792698628513,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-136]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-137]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628513,
+        "stop": 1792698628515,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-137]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-138]",
+        "status": "passed",
+        "duration": 9,
+        "start": 1792698628515,
+        "stop": 1792698628524,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-138]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-139]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628524,
+        "stop": 1792698628526,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-139]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-140]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628526,
+        "stop": 1792698628528,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-140]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-141]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628528,
+        "stop": 1792698628530,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-141]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-142]",
+        "status": "passed",
+        "duration": 12,
+        "start": 1792698628530,
+        "stop": 1792698628542,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-142]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-143]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628542,
+        "stop": 1792698628543,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-143]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-144]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628544,
+        "stop": 1792698628548,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-144]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-145]",
+        "status": "passed",
+        "duration": 11,
+        "start": 1792698628548,
+        "stop": 1792698628559,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-145]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-146]",
+        "status": "passed",
+        "duration": 13,
+        "start": 1792698628559,
+        "stop": 1792698628572,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-146]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-147]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698628572,
+        "stop": 1792698628578,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-147]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-148]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628578,
+        "stop": 1792698628582,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-148]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-149]",
+        "status": "passed",
+        "duration": 14,
+        "start": 1792698628582,
+        "stop": 1792698628596,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-149]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-150]",
+        "status": "passed",
+        "duration": 13,
+        "start": 1792698628597,
+        "stop": 1792698628610,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-150]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-151]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628610,
+        "stop": 1792698628613,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-151]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-152]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628614,
+        "stop": 1792698628617,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-152]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-153]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698628617,
+        "stop": 1792698628624,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-153]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-154]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628624,
+        "stop": 1792698628626,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-154]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-155]",
+        "status": "passed",
+        "duration": 10,
+        "start": 1792698628626,
+        "stop": 1792698628636,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-155]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-156]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628637,
+        "stop": 1792698628640,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-156]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-157]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628641,
+        "stop": 1792698628645,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-157]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-158]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628645,
+        "stop": 1792698628648,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-158]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-159]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628649,
+        "stop": 1792698628650,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-159]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[degenerate-0]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628650,
+        "stop": 1792698628652,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[degenerate-0]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[degenerate-1]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628652,
+        "stop": 1792698628653,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[degenerate-1]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[degenerate-2]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628653,
+        "stop": 1792698628655,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[degenerate-2]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[degenerate-3]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628655,
+        "stop": 1792698628656,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[degenerate-3]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[degenerate-4]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628656,
+        "stop": 1792698628657,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[degenerate-4]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[degenerate-5]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628657,
+        "stop": 1792698628658,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[degenerate-5]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[degenerate-6]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628658,
+        "stop": 1792698628659,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[degenerate-6]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[degenerate-7]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628659,
+        "stop": 1792698628660,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[degenerate-7]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[degenerate-8]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628661,
+        "stop": 1792698628662,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[degenerate-8]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[degenerate-9]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628662,
+        "stop": 1792698628663,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[degenerate-9]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[degenerate-10]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628664,
+        "stop": 1792698628666,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[degenerate-10]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[integer-event-error]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628666,
+        "stop": 1792698628667,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[integer-event-error]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[integer-risk]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628667,
+        "stop": 1792698628669,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[integer-risk]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[unusual-tol--1.0]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628669,
+        "stop": 1792698628670,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[unusual-tol--1.0]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[unusual-tol-nan]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628670,
+        "stop": 1792698628671,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[unusual-tol-nan]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[unusual-tol-inf]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628671,
+        "stop": 1792698628672,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[unusual-tol-inf]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[extreme-float16]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628673,
+        "stop": 1792698628674,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[extreme-float16]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[extreme-float32]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628674,
+        "stop": 1792698628675,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[extreme-float32]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[extreme-float64]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628676,
+        "stop": 1792698628677,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[extreme-float64]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[analytical-ipcw-None]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628677,
+        "stop": 1792698628679,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[analytical-ipcw-None]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[analytical-ipcw-4.0]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628680,
+        "stop": 1792698628682,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[analytical-ipcw-4.0]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[training-time-ties]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628682,
+        "stop": 1792698628685,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[training-time-ties]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-0]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628685,
+        "stop": 1792698628689,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-0]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-1]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628689,
+        "stop": 1792698628694,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-1]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-2]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628694,
+        "stop": 1792698628698,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-2]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-3]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628698,
+        "stop": 1792698628703,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-3]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-4]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628703,
+        "stop": 1792698628707,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-4]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-5]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628707,
+        "stop": 1792698628712,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-5]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-6]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628712,
+        "stop": 1792698628717,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-6]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-7]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628717,
+        "stop": 1792698628722,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-7]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-8]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628722,
+        "stop": 1792698628726,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-8]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-9]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628726,
+        "stop": 1792698628730,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-9]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-10]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628731,
+        "stop": 1792698628735,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-10]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-11]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628735,
+        "stop": 1792698628739,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-11]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-12]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628740,
+        "stop": 1792698628744,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-12]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-13]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628744,
+        "stop": 1792698628748,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-13]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-14]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628748,
+        "stop": 1792698628752,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-14]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-15]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628753,
+        "stop": 1792698628757,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-15]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-16]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628758,
+        "stop": 1792698628762,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-16]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-17]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628762,
+        "stop": 1792698628767,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-17]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-18]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628767,
+        "stop": 1792698628772,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-18]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-19]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628772,
+        "stop": 1792698628777,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-19]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-20]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628777,
+        "stop": 1792698628781,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-20]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-21]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628782,
+        "stop": 1792698628786,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-21]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-22]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628786,
+        "stop": 1792698628790,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-22]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-23]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628790,
+        "stop": 1792698628794,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-23]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-24]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628794,
+        "stop": 1792698628799,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-24]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-25]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628799,
+        "stop": 1792698628803,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-25]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-26]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628803,
+        "stop": 1792698628808,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-26]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-27]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628808,
+        "stop": 1792698628813,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-27]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-28]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628813,
+        "stop": 1792698628817,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-28]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-29]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628818,
+        "stop": 1792698628822,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-29]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-30]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628823,
+        "stop": 1792698628827,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-30]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-31]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628828,
+        "stop": 1792698628832,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-31]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-32]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628833,
+        "stop": 1792698628837,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-32]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-33]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628838,
+        "stop": 1792698628842,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-33]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-34]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628842,
+        "stop": 1792698628847,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-34]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-35]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628847,
+        "stop": 1792698628852,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-35]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-36]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628852,
+        "stop": 1792698628856,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-36]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-37]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628857,
+        "stop": 1792698628862,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-37]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-38]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628862,
+        "stop": 1792698628866,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-38]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[random-ipcw-39]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698628867,
+        "stop": 1792698628871,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[random-ipcw-39]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[ipcw-error-support]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628871,
+        "stop": 1792698628873,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[ipcw-error-support]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[ipcw-error-zero-G]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628874,
+        "stop": 1792698628876,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[ipcw-error-zero-G]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[ipcw-error-tau-empty]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628876,
+        "stop": 1792698628878,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[ipcw-error-tau-empty]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[ipcw-error-risk-length]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628879,
+        "stop": 1792698628880,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[ipcw-error-risk-length]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[all-risk-equal]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628880,
+        "stop": 1792698628885,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[all-risk-equal]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[all-censored-except-first]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628885,
+        "stop": 1792698628887,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[all-censored-except-first]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[tied-last-events]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628887,
+        "stop": 1792698628889,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[tied-last-events]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[signed-zero]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698628890,
+        "stop": 1792698628895,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[signed-zero]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[api-censored-default-positional]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628895,
+        "stop": 1792698628896,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[api-censored-default-positional]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[api-censored-default-keywords]",
+        "status": "passed",
+        "duration": 1,
+        "start": 1792698628897,
+        "stop": 1792698628898,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[api-censored-default-keywords]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[api-ipcw-defaults-positional]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628899,
+        "stop": 1792698628901,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[api-ipcw-defaults-positional]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[api-ipcw-defaults-keywords]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698628902,
+        "stop": 1792698628904,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[api-ipcw-defaults-keywords]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[api-ipcw-default-tau-keywords]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628904,
+        "stop": 1792698628907,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[api-ipcw-default-tau-keywords]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[api-ipcw-default-tied-tol-keywords]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628907,
+        "stop": 1792698628910,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[api-ipcw-default-tied-tol-keywords]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_public_behavior[api-ipcw-explicit-keywords]",
+        "status": "passed",
+        "duration": 3,
+        "start": 1792698628910,
+        "stop": 1792698628913,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_public_behavior[api-ipcw-explicit-keywords]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-continuous-n127-s731000]",
+        "status": "passed",
+        "duration": 5096,
+        "start": 1792698628913,
+        "stop": 1792698634009,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-continuous-n127-s731000]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-continuous-n127-s731001]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698634010,
+        "stop": 1792698634017,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-continuous-n127-s731001]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-discrete-n127-s731010]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698634017,
+        "stop": 1792698634021,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-discrete-n127-s731010]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-discrete-n127-s731011]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698634021,
+        "stop": 1792698634027,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-discrete-n127-s731011]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-boundary-n127-s731020]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698634027,
+        "stop": 1792698634033,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-boundary-n127-s731020]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-boundary-n127-s731021]",
+        "status": "passed",
+        "duration": 7,
+        "start": 1792698634033,
+        "stop": 1792698634040,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-boundary-n127-s731021]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-lognormal-n127-s731030]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698634040,
+        "stop": 1792698634044,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-lognormal-n127-s731030]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-lognormal-n127-s731031]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698634044,
+        "stop": 1792698634050,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-lognormal-n127-s731031]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-constant-n127-s731040]",
+        "status": "passed",
+        "duration": 4,
+        "start": 1792698634050,
+        "stop": 1792698634054,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-constant-n127-s731040]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-constant-n127-s731041]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698634054,
+        "stop": 1792698634059,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-constant-n127-s731041]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-censored-n127-s731050]",
+        "status": "passed",
+        "duration": 2,
+        "start": 1792698634060,
+        "stop": 1792698634062,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-censored-n127-s731050]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-censored-n127-s731051]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698634062,
+        "stop": 1792698634067,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-censored-n127-s731051]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-continuous-n513-s731100]",
+        "status": "passed",
+        "duration": 18,
+        "start": 1792698634067,
+        "stop": 1792698634085,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-continuous-n513-s731100]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-continuous-n513-s731101]",
+        "status": "passed",
+        "duration": 14,
+        "start": 1792698634086,
+        "stop": 1792698634100,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-continuous-n513-s731101]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-discrete-n513-s731110]",
+        "status": "passed",
+        "duration": 12,
+        "start": 1792698634100,
+        "stop": 1792698634112,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-discrete-n513-s731110]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-discrete-n513-s731111]",
+        "status": "passed",
+        "duration": 14,
+        "start": 1792698634113,
+        "stop": 1792698634127,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-discrete-n513-s731111]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-boundary-n513-s731120]",
+        "status": "passed",
+        "duration": 16,
+        "start": 1792698634127,
+        "stop": 1792698634143,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-boundary-n513-s731120]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-boundary-n513-s731121]",
+        "status": "passed",
+        "duration": 14,
+        "start": 1792698634143,
+        "stop": 1792698634157,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-boundary-n513-s731121]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-lognormal-n513-s731130]",
+        "status": "passed",
+        "duration": 13,
+        "start": 1792698634157,
+        "stop": 1792698634170,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-lognormal-n513-s731130]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-lognormal-n513-s731131]",
+        "status": "passed",
+        "duration": 17,
+        "start": 1792698634170,
+        "stop": 1792698634187,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-lognormal-n513-s731131]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-constant-n513-s731140]",
+        "status": "passed",
+        "duration": 10,
+        "start": 1792698634187,
+        "stop": 1792698634197,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-constant-n513-s731140]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-constant-n513-s731141]",
+        "status": "passed",
+        "duration": 12,
+        "start": 1792698634198,
+        "stop": 1792698634210,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-constant-n513-s731141]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-censored-n513-s731150]",
+        "status": "passed",
+        "duration": 5,
+        "start": 1792698634210,
+        "stop": 1792698634215,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-censored-n513-s731150]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-censored-n513-s731151]",
+        "status": "passed",
+        "duration": 6,
+        "start": 1792698634216,
+        "stop": 1792698634222,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-censored-n513-s731151]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-continuous-n2049-s731200]",
+        "status": "passed",
+        "duration": 69,
+        "start": 1792698634222,
+        "stop": 1792698634291,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-continuous-n2049-s731200]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-continuous-n2049-s731201]",
+        "status": "passed",
+        "duration": 63,
+        "start": 1792698634291,
+        "stop": 1792698634354,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-continuous-n2049-s731201]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-discrete-n2049-s731210]",
+        "status": "passed",
+        "duration": 54,
+        "start": 1792698634354,
+        "stop": 1792698634408,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-discrete-n2049-s731210]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-discrete-n2049-s731211]",
+        "status": "passed",
+        "duration": 57,
+        "start": 1792698634409,
+        "stop": 1792698634466,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-discrete-n2049-s731211]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-boundary-n2049-s731220]",
+        "status": "passed",
+        "duration": 53,
+        "start": 1792698634467,
+        "stop": 1792698634520,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-boundary-n2049-s731220]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-boundary-n2049-s731221]",
+        "status": "passed",
+        "duration": 56,
+        "start": 1792698634520,
+        "stop": 1792698634576,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-boundary-n2049-s731221]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-lognormal-n2049-s731230]",
+        "status": "passed",
+        "duration": 51,
+        "start": 1792698634577,
+        "stop": 1792698634628,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-lognormal-n2049-s731230]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-lognormal-n2049-s731231]",
+        "status": "passed",
+        "duration": 54,
+        "start": 1792698634629,
+        "stop": 1792698634683,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-lognormal-n2049-s731231]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-constant-n2049-s731240]",
+        "status": "passed",
+        "duration": 47,
+        "start": 1792698634683,
+        "stop": 1792698634730,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-constant-n2049-s731240]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-constant-n2049-s731241]",
+        "status": "passed",
+        "duration": 51,
+        "start": 1792698634730,
+        "stop": 1792698634781,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-constant-n2049-s731241]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-censored-n2049-s731250]",
+        "status": "passed",
+        "duration": 12,
+        "start": 1792698634781,
+        "stop": 1792698634793,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-censored-n2049-s731250]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-censored-n2049-s731251]",
+        "status": "passed",
+        "duration": 13,
+        "start": 1792698634793,
+        "stop": 1792698634806,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-censored-n2049-s731251]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-continuous-n8193-s731300]",
+        "status": "passed",
+        "duration": 337,
+        "start": 1792698634807,
+        "stop": 1792698635144,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-continuous-n8193-s731300]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-continuous-n8193-s731301]",
+        "status": "passed",
+        "duration": 349,
+        "start": 1792698635144,
+        "stop": 1792698635493,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-continuous-n8193-s731301]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-discrete-n8193-s731310]",
+        "status": "passed",
+        "duration": 337,
+        "start": 1792698635493,
+        "stop": 1792698635830,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-discrete-n8193-s731310]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-discrete-n8193-s731311]",
+        "status": "passed",
+        "duration": 373,
+        "start": 1792698635830,
+        "stop": 1792698636203,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-discrete-n8193-s731311]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-boundary-n8193-s731320]",
+        "status": "passed",
+        "duration": 382,
+        "start": 1792698636203,
+        "stop": 1792698636585,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-boundary-n8193-s731320]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-boundary-n8193-s731321]",
+        "status": "passed",
+        "duration": 315,
+        "start": 1792698636585,
+        "stop": 1792698636900,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-boundary-n8193-s731321]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-lognormal-n8193-s731330]",
+        "status": "passed",
+        "duration": 303,
+        "start": 1792698636901,
+        "stop": 1792698637204,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-lognormal-n8193-s731330]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-lognormal-n8193-s731331]",
+        "status": "passed",
+        "duration": 313,
+        "start": 1792698637205,
+        "stop": 1792698637518,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-lognormal-n8193-s731331]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-constant-n8193-s731340]",
+        "status": "passed",
+        "duration": 301,
+        "start": 1792698637518,
+        "stop": 1792698637819,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-constant-n8193-s731340]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-constant-n8193-s731341]",
+        "status": "passed",
+        "duration": 292,
+        "start": 1792698637819,
+        "stop": 1792698638111,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-constant-n8193-s731341]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-censored-n8193-s731350]",
+        "status": "passed",
+        "duration": 49,
+        "start": 1792698638111,
+        "stop": 1792698638160,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-censored-n8193-s731350]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-censored-n8193-s731351]",
+        "status": "passed",
+        "duration": 54,
+        "start": 1792698638160,
+        "stop": 1792698638214,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-censored-n8193-s731351]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-continuous-n16387-s742000]",
+        "status": "passed",
+        "duration": 871,
+        "start": 1792698638215,
+        "stop": 1792698639086,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-continuous-n16387-s742000]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-continuous-n8193-s731300-permuted]",
+        "status": "passed",
+        "duration": 356,
+        "start": 1792698639086,
+        "stop": 1792698639442,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-continuous-n8193-s731300-permuted]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-continuous-n16387-s742001]",
+        "status": "passed",
+        "duration": 873,
+        "start": 1792698639442,
+        "stop": 1792698640315,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-continuous-n16387-s742001]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-continuous-n8193-s731301-permuted]",
+        "status": "passed",
+        "duration": 385,
+        "start": 1792698640315,
+        "stop": 1792698640700,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-continuous-n8193-s731301-permuted]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-discrete-n16387-s742010]",
+        "status": "passed",
+        "duration": 1024,
+        "start": 1792698640700,
+        "stop": 1792698641724,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-discrete-n16387-s742010]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[censored-discrete-n8193-s731310-permuted]",
+        "status": "passed",
+        "duration": 335,
+        "start": 1792698641724,
+        "stop": 1792698642059,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[censored-discrete-n8193-s731310-permuted]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-discrete-n16387-s742011]",
+        "status": "passed",
+        "duration": 1016,
+        "start": 1792698642060,
+        "stop": 1792698643076,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-discrete-n16387-s742011]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_intermediate_behavior[ipcw-discrete-n8193-s731311-permuted]",
+        "status": "passed",
+        "duration": 352,
+        "start": 1792698643076,
+        "stop": 1792698643428,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_intermediate_behavior[ipcw-discrete-n8193-s731311-permuted]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_scaled_performance_and_correctness[censored-boundary-n24593]",
+        "status": "passed",
+        "duration": 4836,
+        "start": 1792698643428,
+        "stop": 1792698648264,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_scaled_performance_and_correctness[censored-boundary-n24593]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_scaled_performance_and_correctness[ipcw-discrete-n49157]",
+        "status": "passed",
+        "duration": 5319,
+        "start": 1792698648265,
+        "stop": 1792698653584,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_scaled_performance_and_correctness[ipcw-discrete-n49157]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_scaled_performance_and_correctness[censored-lognormal-n73747]",
+        "status": "passed",
+        "duration": 2898,
+        "start": 1792698653584,
+        "stop": 1792698656482,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_scaled_performance_and_correctness[censored-lognormal-n73747]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_scaled_performance_and_correctness[ipcw-continuous-n98317]",
+        "status": "passed",
+        "duration": 8378,
+        "start": 1792698656483,
+        "stop": 1792698664861,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_scaled_performance_and_correctness[ipcw-continuous-n98317]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_scaled_performance_and_correctness[censored-discrete-n131101]",
+        "status": "passed",
+        "duration": 11330,
+        "start": 1792698664862,
+        "stop": 1792698676192,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_scaled_performance_and_correctness[censored-discrete-n131101]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_scaled_performance_and_correctness[ipcw-continuous-n147457]",
+        "status": "passed",
+        "duration": 12860,
+        "start": 1792698676193,
+        "stop": 1792698689053,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_scaled_performance_and_correctness[ipcw-continuous-n147457]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_scaled_performance_and_correctness[censored-constant-n163841]",
+        "status": "passed",
+        "duration": 15010,
+        "start": 1792698689053,
+        "stop": 1792698704063,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_scaled_performance_and_correctness[censored-constant-n163841]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_scaled_performance_and_correctness[censored-continuous-n196613]",
+        "status": "passed",
+        "duration": 19663,
+        "start": 1792698704064,
+        "stop": 1792698723727,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_scaled_performance_and_correctness[censored-continuous-n196613]"
+        ]
+      },
+      {
+        "name": "test_state.py::test_large_exact_counts",
+        "status": "passed",
+        "duration": 8246,
+        "start": 1792698723728,
+        "stop": 1792698731974,
+        "retries": 0,
+        "file_path": "test_state.py",
+        "tags": [
+          "nodeid:test_state.py::test_large_exact_counts"
+        ]
+      }
+    ]
+  }
+}

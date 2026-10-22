@@ -1,0 +1,11 @@
+auth.json
+*.key
+.env
+.env.*
+*.pem
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+private/
+jobs/

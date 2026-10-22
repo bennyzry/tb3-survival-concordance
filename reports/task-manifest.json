@@ -1,0 +1,32 @@
+{
+  "task_version": "0.2.0",
+  "task_revision_sha256": "37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b",
+  "files": {
+    "environment/.dockerignore": "7005035559143cd2bd47bc85eb46c85fce7ad7faea64763b371bde62c08ddb02",
+    "environment/Dockerfile": "137669181b7df8f0894f6a0180852e6b09d47c88ad2f1d4f3b26fe58c55014a5",
+    "environment/LICENSE": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "environment/metrics.py": "52a01078d8883a588c55833d78d6c6e4d882ae40201280dddc256e53ad07e711",
+    "environment/requirements.lock": "aaa12a38e78090776dec9c4fc82a35bacbeb25751d5cf1407664b46ca84a0738",
+    "instruction.md": "d4769c7e9d7cb5369bcd3a02861dc3fc33a03f5ff7702f83139ea07e77fbd446",
+    "LICENSE": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "README.md": "76148a1af482aa84de062ef9fc9a829306d281df9b6526f1aeab5bcf9b9afffc",
+    "solution/concordance.patch": "7659d240937b72eca6ff97654f5caa97b98a3e690a0c3d5b92a53faeb674b415",
+    "solution/solve.sh": "79b2593bb8b4fe8e32d369a85433716a20c38bfa8e50b23e71c342f270468803",
+    "task.toml": "ae3fd2dc90ac0836dcb46d958a5b390110efdff5e8ada11066697878e39d40c1",
+    "tests/.dockerignore": "7005035559143cd2bd47bc85eb46c85fce7ad7faea64763b371bde62c08ddb02",
+    "tests/cases.py": "df5a7679b2a7e1ce47f014f3df3788c7ed42d6f7c39be180acab2bca02683764",
+    "tests/conftest.py": "58576dafc606f7963a9bf411fcfe1dcc23aafd071a8fe6c9204a74dbecd98c4d",
+    "tests/Dockerfile": "98d74c19a1af28dc8f22aed73793b420a321d8822404fa4d540f00bf6db34d6e",
+    "tests/format_report.py": "06cdc9a3ea20b268c73c4defcdc11ec529a9e79ae9cdfe0d5f47e7ce1fa1859b",
+    "tests/harness.py": "478550b1b0cbd4614e4665a42118329dee8bf7822903f3215a530694c00f697c",
+    "tests/LICENSE": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "tests/preflight.py": "ac8c0b99705a8fd28989cb9addd698cc2e9b0afd06101e9f0eadb5be8fd8e63f",
+    "tests/reference.py": "a11af8ffad896fd2b176e36e197146833262e02179259364a656aed7cd1e08e9",
+    "tests/requirements.lock": "fd78a8edfafa90e4bcfcc6dca23189f6a4899f821294f52e17b259a9dbc91f3b",
+    "tests/runtime.lock": "aaa12a38e78090776dec9c4fc82a35bacbeb25751d5cf1407664b46ca84a0738",
+    "tests/test.sh": "33ac84b02966604dab613734acf6aa8275d776531ec2fbfae87ed6ec5fbe8c3a",
+    "tests/test_state.py": "715e5a1bfc7b486e29546283d5c79f45de04ada02f9ebd953dd59bf61fd7ade0",
+    "tests/worker.py": "dd444fb3911a19602e01d365f5ceedcfd2d00d575d2219c93cb6350dec023446",
+    "tests/workloads.py": "4780316aefbe47749783aba6fbab381f048483e8fc97cbacf4c01d5530b7e01d"
+  }
+}

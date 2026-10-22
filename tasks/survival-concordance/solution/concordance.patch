@@ -1,0 +1,140 @@
+--- a/sksurv/metrics.py
++++ b/sksurv/metrics.py
+@@ -108,7 +108,7 @@
+         i = end
+ 
+ 
+-def _estimate_concordance_index(event_indicator, event_time, estimate, weights, tied_tol=1e-8):
++def _estimate_concordance_index_quadratic(event_indicator, event_time, estimate, weights, tied_tol=1e-8):
+     order = np.argsort(event_time)
+ 
+     tied_time = None
+@@ -143,6 +143,128 @@
+     if tied_time is None:
+         raise NoComparablePairException("Data has no comparable pairs, cannot estimate concordance index.")
+ 
++    cindex = numerator / denominator
++    return cindex, concordant, discordant, tied_risk, tied_time
++
++
++def _tie_boundaries(keys, tolerance):
++    """Find inclusive bands with the *actual dtype's subtraction predicate*.
++
++    Substituting searchsorted(center +/- tolerance) is not equivalent at some
++    floating-point boundaries. Batched binary searches cost O(u log u), use
++    O(u) storage, and preserve the original NumPy subtraction/abs/comparison.
++    """
++    size = len(keys)
++    index = np.arange(size, dtype=np.intp)
++    lower = np.zeros(size, dtype=np.intp)
++    end = index.copy()
++    with np.errstate(over='ignore', invalid='ignore'):
++        while np.any(lower < end):
++            active = np.flatnonzero(lower < end)
++            mid = lower[active] + (end[active] - lower[active]) // 2
++            tied = np.absolute(keys[mid] - keys[active]) <= tolerance
++            end[active[tied]] = mid[tied]
++            lower[active[~tied]] = mid[~tied] + 1
++        upper = index + 1
++        end = np.full(size, size, dtype=np.intp)
++        while np.any(upper < end):
++            active = np.flatnonzero(upper < end)
++            mid = upper[active] + (end[active] - upper[active]) // 2
++            tied = np.absolute(keys[mid] - keys[active]) <= tolerance
++            upper[active[tied]] = mid[tied] + 1
++            end[active[~tied]] = mid[~tied]
++    return lower, upper
++
++
++def _estimate_concordance_index(event_indicator, event_time, estimate, weights, tied_tol=1e-8):
++    try:
++        supported_tolerance = np.isscalar(tied_tol) and np.isfinite(tied_tol) and tied_tol >= 0
++    except TypeError:
++        supported_tolerance = False
++    if (not supported_tolerance or estimate.ndim != 1 or event_indicator.ndim != 1
++            or event_time.ndim != 1 or estimate.dtype.kind != 'f'
++            or event_indicator.dtype.kind != 'b' or not np.isfinite(estimate).all()):
++        return _estimate_concordance_index_quadratic(event_indicator, event_time, estimate, weights, tied_tol)
++
++    # Preserve legacy warning/error behavior for extreme finite magnitudes
++    # whose subtraction overflows, instead of precomputing unused comparisons.
++    with np.errstate(over='ignore', invalid='ignore'):
++        overflow_span = len(estimate) > 0 and not np.isfinite(estimate.max() - estimate.min())
++    if overflow_span:
++        return _estimate_concordance_index_quadratic(event_indicator, event_time, estimate, weights, tied_tol)
++
++    n = len(event_time)
++    order = np.argsort(event_time)  # Keep the original accumulation order.
++    keys, ranks = np.unique(estimate, return_inverse=True)
++    lower, upper = _tie_boundaries(keys, tied_tol)
++    tree = [0] * (len(keys) + 1)
++    total = 0
++
++    def add(rank):
++        nonlocal total
++        i = int(rank) + 1
++        while i < len(tree):
++            tree[i] += 1
++            i += i & -i
++        total += 1
++
++    def prefix(stop):
++        result = 0
++        i = int(stop)
++        while i:
++            result += tree[i]
++            i -= i & -i
++        return result
++
++    concordant_per = np.zeros(n, dtype=np.int64)
++    tied_per = np.zeros(n, dtype=np.int64)
++    comparable_per = np.zeros(n, dtype=np.int64)
++    same_time_per = np.zeros(n, dtype=np.int64)
++    eligible = np.zeros(n, dtype=bool)
++    sorted_times = event_time[order]
++    cuts = np.r_[0, np.flatnonzero(sorted_times[1:] != sorted_times[:-1]) + 1, n]
++    for group in range(len(cuts) - 2, -1, -1):
++        start, end = int(cuts[group]), int(cuts[group + 1])
++        ids = order[start:end]
++        censored = ids[~event_indicator[ids]]
++        events = ids[event_indicator[ids]]
++        # Later times are already present. Same-time censors enter before
++        # queries; same-time events enter only after queries.
++        for idx in censored:
++            add(ranks[idx])
++        if start < n - 1:
++            for idx in events:
++                rank = ranks[idx]
++                below = prefix(lower[rank])
++                concordant_per[idx] = below
++                tied_per[idx] = prefix(upper[rank]) - below
++                comparable_per[idx] = total
++                same_time_per[idx] = len(censored)
++                eligible[idx] = True
++        for idx in events:
++            add(ranks[idx])
++
++    concordant = discordant = tied_risk = 0
++    tied_time = None
++    numerator = denominator = 0.0
++    for idx in order:
++        if not eligible[idx]:
++            continue
++        n_con = concordant_per[idx]
++        n_ties = tied_per[idx]
++        n_pairs = comparable_per[idx]
++        w_i = weights[idx]
++        # Preserve operand dtypes and summation order, including IPCW zero
++        # weights, rather than silently changing weighted rounding behavior.
++        numerator += w_i * n_con + 0.5 * w_i * n_ties
++        denominator += w_i * n_pairs
++        concordant += n_con
++        discordant += n_pairs - n_con - n_ties
++        tied_risk += n_ties
++        tied_time = np.int64(0) if tied_time is None else tied_time
++        tied_time += same_time_per[idx]
++    if tied_time is None:
++        raise NoComparablePairException('Data has no comparable pairs, cannot estimate concordance index.')
+     cindex = numerator / denominator
+     return cindex, concordant, discordant, tied_risk, tied_time
+ 

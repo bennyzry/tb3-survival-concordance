@@ -1,0 +1,203 @@
+{
+  "reviewed_utc": "2026-10-22T20:38:45.086987+00:00",
+  "reviewer": "Codex, source-based manual self-review",
+  "official_automated_review_executed": false,
+  "independent_human_review_executed": false,
+  "upstream_commit": "7dcecbd7e5427bec70b013da5549667ceaace041",
+  "rubric_sha256": "345a566111d767fb79ce72c4b772cbc897a9638114a08f80e094beb8a72c6f1c",
+  "overall": "CONDITIONAL GO for local development; not submission compliant",
+  "counts": {
+    "supported": 30,
+    "unresolved": 4,
+    "noncompliant": 1,
+    "advisory_ok": 1
+  },
+  "criteria": [
+    {
+      "criterion": "verifiable",
+      "manual_status": "supported",
+      "reason": "Deterministic inputs and executable pair/count checks are supported by the preserved Oracle/alternative results. Verifier tooling is baked; hundreds of repetitions have not been run."
+    },
+    {
+      "criterion": "solvable",
+      "manual_status": "supported",
+      "reason": "The accepted Oracle and independent alternative each passed all 333 cases with reward 1 within the configured resources. The expert implementation time remains an estimate."
+    },
+    {
+      "criterion": "difficult",
+      "manual_status": "unresolved",
+      "reason": "Numerical compatibility and weighted counting are real engineering concerns, but professional difficulty at the TB3 bar has not been established by independent expert review or model evidence."
+    },
+    {
+      "criterion": "interesting",
+      "manual_status": "supported",
+      "reason": "Reducing cohort-scale survival-model evaluation cost while preserving its public metric behavior is a realistic ML maintenance task."
+    },
+    {
+      "criterion": "outcome_verified",
+      "manual_status": "supported",
+      "reason": "Tests call public APIs and compare outputs, errors, warnings and process duration. No specific algorithm or source layout is graded."
+    },
+    {
+      "criterion": "anti_cheat_robustness",
+      "manual_status": "supported",
+      "reason": "Agent image excludes tests/Oracle; the separate verifier uses root-protected expected answers and unprivileged subprocesses. No adversarial trials or blanket security guarantee are claimed."
+    },
+    {
+      "criterion": "task_security",
+      "manual_status": "supported",
+      "reason": "Reviewed task code performs ordinary package setup, numerical work and bounded subprocess verification; it does not read credentials, mount host sockets or transmit task data. This is source review, not an exploit test."
+    },
+    {
+      "criterion": "functional_verification",
+      "manual_status": "supported",
+      "reason": "Submitted code is executed through public APIs; numerical grading does not scan candidate source keywords."
+    },
+    {
+      "criterion": "deterministic_reproducible",
+      "manual_status": "supported",
+      "reason": "Digest-pinned base, pinned Python packages, seeded workloads and offline verification support reproducibility. APT is intentionally unpinned; timing variation is handled by the existing two-attempt policy."
+    },
+    {
+      "criterion": "essential_difficulty",
+      "manual_status": "supported",
+      "reason": "The intended work is numerical/algorithmic compatibility and scaling; there is no bespoke output-format puzzle or artificially prescribed algorithm."
+    },
+    {
+      "criterion": "test_instruction_alignment",
+      "manual_status": "supported",
+      "reason": "The audit maps APIs/defaults/keywords, pairs, weights, errors, warnings, numerics, timing and artifacts to actual tests or harness enforcement. Selected coverage is not exhaustive API proof."
+    },
+    {
+      "criterion": "novel",
+      "manual_status": "unresolved",
+      "reason": "No new originality claim is made. Whether this concrete integration problem is sufficiently distinct from known concordance optimizations still needs reviewer judgment."
+    },
+    {
+      "criterion": "agentic",
+      "manual_status": "unresolved",
+      "reason": "Source inspection, implementation and profiling provide a multi-step workflow, but one-shot solvability has not been measured; no model trial has run."
+    },
+    {
+      "criterion": "reviewable",
+      "manual_status": "supported",
+      "reason": "The instruction gives statistical rules; readable pair/Fraction, blocked and analytical references derive expected results independently of the optimized implementation."
+    },
+    {
+      "criterion": "instruction_concision",
+      "manual_status": "noncompliant",
+      "reason": "Absolute paths, outcome-based requirements and no algorithm hints are satisfied, but the instruction is explicitly AI-generated. The upstream human-written instruction requirement is unresolved."
+    },
+    {
+      "criterion": "effective_instruction_length",
+      "manual_status": "advisory_ok",
+      "reason": "The 691-word agent-facing contract, excluding canary/trailer, describes actual compatibility, artifact and timing requirements. It contains no unrelated instruction-bearing resources or repeated procedure."
+    },
+    {
+      "criterion": "solution_quality",
+      "manual_status": "supported",
+      "reason": "solve.sh applies a source patch implementing actual computation and runs a public-API smoke check. Expected final scores are not hardcoded as the solution."
+    },
+    {
+      "criterion": "separate_verifier_configured",
+      "manual_status": "supported",
+      "reason": "Only /app/work is transferred; tests and tools are baked. Shared runtime lock and licenses byte-match; no undeclared agent state is required."
+    },
+    {
+      "criterion": "environment_hygiene",
+      "manual_status": "supported",
+      "reason": "Agent context contains baseline source/runtime/license only. Verifier dependencies are baked, and both Dockerfiles update/clean APT appropriately."
+    },
+    {
+      "criterion": "structured_data_schema",
+      "manual_status": "supported",
+      "reason": "Both API call signatures, defaults, five ordered numeric results, count types, exceptions and numerical comparison policy are stated."
+    },
+    {
+      "criterion": "typos",
+      "manual_status": "supported",
+      "reason": "API and runtime paths were checked against the source and current static scripts; no identifier typo was found."
+    },
+    {
+      "criterion": "difficulty_explanation_quality",
+      "manual_status": "supported",
+      "reason": "Three sentences identify compatibility reasoning, synthetic data and the real-world ML engineering role. No model scores are used to assert intrinsic difficulty."
+    },
+    {
+      "criterion": "solution_explanation_quality",
+      "manual_status": "supported",
+      "reason": "The time sweep/Fenwick strategy, equal-time handling, separate weighting and compatibility paths match the actual reference patch."
+    },
+    {
+      "criterion": "verification_explanation_quality",
+      "manual_status": "supported",
+      "reason": "The paragraph identifies numerical/reference checks, calibration rationale and two correct implementations, and states the accepted 333-case outcomes accurately."
+    },
+    {
+      "criterion": "category_and_tags",
+      "manual_status": "supported",
+      "reason": "ML / Evaluation and the survival-analysis, concordance, numerical-correctness, performance and Python tags describe the actual task."
+    },
+    {
+      "criterion": "task_name",
+      "manual_status": "supported",
+      "reason": "survival-concordance is a descriptive two-token lowercase slug and matches its package name."
+    },
+    {
+      "criterion": "resource_configuration",
+      "manual_status": "supported",
+      "reason": "One CPU / 2 GiB and the preserved 1200-second verifier budget cover the measured correct runs and 609.324-second Nop suite. The 14400-second agent budget is unchanged."
+    },
+    {
+      "criterion": "task_readme",
+      "manual_status": "supported",
+      "reason": "All four explanations and matching configuration metadata are present, with concise license/build context. AI provenance and missing identity fields are disclosed; authorship compliance is not claimed."
+    },
+    {
+      "criterion": "expert_time_estimate",
+      "manual_status": "unresolved",
+      "reason": "The configured three-hour estimate is nonzero and plausible as an estimate, but it has not been independently confirmed by a timed expert implementation."
+    },
+    {
+      "criterion": "task_toml_schema",
+      "manual_status": "supported",
+      "reason": "The exact pinned Harbor Task parser accepted the configuration. The rubric inventory omits the supported network_mode field; that upstream inventory drift is not a reason to modify the valid task."
+    },
+    {
+      "criterion": "no_extraneous_files",
+      "manual_status": "supported",
+      "reason": "The 26-file package contains required scaffold, code, verifier tools, pins and licenses. Backups, references, worksheets, logs and development tooling remain outside it."
+    },
+    {
+      "criterion": "artifact_efficiency",
+      "manual_status": "supported",
+      "reason": "The small editable module and optional helpers live under /app/work; cache, bytecode, git and virtualenv directories are excluded. No large fixed dataset or dependency tree is transferred."
+    },
+    {
+      "criterion": "verifier_execution_isolation",
+      "manual_status": "supported",
+      "reason": "The unchanged harness drops to UID/GID 10001 with no supplementary groups and no new privileges, protects reward paths, captures temporary-file output and kills the process group; preserved reports verify 60 child identities."
+    },
+    {
+      "criterion": "ctrf_reporting",
+      "manual_status": "supported",
+      "reason": "All three preserved reports contain 333 unique case IDs with matching summaries, no skipped/pending/other outcomes and raw/final outcome consistency."
+    },
+    {
+      "criterion": "do_not_modify_enforced",
+      "manual_status": "supported",
+      "reason": "The instruction preserves public behavior through executable checks rather than protecting source bytes. Installed reference state is isolated and hash-checked; no cosmetic protected-file rule is introduced."
+    },
+    {
+      "criterion": "binary_reward",
+      "manual_status": "supported",
+      "reason": "Scoreable pytest success/failure paths write exactly 1 or 0. Infrastructure failures abort without a scoreable reward; no fractional reward is written."
+    }
+  ],
+  "official_review_limit": "harbor check --help succeeded, but the official/default model-based reviewer was not invoked. Upstream automation requires Anthropic API authentication; none is authorized in this session, and model trials/inference are not authorized.",
+  "authorship": "User explicitly authorized integration of AI-generated text. That authorization and natural wording do not satisfy upstream human-authorship requirements.",
+  "missing_author_metadata": [
+    "author_name",
+    "author_email"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "scope": "Previously executed, accepted 333-test revision; metadata/documentation do not alter execution.",
+  "task_revision_sha256": "37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b",
+  "static_checks": {
+    "passed": 28,
+    "source_commit": "7dcecbd7e5427bec70b013da5549667ceaace041"
+  },
+  "executed_validations": [
+    {
+      "engine": "nop",
+      "image_id": "sha256:4e6cbcb6b748868411965e2bbf6f2c43465f0c374e6a69badff8fd6d2fa67e6d",
+      "reward": 0.0,
+      "tests": 333,
+      "passed": 328,
+      "failed": 5,
+      "failed_tests": [
+        "test_state.py::test_scaled_performance_and_correctness[censored-discrete-n131101]",
+        "test_state.py::test_scaled_performance_and_correctness[ipcw-continuous-n147457]",
+        "test_state.py::test_scaled_performance_and_correctness[censored-constant-n163841]",
+        "test_state.py::test_scaled_performance_and_correctness[censored-continuous-n196613]",
+        "test_state.py::test_large_exact_counts"
+      ],
+      "ctrf_seconds": 609.324,
+      "candidate_processes": 20,
+      "new_api_cases_passed": 7,
+      "timeouts": 10,
+      "memory_peak_bytes": 367677440,
+      "root_verifier_unprivileged_candidate_verified": true
+    },
+    {
+      "engine": "oracle",
+      "image_id": "sha256:4e6cbcb6b748868411965e2bbf6f2c43465f0c374e6a69badff8fd6d2fa67e6d",
+      "reward": 1.0,
+      "tests": 333,
+      "passed": 333,
+      "failed": 0,
+      "failed_tests": [],
+      "ctrf_seconds": 105.682,
+      "candidate_processes": 20,
+      "new_api_cases_passed": 7,
+      "timeouts": 0,
+      "memory_peak_bytes": 345518080,
+      "root_verifier_unprivileged_candidate_verified": true
+    },
+    {
+      "engine": "alternative",
+      "image_id": "sha256:4e6cbcb6b748868411965e2bbf6f2c43465f0c374e6a69badff8fd6d2fa67e6d",
+      "reward": 1.0,
+      "tests": 333,
+      "passed": 333,
+      "failed": 0,
+      "failed_tests": [],
+      "ctrf_seconds": 174.591,
+      "candidate_processes": 20,
+      "new_api_cases_passed": 7,
+      "timeouts": 0,
+      "memory_peak_bytes": 321241088,
+      "root_verifier_unprivileged_candidate_verified": true
+    }
+  ],
+  "public_source_cold_builds": {
+    "agent_exit": 0,
+    "agent_seconds": 648.24855,
+    "verifier_exit": 0,
+    "verifier_seconds": 409.311221
+  }
+}
