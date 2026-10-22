@@ -6,7 +6,7 @@ Task revision SHA-256: `37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad385
 
 ## Reproduce
 
-Use Linux, Docker, Python 3.12+ and uv. The task containers use a digest-pinned Python 3.13.7 base and pinned dependencies.
+Use x86_64 Linux, Docker, Python 3.12+ and uv. The task containers use a digest-pinned Python 3.13.7 base and pinned dependencies; the supplied native agent bootstrap targets Linux x86_64.
 
 ```bash
 uv tool install 'harbor==0.23.1.dev202609170426'
@@ -42,7 +42,7 @@ Adversarial evaluation is currently unavailable: the official adversarial prompt
 | Independent alternative | 333 | 0 | 1 |
 | Nop (unchanged baseline) | 328 | 5 | 0 |
 
-Both Docker images completed public-source cold builds. These are prior executed validation results, not model-trial results. [CTRF reports](reports/ctrf) and [validation metadata](reports/validation.json) preserve the observations. [Evaluation status](reports/evaluation.json) reports actual model runs when available; pending, infrastructure and authentication failures are not valid task failures.
+Both Docker images completed public-source cold builds. These are prior executed validation results, not model-trial results. [CTRF reports](reports/ctrf) and [validation metadata](reports/validation.json) preserve the observations. The [evaluation report](reports/evaluation.md) and [machine-readable status](reports/evaluation.json) report actual model runs when available; pending, infrastructure and authentication failures are not valid task failures.
 
 A standalone, ungraded diagnostic found a compatibility defect in the reward-1 `codex-standard-3` submission for a tiny negative tolerance and equal float16 risks. The frozen 333-test verifier did not detect it. [The evaluation report](reports/evaluation.md) preserves the exact fixture and outcomes; the original reward remains 1 and no test or threshold was changed.
 

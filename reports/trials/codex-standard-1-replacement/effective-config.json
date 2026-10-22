@@ -1,0 +1,33 @@
+{
+  "task": {
+    "path": "[LOCAL_HOME]/tb3-final-submission-20261023/tasks/survival-concordance"
+  },
+  "trial_name": "survival-concordance__CWa9VNb",
+  "trials_dir": "[LOCAL_HOME]/tb3-final-submission-20261023/jobs/codex-standard-1-replacement",
+  "agent": {
+    "name": "codex",
+    "model_name": "openai/gpt-6.1-sol",
+    "kwargs": {
+      "reasoning_effort": "xhigh",
+      "version": "0.163.0"
+    }
+  },
+  "environment": {
+    "type": "docker",
+    "mounts": [
+      {
+        "type": "bind",
+        "source": "[LOCAL_HOME]/tb3-final-submission-20261023/cli/codex-complete",
+        "target": "/usr/local/bin/codex",
+        "read_only": true
+      },
+      {
+        "type": "bind",
+        "source": "[LOCAL_HOME]/tb3-final-submission-20261023/cli/codex/package/vendor/x86_64-unknown-linux-musl/codex-path/rg",
+        "target": "/usr/local/bin/rg",
+        "read_only": true
+      }
+    ]
+  },
+  "job_id": "bdea0338-d9c2-40e0-ad88-f4c7ac9b2520"
+}

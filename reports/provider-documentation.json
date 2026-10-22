@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-10-22T22:37:59.913616+00:00",
+  "sources": [
+    {
+      "url": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code/",
+      "supports": "Official Anthropic endpoint, explicit Flash aliases and max effort configuration. The guide also documents Claude alias mapping to Pro; this experiment used exact deepseek-flash instead."
+    },
+    {
+      "url": "https://api-docs.deepseek.com/updates/",
+      "supports": "2026-10-17 release maps the deepseek-flash API alias to DeepSeek-V4.1-Flash-1017."
+    }
+  ],
+  "actual_request_evidence": "effective-model-evidence.json",
+  "configuration_note": "The experiment used the exact bare deepseek-flash model ID requested by the contributor. It did not opt into the guide's optional [1m] CLI context marker or change context settings between standard trials.",
+  "attestation_limit": "Provider documentation identifies the alias mapping; the API response does not independently attest a backend snapshot."
+}

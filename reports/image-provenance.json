@@ -167,6 +167,6 @@
     }
   },
   "note": "Output image IDs can differ with build context metadata and unpinned OS packages. The Dockerfile base digest and task bytes remain pinned. No claim of byte-identical rebuilt image output is made.",
-  "correction_utc": "2026-10-22T22:26:43.113638+00:00",
+  "correction_utc": "2026-10-22T22:52:41.342187+00:00",
   "original_attempt_preserved": "image-provenance-initial-attempt.json"
 }

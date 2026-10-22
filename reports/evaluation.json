@@ -377,6 +377,12 @@
         "redactions": 0,
         "paths": []
       },
+      "infrastructure_analysis": {
+        "classification": "invalid infrastructure attempt",
+        "reason": "Native preload omitted codex-code-mode-host. Complete trajectory shows all command attempts failed before workspace access; no implementation was produced.",
+        "repair": "Preload the complete integrity-verified official native package, including sibling helpers and resources.",
+        "replacement_required": true
+      },
       "scheduler_validity_before_trajectory_review": "invalid infrastructure attempt",
       "trajectory_analysis": {
         "classification": "invalid infrastructure attempt",
@@ -452,6 +458,12 @@
       "credential_scan": {
         "redactions": 0,
         "paths": []
+      },
+      "infrastructure_analysis": {
+        "classification": "unavailable: provider safety restriction; not a valid task failure",
+        "reason": "The unchanged official adversarial prompt was rejected as possible cybersecurity risk before any model task action.",
+        "replacement_required": false,
+        "retry_or_rephrase_permitted": false
       },
       "scheduler_validity_before_trajectory_review": "unavailable: provider safety restriction; not a valid task failure",
       "trajectory_analysis": {
@@ -541,7 +553,7 @@
       "trajectory_raw_sha256": "b2dc55f3fb5cfd9258a480a7402ec0c5a0284d9b01c4d142f74f4b83b9c999d4",
       "trajectory_steps": 25,
       "trajectory_review": {
-        "reviewed_utc": "2026-10-22T22:26:43.049225+00:00",
+        "reviewed_utc": "2026-10-22T22:52:41.293654+00:00",
         "reviewer": "Codex source, tool-call timeline and verifier review; not an independent or official verdict",
         "validity": "valid legitimate graded model completion",
         "observed_reward": 1,
@@ -602,6 +614,12 @@
       "credential_scan": {
         "redactions": 0,
         "paths": []
+      },
+      "infrastructure_analysis": {
+        "classification": "withheld: do not route the same blocked adversarial prompt through another provider",
+        "reason": "No DeepSeek adversarial inference will be attempted after the corresponding Codex provider safety rejection.",
+        "replacement_required": false,
+        "retry_or_rephrase_permitted": false
       },
       "scheduler_validity_before_trajectory_review": "withheld: do not route the same blocked adversarial prompt through another provider",
       "trajectory_analysis": {
@@ -701,7 +719,7 @@
       "trajectory_raw_sha256": "f1224df1f19c948144005dc0871b22f5f67d0439ee566e7448b91d2407ff055f",
       "trajectory_steps": 52,
       "trajectory_review": {
-        "reviewed_utc": "2026-10-22T22:26:43.108033+00:00",
+        "reviewed_utc": "2026-10-22T22:52:41.314986+00:00",
         "reviewer": "Codex source, tool-call timeline and verifier review; not an independent or official verdict",
         "validity": "valid legitimate graded model completion",
         "observed_reward": 1,
@@ -802,7 +820,7 @@
       "trajectory_raw_sha256": "092703bf9dd247d35907ce51f4af1b0526a2fec3affbb3a634bc0ee17654cb5c",
       "trajectory_steps": 22,
       "trajectory_review": {
-        "reviewed_utc": "2026-10-22T22:26:43.083903+00:00",
+        "reviewed_utc": "2026-10-22T22:52:41.299813+00:00",
         "reviewer": "Codex source, tool-call timeline and verifier review; not an independent or official verdict",
         "validity": "valid graded model execution; confirmed ungraded compatibility defect",
         "observed_reward": 1,
@@ -854,7 +872,7 @@
       "effort": "max",
       "cli_version": "2.1.308",
       "kind": "standard",
-      "status": "running",
+      "status": "completed",
       "started_utc": "2026-10-22T22:17:38.576137+00:00",
       "command": [
         "/usr/local/bin/harbor",
@@ -865,11 +883,205 @@
         "--max-retries",
         "0"
       ],
-      "reward": null,
-      "validity": "pending"
+      "reward": 1.0,
+      "validity": "valid legitimate graded model completion",
+      "exit_code": 0,
+      "elapsed_sec": 1541.2673971900003,
+      "finished_utc": "2026-10-22T22:41:01.446047+00:00",
+      "provider_request_audit": {
+        "requests": 78,
+        "inferences": 75,
+        "models": [
+          "deepseek-flash"
+        ],
+        "efforts": [
+          "max"
+        ],
+        "statuses": [
+          200
+        ]
+      },
+      "trial_id": "f5ff39a0-6427-4a33-977a-c8dfd5207811",
+      "trial_name": "survival-concordance__w8Y9to8",
+      "exception_info": null,
+      "agent_result": {
+        "n_input_tokens": 6217686,
+        "n_cache_tokens": 6148992,
+        "n_output_tokens": 177366,
+        "cost_usd": 8.099178000000002,
+        "model_usage": {
+          "deepseek-flash": {
+            "n_input_tokens": 6217686,
+            "n_cache_tokens": 6148992,
+            "n_output_tokens": 177366,
+            "cost_usd": null
+          }
+        },
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "reward": 1.0
+        }
+      },
+      "ctrf_summary": {
+        "tests": 333,
+        "passed": 333,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792708760634,
+        "stop": 1792708847605
+      },
+      "credential_scan": {
+        "redactions": 0,
+        "paths": []
+      },
+      "report_audit": {
+        "tests": 333,
+        "unique_names": 333,
+        "statuses": {
+          "passed": 333,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0
+        },
+        "failed_cases": []
+      },
+      "trajectory_raw_sha256": "753e399a5724644ea5817d5efa1e4e9b2bd93bdb53fd3f34377b8e01210fb75c",
+      "trajectory_steps": 76,
+      "trajectory_review": {
+        "reviewed_utc": "2026-10-22T22:52:41.336866+00:00",
+        "reviewer": "Codex source, tool-call timeline and verifier review; not an independent or official verdict",
+        "validity": "valid legitimate graded model completion",
+        "observed_reward": 1,
+        "graded_passed": 333,
+        "graded_total": 333,
+        "trajectory_steps": 76,
+        "agent_steps_reviewed": 74,
+        "tool_calls_reviewed": 76,
+        "candidate_sha256": "80f3b7af5c02bf96fe8d8e9fd33ec7565efc5182eb7df2b9b64b8547383852f6",
+        "observed_model": "deepseek-flash",
+        "implementation": "Uses vectorized rank-prefix queries over sorted power-of-two blocks, separate same-time censor counts, dtype-aware tie searches and ordered weighted accumulation. Retains the original calculation for small or irregular inputs. Both public wrappers and GPL notices are retained; this is a legitimate algorithm alternative to the Oracle.",
+        "review_scope": "Complete indexed tool-call timeline and complete submitted metrics.py diff; test outputs and resulting independent CTRF report.",
+        "trajectory_findings": [
+          "Observed source inspection, implementation edits, local differential checks against the supplied/installed release and performance checks.",
+          "No external answer fetch or hidden verifier/reward mutation was observed in the reviewed tool calls.",
+          "The submitted source computes pair counts from input arrays; no precomputed expected-answer lookup was found.",
+          "Local prototype outputs showed vector-shape, warning and float16 tolerance mismatches; subsequent edits and local public-API checks resolved the observed mismatches before the independent 333-case verifier ran. These intermediate debugging failures are not final model failures."
+        ],
+        "limits": [
+          "Passing the frozen 333 cases is not a proof of full API compatibility.",
+          "All observed graded successes are retained. No reward-0 model failure or difficulty claim is inferred from these runs."
+        ]
+      }
+    },
+    {
+      "id": "codex-standard-1-replacement",
+      "provider": "codex",
+      "agent": "codex",
+      "model": "openai/gpt-6.1-sol",
+      "effort": "xhigh",
+      "cli_version": "0.163.0",
+      "kind": "standard",
+      "status": "completed",
+      "started_utc": "2026-10-22T22:41:11.123216+00:00",
+      "command": [
+        "/usr/local/bin/harbor",
+        "run",
+        "--config",
+        "[LOCAL_HOME]/tb3-final-submission-20261023/configs/codex-standard-1-replacement.json",
+        "--no-stream",
+        "--max-retries",
+        "0"
+      ],
+      "reward": 1.0,
+      "validity": "valid legitimate graded model completion",
+      "exit_code": 0,
+      "elapsed_sec": 668.2797544309942,
+      "finished_utc": "2026-10-22T22:51:16.904339+00:00",
+      "trial_id": "1f08d089-e974-44c6-84c5-d49fa335a290",
+      "trial_name": "survival-concordance__CWa9VNb",
+      "exception_info": null,
+      "agent_result": {
+        "n_input_tokens": 736738,
+        "n_cache_tokens": 694016,
+        "n_output_tokens": 20416,
+        "cost_usd": 0.3590055999999999,
+        "model_usage": {
+          "openai/gpt-6.1-sol": {
+            "n_input_tokens": 736738,
+            "n_cache_tokens": 694016,
+            "n_output_tokens": 20416,
+            "cost_usd": 0.3590055999999999
+          }
+        },
+        "rollout_details": null,
+        "metadata": null
+      },
+      "verifier_result": {
+        "rewards": {
+          "reward": 1.0
+        }
+      },
+      "ctrf_summary": {
+        "tests": 333,
+        "passed": 333,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792709376725,
+        "stop": 1792709465968
+      },
+      "credential_scan": {
+        "redactions": 0,
+        "paths": []
+      },
+      "report_audit": {
+        "tests": 333,
+        "unique_names": 333,
+        "statuses": {
+          "passed": 333,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0
+        },
+        "failed_cases": []
+      },
+      "trajectory_raw_sha256": "508df18ca04230ee1df5b3797759b5279baa4c7f10cd7d215aea6bbae4a8550e",
+      "trajectory_steps": 25,
+      "trajectory_review": {
+        "reviewed_utc": "2026-10-22T22:52:41.285394+00:00",
+        "reviewer": "Codex source, tool-call timeline and verifier review; not an independent or official verdict",
+        "validity": "valid legitimate graded model completion",
+        "observed_reward": 1,
+        "graded_passed": 333,
+        "graded_total": 333,
+        "trajectory_steps": 25,
+        "agent_steps_reviewed": 20,
+        "tool_calls_reviewed": 19,
+        "candidate_sha256": "598768a46ae3c784f562719adb7a6abf71c5947e84c4fd335e4e5e12e4f5e078",
+        "observed_model": "gpt-6.1-sol",
+        "implementation": "Uses general time-grouped Fenwick counting and NumPy-arithmetic risk boundaries for float64, preserving the original calculation for other dtypes and unusual inputs. Ordered weighted accumulation retains IPCW behavior. Both public wrappers and GPL notices are retained; the published speed requirement applies to finite-float64 scale cases.",
+        "review_scope": "Complete indexed tool-call timeline and complete submitted metrics.py diff; test outputs and resulting independent CTRF report.",
+        "trajectory_findings": [
+          "Observed source inspection, implementation edits, local differential checks against the supplied/installed release and performance checks.",
+          "No external answer fetch or hidden verifier/reward mutation was observed in the reviewed tool calls.",
+          "The submitted source computes pair counts from input arrays; no precomputed expected-answer lookup was found."
+        ],
+        "limits": [
+          "Passing the frozen 333 cases is not a proof of full API compatibility.",
+          "All observed graded successes are retained. No reward-0 model failure or difficulty claim is inferred from these runs."
+        ]
+      }
     }
   ],
-  "status": "running",
+  "status": "finished local matrix including bounded infrastructure replacement",
   "publication": {
     "status": "blocked",
     "reason": "Existing Git credential returned 401; connected app cannot create repositories. Empty repository creation requested."
@@ -878,8 +1090,10 @@
   "compliance": [
     "Instruction and README explanations are AI-generated; upstream human-authorship requirement remains unresolved."
   ],
-  "heartbeat_utc": "2026-10-22T22:29:03.574661+00:00",
-  "generated_report_utc": "2026-10-22T22:29:11.536052+00:00",
+  "heartbeat_utc": "2026-10-22T22:51:17.536414+00:00",
+  "finished_utc": "2026-10-22T22:41:02.569356+00:00",
+  "trials_before_replacement": 8,
+  "generated_report_utc": "2026-10-22T22:52:42.222324+00:00",
   "cost_note": "Agent-reported USD cost fields are estimates, not provider invoices. Codex used ChatGPT subscription authentication. Claude Code estimates may not reflect DeepSeek pricing.",
   "adversarial_restriction": {
     "utc": "2026-10-22T21:47:14.096056+00:00",

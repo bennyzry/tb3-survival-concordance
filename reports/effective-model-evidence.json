@@ -1,0 +1,135 @@
+{
+  "generated_utc": "2026-10-22T22:51:54.448808+00:00",
+  "trials": [
+    {
+      "id": "deepseek-standard-1",
+      "status": "completed",
+      "requested_model": "deepseek-flash",
+      "requested_effort": "max",
+      "inference_requests": 80,
+      "models": [
+        "deepseek-flash"
+      ],
+      "efforts": [
+        "max"
+      ],
+      "statuses": {
+        "200": 80
+      },
+      "count_token_requests": 5,
+      "all_inferences_exact_flash_max": true,
+      "source": "Allowlisted metadata recorded at the real Anthropic-compatible API forwarding boundary; no headers or messages."
+    },
+    {
+      "id": "codex-standard-1",
+      "status": "completed",
+      "requested_model": "openai/gpt-6.1-sol",
+      "requested_effort": "xhigh",
+      "native_codex_turn_contexts": [
+        {
+          "model": "gpt-6.1-sol",
+          "effort": "xhigh"
+        }
+      ],
+      "source": "Native Codex session turn_context fields, not merely Harbor configuration."
+    },
+    {
+      "id": "codex-adversarial-1",
+      "status": "execution-error",
+      "requested_model": "openai/gpt-6.1-sol",
+      "requested_effort": "xhigh",
+      "native_codex_turn_contexts": [
+        {
+          "model": "gpt-6.1-sol",
+          "effort": "xhigh"
+        }
+      ],
+      "source": "Native Codex session turn_context fields, not merely Harbor configuration."
+    },
+    {
+      "id": "codex-standard-2",
+      "status": "completed",
+      "requested_model": "openai/gpt-6.1-sol",
+      "requested_effort": "xhigh",
+      "native_codex_turn_contexts": [
+        {
+          "model": "gpt-6.1-sol",
+          "effort": "xhigh"
+        }
+      ],
+      "source": "Native Codex session turn_context fields, not merely Harbor configuration."
+    },
+    {
+      "id": "deepseek-adversarial-1",
+      "status": "execution-error",
+      "requested_model": "deepseek-flash",
+      "requested_effort": "max",
+      "source": "Allowlisted metadata recorded at the real Anthropic-compatible API forwarding boundary; no headers or messages."
+    },
+    {
+      "id": "deepseek-standard-2",
+      "status": "completed",
+      "requested_model": "deepseek-flash",
+      "requested_effort": "max",
+      "inference_requests": 51,
+      "models": [
+        "deepseek-flash"
+      ],
+      "efforts": [
+        "max"
+      ],
+      "statuses": {
+        "200": 51
+      },
+      "count_token_requests": 1,
+      "all_inferences_exact_flash_max": true,
+      "source": "Allowlisted metadata recorded at the real Anthropic-compatible API forwarding boundary; no headers or messages."
+    },
+    {
+      "id": "codex-standard-3",
+      "status": "completed",
+      "requested_model": "openai/gpt-6.1-sol",
+      "requested_effort": "xhigh",
+      "native_codex_turn_contexts": [
+        {
+          "model": "gpt-6.1-sol",
+          "effort": "xhigh"
+        }
+      ],
+      "source": "Native Codex session turn_context fields, not merely Harbor configuration."
+    },
+    {
+      "id": "deepseek-standard-3",
+      "status": "completed",
+      "requested_model": "deepseek-flash",
+      "requested_effort": "max",
+      "inference_requests": 75,
+      "models": [
+        "deepseek-flash"
+      ],
+      "efforts": [
+        "max"
+      ],
+      "statuses": {
+        "200": 75
+      },
+      "count_token_requests": 3,
+      "all_inferences_exact_flash_max": true,
+      "source": "Allowlisted metadata recorded at the real Anthropic-compatible API forwarding boundary; no headers or messages."
+    },
+    {
+      "id": "codex-standard-1-replacement",
+      "status": "completed",
+      "requested_model": "openai/gpt-6.1-sol",
+      "requested_effort": "xhigh",
+      "native_codex_turn_contexts": [
+        {
+          "model": "gpt-6.1-sol",
+          "effort": "xhigh"
+        }
+      ],
+      "source": "Native Codex session turn_context fields, not merely Harbor configuration."
+    }
+  ],
+  "snapshot_note": "The API reports the deepseek-flash alias. Its V4.1-Flash-1017 mapping is documented by DeepSeek; a backend snapshot identifier was not independently returned by the API."
+}

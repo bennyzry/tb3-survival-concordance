@@ -1,4 +1,17 @@
 {
-  "status": "queued after all required model trials",
-  "review_type": "substituted automated; Codex GPT-6.1 Sol / xhigh; not official"
+  "status": "running",
+  "review_type": "substituted automated; not official",
+  "command": [
+    "/usr/local/bin/harbor",
+    "run",
+    "--config",
+    "[LOCAL_HOME]/tb3-final-submission-20261023/configs/implementation-review.json",
+    "--no-stream",
+    "--max-retries",
+    "0"
+  ],
+  "started_utc": "2026-10-22T22:51:17.926157+00:00",
+  "upstream_commit": "7dcecbd7e5427bec70b013da5549667ceaace041",
+  "rubric_sha256": "345a566111d767fb79ce72c4b772cbc897a9638114a08f80e094beb8a72c6f1c",
+  "prompt_sha256": "1fc9d68db213bee46d28042d24fd1c3f33e28d1436fb16fe2f8e39b2fc7ecf3e"
 }

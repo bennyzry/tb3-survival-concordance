@@ -1,5 +1,5 @@
 {
-  "reviewed_utc": "2026-10-22T22:26:43.110675+00:00",
+  "reviewed_utc": "2026-10-22T22:52:41.339024+00:00",
   "reviewer": "Codex, refreshed source-based manual self-review; not an independent or official verdict",
   "official_automated_review_executed": false,
   "independent_human_review_executed": false,
@@ -206,5 +206,12 @@
     "directory": "static"
   },
   "runtime_review": "Harbor clears extra Docker Compose overlays and agent mounts before creating the separate verifier. Native CLI mounts and the metadata-only provider adapter do not enter grading environments.",
-  "known_ungraded_compatibility_gap": "posthoc-numerical-check.json; native exit 0; reward-1 codex-standard-3 differs from pristine 0.28.0. No grading result was changed."
+  "known_ungraded_compatibility_gap": "posthoc-numerical-check.json; native exit 0; reward-1 codex-standard-3 differs from pristine 0.28.0. No grading result was changed.",
+  "standard_evaluation": {
+    "completed": 6,
+    "reward_1": 6,
+    "reward_0": 0,
+    "invalid_original_codex_attempt_excluded": true,
+    "adversarial_checks": "Unavailable; neither is a valid graded model outcome."
+  }
 }

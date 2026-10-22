@@ -1,6 +1,6 @@
 # Evaluation record
 
-Generated: 2026-10-22T22:29:11.536052+00:00. Task revision SHA-256: `37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b`.
+Generated: 2026-10-22T22:52:42.222324+00:00. Task revision SHA-256: `37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b`.
 
 The task remains the frozen 333-test revision. Both images previously completed public-source cold builds. Accepted validation: Oracle 333/333, reward 1; independent alternative 333/333, reward 1; Nop 328/333, reward 0, with five performance failures. All 28 current upstream static checks passed again after verified author metadata was filled in.
 
@@ -15,11 +15,12 @@ The task remains the frozen 333-test revision. Both images previously completed 
 | deepseek-adversarial-1 | claude-code / deepseek-flash / max | pending | execution-error; withheld: do not route the same blocked adversarial prompt through another provider |
 | deepseek-standard-2 | claude-code / deepseek-flash / max | 1 | completed; valid legitimate graded model completion |
 | codex-standard-3 | codex / openai/gpt-6.1-sol / xhigh | 1 | completed; valid graded model execution; confirmed ungraded compatibility defect |
-| deepseek-standard-3 | claude-code / deepseek-flash / max | pending | running; pending |
+| deepseek-standard-3 | claude-code / deepseek-flash / max | 1 | completed; valid legitimate graded model completion |
+| codex-standard-1-replacement | codex / openai/gpt-6.1-sol / xhigh | 1 | completed; valid legitimate graded model completion |
 
-Standard configurations still unfinished or not started at this timestamp: codex-standard-1-replacement, deepseek-standard-3. A missing or unfinished result is not a model failure. The original `codex-standard-1` attempt is excluded: the CLI preload omitted a required helper, and its trajectory shows that all workspace commands failed. Its observed reward is preserved; one independent replacement is scheduled after the complete native package repair.
+Standard configurations still unfinished or not started at this timestamp: none. A missing or unfinished result is not a model failure. The original `codex-standard-1` attempt is excluded: the CLI preload omitted a required helper, and its trajectory shows that all workspace commands failed. Its observed reward is preserved; one independent replacement is scheduled after the complete native package repair.
 
-Observed standard results: 4/4 completed required standard trials received reward 1. No valid reward-0 model result has been established at this timestamp. These observations do not demonstrate that this task reliably challenges either configured model.
+Observed standard results: 6/6 completed required standard trials received reward 1; 0 required standard runs received reward 0. Execution validity and semantic limitations are recorded per row. The observed pass rate alone does not establish professional difficulty.
 
 The Codex adversarial request was rejected by the provider safety check before task actions. It was stopped and will not be retried or rephrased. The matching DeepSeek adversarial request was withheld rather than routing the same blocked prompt through another provider. Neither is a valid model failure or a successful anti-cheating validation.
 
@@ -33,7 +34,7 @@ Harbor removes agent CLI mounts and Compose overlays before starting the separat
 
 ## Review and remaining concerns
 
-The source-based rubric self-review is manual, not an official verdict. A single substituted automated review using the pinned upstream rubric, instruction and word-count helper is queued after the standard trials and the infrastructure replacement; its actual status is recorded separately. No official upstream hosted review or PR workflow result is claimed.
+The source-based rubric self-review is manual, not an official verdict. The single substituted automated review uses the pinned upstream rubric, instruction and word-count helper. Its actual status is: running. It reviews the task package, not the complete model-experiment record or post-hoc diagnostic. A reward for that review means a structurally valid verdict artifact, not that all task criteria passed. No official upstream hosted review or PR workflow result is claimed.
 
 The instruction and four README explanations were AI-generated and are disclosed as such. They do not satisfy the upstream human-authorship requirement. The GitHub display identity comes from existing Git configuration and a matching email on the connected account; no legal-name inference or survival-analysis expertise claim is made.
 
