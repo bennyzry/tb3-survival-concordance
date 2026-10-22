@@ -1,0 +1,3 @@
+# Preserve the exact bytes used by the recorded trials and SHA-256 manifests.
+# This also keeps Git for Windows archive/checkout settings from rewriting scripts.
+* -text

@@ -4,6 +4,8 @@ Optimize the two public scikit-survival 0.28.0 concordance APIs while preserving
 
 Task revision SHA-256: `37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b`. See [the file manifest](reports/task-manifest.json), [task instructions](tasks/survival-concordance/instruction.md), and [task explanations](tasks/survival-concordance/README.md).
 
+Repository attributes preserve file bytes so that Windows Git line-ending settings cannot rewrite the pinned task or execution scripts. The final package is checked against the committed tree and the exact task snapshot used by Harbor.
+
 ## Reproduce
 
 Use x86_64 Linux, Docker, Python 3.12+ and uv. The task containers use a digest-pinned Python 3.13.7 base and pinned dependencies; the supplied native agent bootstrap targets Linux x86_64.
