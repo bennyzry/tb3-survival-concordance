@@ -1,0 +1,124 @@
+{
+  "utc": "2026-10-22T23:05:41.704006+00:00",
+  "git_commit_before_fix": "a69e6931b49ce3baa241bf5daecba9fb14f5f7ae",
+  "differences": [
+    {
+      "file": "reports/effective-model-evidence.json",
+      "working_sha256": "619234ac9781e86e4b1d57c3ffa45c65e3f0d195705df8dfb1a9f52a8823a59e",
+      "committed_sha256": "ffd86d4f62ab2ec31711e49cff01749069893caa26e101ed8754b1e2db9f830b",
+      "working_crlf": 135,
+      "committed_crlf": 0
+    },
+    {
+      "file": "reports/provider-documentation.json",
+      "working_sha256": "3d86012e219a71fbd0d82e4b3d2ca8d5ea5915bc40e8908a84459e2fea35e463",
+      "committed_sha256": "b8f80a2decf8ee9f27208ac546fc6ce51ad2e031d2beb51b35f74cc15930aa3f",
+      "working_crlf": 16,
+      "committed_crlf": 0
+    },
+    {
+      "file": "reports/review-followup.json",
+      "working_sha256": "7f35d878ccb91a68f27cbd5e8c6aaa919bcc77af16dda9e3a96b56d4883e0fe6",
+      "committed_sha256": "3a31c3e44348048e253d6a55510acaaa08b202233f1e6c8c3cbfc46eb7ebbf5c",
+      "working_crlf": 31,
+      "committed_crlf": 0
+    },
+    {
+      "file": "tasks/survival-concordance/environment/requirements.lock",
+      "working_sha256": "aaa12a38e78090776dec9c4fc82a35bacbeb25751d5cf1407664b46ca84a0738",
+      "committed_sha256": "cf99e42b93566573bc38b509da1d83bfceea35b1330c71b2cad406389a74765e",
+      "working_crlf": 20,
+      "committed_crlf": 0
+    },
+    {
+      "file": "tasks/survival-concordance/tests/requirements.lock",
+      "working_sha256": "fd78a8edfafa90e4bcfcc6dca23189f6a4899f821294f52e17b259a9dbc91f3b",
+      "committed_sha256": "8b35dc41764cfe160689f13ead271b89446650fcaa500948e92eb52342329c58",
+      "working_crlf": 25,
+      "committed_crlf": 0
+    },
+    {
+      "file": "tasks/survival-concordance/tests/runtime.lock",
+      "working_sha256": "aaa12a38e78090776dec9c4fc82a35bacbeb25751d5cf1407664b46ca84a0738",
+      "committed_sha256": "cf99e42b93566573bc38b509da1d83bfceea35b1330c71b2cad406389a74765e",
+      "working_crlf": 20,
+      "committed_crlf": 0
+    }
+  ],
+  "archives": [
+    {
+      "archive": "tb3-survival-concordance-initial-public.zip",
+      "task_matches_frozen_revision": true,
+      "mismatched_task_files": [],
+      "sha256": "e7e3784f0570607efeca202de2974ab68850bb1daa12b695ceeb6b7769977202"
+    },
+    {
+      "archive": "tb3-survival-concordance-public.zip",
+      "task_matches_frozen_revision": true,
+      "mismatched_task_files": [],
+      "sha256": "5ce0c1cbb9887303a6633b896885b144bca3743dbe4243f1c3919dc1c3d681b7"
+    },
+    {
+      "archive": "tb3-survival-concordance-reviewed.zip",
+      "task_matches_frozen_revision": false,
+      "mismatched_task_files": [
+        "environment/.dockerignore",
+        "environment/Dockerfile",
+        "environment/LICENSE",
+        "environment/metrics.py",
+        "instruction.md",
+        "LICENSE",
+        "README.md",
+        "solution/concordance.patch",
+        "solution/solve.sh",
+        "task.toml",
+        "tests/.dockerignore",
+        "tests/cases.py",
+        "tests/conftest.py",
+        "tests/Dockerfile",
+        "tests/format_report.py",
+        "tests/harness.py",
+        "tests/LICENSE",
+        "tests/preflight.py",
+        "tests/reference.py",
+        "tests/test.sh",
+        "tests/test_state.py",
+        "tests/worker.py",
+        "tests/workloads.py"
+      ],
+      "sha256": "a0e76919f784f889dcf67c9fe28481f7c1f83853ee9fff2059faf577abc3cd49"
+    },
+    {
+      "archive": "tb3-survival-concordance-standard-matrix.zip",
+      "task_matches_frozen_revision": false,
+      "mismatched_task_files": [
+        "environment/.dockerignore",
+        "environment/Dockerfile",
+        "environment/LICENSE",
+        "environment/metrics.py",
+        "instruction.md",
+        "LICENSE",
+        "README.md",
+        "solution/concordance.patch",
+        "solution/solve.sh",
+        "task.toml",
+        "tests/.dockerignore",
+        "tests/cases.py",
+        "tests/conftest.py",
+        "tests/Dockerfile",
+        "tests/format_report.py",
+        "tests/harness.py",
+        "tests/LICENSE",
+        "tests/preflight.py",
+        "tests/reference.py",
+        "tests/test.sh",
+        "tests/test_state.py",
+        "tests/worker.py",
+        "tests/workloads.py"
+      ],
+      "sha256": "748192e73fad3580c4f101386bf37d0781e0bcbcddc8331a66d472eeda91f1e1"
+    }
+  ],
+  "trial_results_affected": false,
+  "scope": "Publication byte integrity; actual executed task copy matched all 26 frozen files."
+}

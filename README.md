@@ -46,6 +46,8 @@ Adversarial evaluation is currently unavailable: the official adversarial prompt
 
 Both Docker images completed public-source cold builds. These are prior executed validation results, not model-trial results. [CTRF reports](reports/ctrf) and [validation metadata](reports/validation.json) preserve the observations. The [evaluation report](reports/evaluation.md) and [machine-readable status](reports/evaluation.json) report actual model runs when available; pending, infrastructure and authentication failures are not valid task failures.
 
+The later [fresh-checkout validation](reports/packaging-portability.json) records image builds, all 28 static checks and new Oracle/Nop controls after the Git line-ending repair. The earlier results above remain preserved; the later CTRF reports retain their actual failure counts rather than forcing them to match an older timing run.
+
 A standalone, ungraded diagnostic found a compatibility defect in the reward-1 `codex-standard-3` submission for a tiny negative tolerance and equal float16 risks. The frozen 333-test verifier did not detect it. [The evaluation report](reports/evaluation.md) preserves the exact fixture and outcomes; the original reward remains 1 and no test or threshold was changed.
 
 ## Evaluation and compliance
