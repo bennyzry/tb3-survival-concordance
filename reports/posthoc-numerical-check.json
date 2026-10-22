@@ -1,0 +1,105 @@
+{
+  "recorded_utc": "2026-10-22T22:21:07.982240+00:00",
+  "argv": [
+    "docker",
+    "run",
+    "--rm",
+    "--network",
+    "none",
+    "--cpus",
+    "1",
+    "--memory",
+    "2g",
+    "--user",
+    "10001:10001",
+    "-e",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "--mount",
+    "type=bind,source=[LOCAL_WORKSPACE]",
+    "--mount",
+    "type=bind,source=[LOCAL_HOME]/tb3-final-submission-20261023/jobs/codex-standard-2/survival-concordance__mfhcdUc/artifacts/app/work/sksurv/metrics.py,target=/models/codex-standard-2.py,readonly",
+    "--mount",
+    "type=bind,source=[LOCAL_HOME]/tb3-final-submission-20261023/jobs/codex-standard-3/survival-concordance__fe6y3iz/artifacts/app/work/sksurv/metrics.py,target=/models/codex-standard-3.py,readonly",
+    "--mount",
+    "type=bind,source=[LOCAL_HOME]/tb3-final-submission-20261023/jobs/deepseek-standard-1/survival-concordance__UZsGnjB/artifacts/app/work/sksurv/metrics.py,target=/models/deepseek-standard-1.py,readonly",
+    "sha256:be6ddd2bb51477760a230766bdd1e60b863de4d1e37a2898a98c4e4618c9d48d",
+    "python",
+    "/diagnostic.py"
+  ],
+  "native_exit_code": 0,
+  "elapsed_sec": 3.0650347050031996,
+  "stderr": "",
+  "diagnostic": {
+    "graded": false,
+    "fixture": {
+      "event": [
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        2.0
+      ],
+      "risk": [
+        0.0,
+        0.0
+      ],
+      "risk_dtype": "float16",
+      "tied_tol": -1e-100
+    },
+    "analytical_result": [
+      0.5,
+      0,
+      0,
+      1,
+      0
+    ],
+    "explanation": "One comparable event/censor pair. NumPy converts the tiny negative tolerance to float16 negative zero; zero risk difference is an inclusive tie.",
+    "results": {
+      "pristine": {
+        "value": [
+          0.5,
+          0,
+          0,
+          1,
+          0
+        ],
+        "warning_categories": [],
+        "matches_pristine": true
+      },
+      "codex-standard-2": {
+        "value": [
+          0.5,
+          0,
+          0,
+          1,
+          0
+        ],
+        "warning_categories": [],
+        "matches_pristine": true
+      },
+      "codex-standard-3": {
+        "value": [
+          0.0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "warning_categories": [],
+        "matches_pristine": false
+      },
+      "deepseek-standard-1": {
+        "value": [
+          0.5,
+          0,
+          0,
+          1,
+          0
+        ],
+        "warning_categories": [],
+        "matches_pristine": true
+      }
+    }
+  }
+}

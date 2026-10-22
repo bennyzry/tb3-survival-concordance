@@ -1,0 +1,24 @@
+{
+  "reviewed_utc": "2026-10-22T22:26:43.049225+00:00",
+  "reviewer": "Codex source, tool-call timeline and verifier review; not an independent or official verdict",
+  "validity": "valid legitimate graded model completion",
+  "observed_reward": 1,
+  "graded_passed": 333,
+  "graded_total": 333,
+  "trajectory_steps": 25,
+  "agent_steps_reviewed": 20,
+  "tool_calls_reviewed": 19,
+  "candidate_sha256": "76fcbde4879f381029fa75aa94e7532c74651b8be16b900de0061bfddfa011cd",
+  "observed_model": "gpt-6.1-sol",
+  "implementation": "Implements time-grouped Fenwick counting and dtype-aware tie-boundary searches, retaining a pairwise compatibility path and ordered IPCW accumulation. Both public API wrappers and GPL notices are retained.",
+  "review_scope": "Complete indexed tool-call timeline and complete submitted metrics.py diff; test outputs and resulting independent CTRF report.",
+  "trajectory_findings": [
+    "Observed source inspection, implementation edits, local differential checks against the supplied/installed release and performance checks.",
+    "No external answer fetch or hidden verifier/reward mutation was observed in the reviewed tool calls.",
+    "The submitted source computes pair counts from input arrays; no precomputed expected-answer lookup was found."
+  ],
+  "limits": [
+    "Passing the frozen 333 cases is not a proof of full API compatibility.",
+    "All observed graded successes are retained. No reward-0 model failure or difficulty claim is inferred from these runs."
+  ]
+}

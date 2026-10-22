@@ -1,0 +1,44 @@
+{
+  "reviewed_utc": "2026-10-22T22:26:43.083903+00:00",
+  "reviewer": "Codex source, tool-call timeline and verifier review; not an independent or official verdict",
+  "validity": "valid graded model execution; confirmed ungraded compatibility defect",
+  "observed_reward": 1,
+  "graded_passed": 333,
+  "graded_total": 333,
+  "trajectory_steps": 22,
+  "agent_steps_reviewed": 17,
+  "tool_calls_reviewed": 16,
+  "candidate_sha256": "ae1d340237eed6334321f5a3b98de05ce7d8157bb04433ac3be82ccdbd1ca224",
+  "observed_model": "gpt-6.1-sol",
+  "implementation": "Implements time-grouped Fenwick counting, vectorized tie-boundary searches and compatibility fallbacks. A Python-scalar sign check before dtype conversion causes the separately confirmed float16 tolerance defect.",
+  "review_scope": "Complete indexed tool-call timeline and complete submitted metrics.py diff; test outputs and resulting independent CTRF report.",
+  "trajectory_findings": [
+    "Observed source inspection, implementation edits, local differential checks against the supplied/installed release and performance checks.",
+    "No external answer fetch or hidden verifier/reward mutation was observed in the reviewed tool calls.",
+    "The submitted source computes pair counts from input arrays; no precomputed expected-answer lookup was found."
+  ],
+  "limits": [
+    "Passing the frozen 333 cases is not a proof of full API compatibility.",
+    "All observed graded successes are retained. No reward-0 model failure or difficulty claim is inferred from these runs."
+  ],
+  "posthoc_finding": {
+    "graded": false,
+    "evidence": "posthoc-numerical-check.json",
+    "pristine": [
+      0.5,
+      0,
+      0,
+      1,
+      0
+    ],
+    "submitted": [
+      0.0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "fixture": "event=[True,False], time=[1.,2.], float16 risk=[0.,0.], tied_tol=-1e-100",
+    "effect": "Confirmed semantic mismatch; observed graded reward remains 1. No frozen test was added or changed."
+  }
+}

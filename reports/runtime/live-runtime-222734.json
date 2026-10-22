@@ -1,0 +1,63 @@
+{
+  "utc": "2026-10-22T22:27:34.757351+00:00",
+  "commands": [
+    {
+      "argv": [
+        "docker",
+        "ps",
+        "--format",
+        "{{.Names}}"
+      ],
+      "exit_code": 0,
+      "elapsed_sec": 0.1047334030008642,
+      "stdout": "survival-concordance__w8y9to8__env-main-1\nsurvival-concordance__w8y9to8__env-tb3-provider-1\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "docker",
+        "inspect",
+        "--format",
+        "{{json .Image}} {{json .HostConfig.NanoCpus}} {{json .HostConfig.Memory}}",
+        "survival-concordance__w8y9to8__env-main-1"
+      ],
+      "exit_code": 0,
+      "elapsed_sec": 0.07710598099947674,
+      "stdout": "\"sha256:a893547ab20d54335c3ed121e5e53056890ac43abe4a2e2d8523be280d9d020e\" 1000000000 2147483648\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "docker",
+        "exec",
+        "survival-concordance__w8y9to8__env-main-1",
+        "python",
+        "-c",
+        "import importlib.metadata as m,json,sys; print(json.dumps({'python':sys.version.split()[0],'packages':{p:m.version(p) for p in ['numpy','scipy','scikit-learn','scikit-survival','pandas','setuptools','wheel']}}))"
+      ],
+      "exit_code": 0,
+      "elapsed_sec": 4.090517575998092,
+      "stdout": "{\"python\": \"3.13.7\", \"packages\": {\"numpy\": \"2.5.4\", \"scipy\": \"1.18.1\", \"scikit-learn\": \"1.9.1\", \"scikit-survival\": \"0.28.0\", \"pandas\": \"3.0.6\", \"setuptools\": \"84.2.1\", \"wheel\": \"0.45.1\"}}\n",
+      "stderr": ""
+    }
+  ],
+  "observations": [
+    {
+      "container": "survival-concordance__w8y9to8__env-main-1",
+      "selected_metadata": "\"sha256:a893547ab20d54335c3ed121e5e53056890ac43abe4a2e2d8523be280d9d020e\" 1000000000 2147483648",
+      "versions": {
+        "python": "3.13.7",
+        "packages": {
+          "numpy": "2.5.4",
+          "scipy": "1.18.1",
+          "scikit-learn": "1.9.1",
+          "scikit-survival": "0.28.0",
+          "pandas": "3.0.6",
+          "setuptools": "84.2.1",
+          "wheel": "0.45.1"
+        }
+      }
+    }
+  ],
+  "scope": "Live container runtime versions and declared resources only; no environment variables, authentication files or message bodies read."
+}

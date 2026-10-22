@@ -1,0 +1,172 @@
+{
+  "utc": "2026-10-22T22:16:22.708858+00:00",
+  "images": {
+    "accepted_agent": {
+      "image_id": "sha256:be6ddd2bb51477760a230766bdd1e60b863de4d1e37a2898a98c4e4618c9d48d",
+      "inspect_exit_code": 0,
+      "layers": [
+        "sha256:aca83606673032726b42f8e1396ceb979c32bfb26b602732baf699053e46b33e",
+        "sha256:99475d775e47e923dd65c7c14945683dffc418483f11a91a8ee3f02e9f8f4f92",
+        "sha256:c10ac4a2df206abc2da3247148c23e9452fca03a21a4d39470441f4056a5687d",
+        "sha256:c2c788f065069e98eaac7abf46867084cc98d030bd014b2ecd3fcf0375f3b2f9",
+        "sha256:554c5fcc0c735eab505fe70779ad8a22898ac072d8ef26a0eb2ebc9707030cde",
+        "sha256:8c48ff2e75f74d3a8a63b0e55c46df84852dbe2b554cba9ac7401beec410d943",
+        "sha256:d811fa0b64f9c2b1985be902cc7c428983c8b81f8f0a8be9319ec170de0f4e62",
+        "sha256:4222065bed056641452132361b9d81662c733ce642bb0a15320f553cf660bc42",
+        "sha256:de6344a0fce5929b383c55dbac1e2b83834278e221786035d6a2fdc0a26c8c13",
+        "sha256:751deb9cac170cf6f8c5f292a0c205b3a72cb833b1391198ee8d2796f898d19e",
+        "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      ],
+      "version_command": {
+        "argv": [
+          "docker",
+          "run",
+          "--rm",
+          "--cpus",
+          "1",
+          "--memory",
+          "256m",
+          "--network",
+          "none",
+          "sha256:be6ddd2bb51477760a230766bdd1e60b863de4d1e37a2898a98c4e4618c9d48d",
+          "python",
+          "-c",
+          "import importlib.metadata as m,json,sys; print(json.dumps({'python':sys.version.split()[0], 'packages':{p:m.version(p) for p in ['numpy','scipy','scikit-learn','scikit-survival','pandas','setuptools','wheel']}}))"
+        ],
+        "exit_code": 0,
+        "elapsed_sec": 2.650203117998899,
+        "stderr": ""
+      },
+      "runtime": {
+        "python": "3.13.7",
+        "packages": {
+          "numpy": "2.5.4",
+          "scipy": "1.18.1",
+          "scikit-learn": "1.9.1",
+          "scikit-survival": "0.28.0",
+          "pandas": "3.0.6",
+          "setuptools": "84.2.1",
+          "wheel": "0.45.1"
+        }
+      }
+    },
+    "current_agent": {
+      "image_id": "sha256:8129aecd703c4f19e031a1f25e93d8954e6aad03250579fbee11e6e3373d7b39",
+      "inspect_exit_code": 1,
+      "version_command": {
+        "argv": [
+          "docker",
+          "run",
+          "--rm",
+          "--cpus",
+          "1",
+          "--memory",
+          "256m",
+          "--network",
+          "none",
+          "sha256:8129aecd703c4f19e031a1f25e93d8954e6aad03250579fbee11e6e3373d7b39",
+          "python",
+          "-c",
+          "import importlib.metadata as m,json,sys; print(json.dumps({'python':sys.version.split()[0], 'packages':{p:m.version(p) for p in ['numpy','scipy','scikit-learn','scikit-survival','pandas','setuptools','wheel']}}))"
+        ],
+        "exit_code": 125,
+        "elapsed_sec": 0.057586389004427474,
+        "stderr": "docker: Error response from daemon: No such image: sha256:8129aecd703c4f19e031a1f25e93d8954e6aad03250579fbee11e6e3373d7b39\n\nRun 'docker run --help' for more information\n",
+        "stdout": ""
+      }
+    },
+    "accepted_verifier": {
+      "image_id": "sha256:4e6cbcb6b748868411965e2bbf6f2c43465f0c374e6a69badff8fd6d2fa67e6d",
+      "inspect_exit_code": 0,
+      "layers": [
+        "sha256:aca83606673032726b42f8e1396ceb979c32bfb26b602732baf699053e46b33e",
+        "sha256:99475d775e47e923dd65c7c14945683dffc418483f11a91a8ee3f02e9f8f4f92",
+        "sha256:c10ac4a2df206abc2da3247148c23e9452fca03a21a4d39470441f4056a5687d",
+        "sha256:c2c788f065069e98eaac7abf46867084cc98d030bd014b2ecd3fcf0375f3b2f9",
+        "sha256:309e9f30909766611275cc362a2d272b3a85c2f3a6159cd9167d2c9133ff35f7",
+        "sha256:ab2ae01eaecfbed7b9d0408bea754411add6dcfd4f9004bdc442873f870187a0",
+        "sha256:77d62fe8374608385f591cc4e3527789ae3c11c7dacd5df1659d22d8da3b956b",
+        "sha256:68ce9445bfeb1ad17a64307b2305c322c3b1a8814544f0aa1b487b2b70926869",
+        "sha256:a08c751273ef70645e05e323308900a3c185736e18ed9c90ba93e10ff82e8f6a",
+        "sha256:3c2fc90263603f3fd45e6d6a821d42b23840624bac963cdeec3e241cd7ad8e5c",
+        "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      ],
+      "version_command": {
+        "argv": [
+          "docker",
+          "run",
+          "--rm",
+          "--cpus",
+          "1",
+          "--memory",
+          "256m",
+          "--network",
+          "none",
+          "sha256:4e6cbcb6b748868411965e2bbf6f2c43465f0c374e6a69badff8fd6d2fa67e6d",
+          "python",
+          "-c",
+          "import importlib.metadata as m,json,sys; print(json.dumps({'python':sys.version.split()[0], 'packages':{p:m.version(p) for p in ['numpy','scipy','scikit-learn','scikit-survival','pandas','setuptools','wheel']}}))"
+        ],
+        "exit_code": 0,
+        "elapsed_sec": 0.872402996996243,
+        "stderr": ""
+      },
+      "runtime": {
+        "python": "3.13.7",
+        "packages": {
+          "numpy": "2.5.4",
+          "scipy": "1.18.1",
+          "scikit-learn": "1.9.1",
+          "scikit-survival": "0.28.0",
+          "pandas": "3.0.6",
+          "setuptools": "84.2.1",
+          "wheel": "0.45.1"
+        }
+      }
+    },
+    "current_verifier": {
+      "image_id": "sha256:59a17e1c94e74eaae9a6ca888d410fdde469dc1069817d7de4701a113a3d9272",
+      "inspect_exit_code": 1,
+      "version_command": {
+        "argv": [
+          "docker",
+          "run",
+          "--rm",
+          "--cpus",
+          "1",
+          "--memory",
+          "256m",
+          "--network",
+          "none",
+          "sha256:59a17e1c94e74eaae9a6ca888d410fdde469dc1069817d7de4701a113a3d9272",
+          "python",
+          "-c",
+          "import importlib.metadata as m,json,sys; print(json.dumps({'python':sys.version.split()[0], 'packages':{p:m.version(p) for p in ['numpy','scipy','scikit-learn','scikit-survival','pandas','setuptools','wheel']}}))"
+        ],
+        "exit_code": 125,
+        "elapsed_sec": 0.059452050998515915,
+        "stderr": "docker: Error response from daemon: No such image: sha256:59a17e1c94e74eaae9a6ca888d410fdde469dc1069817d7de4701a113a3d9272\n\nRun 'docker run --help' for more information\n",
+        "stdout": ""
+      }
+    }
+  },
+  "comparisons": {
+    "agent": {
+      "shared_initial_layers": null,
+      "accepted_layers": 11,
+      "current_layers": 0,
+      "same_pinned_runtime_versions": null,
+      "comparison_status": "Unavailable: a trial image object was already removed; failed inspection is not evidence of a package-version mismatch."
+    },
+    "verifier": {
+      "shared_initial_layers": null,
+      "accepted_layers": 11,
+      "current_layers": 0,
+      "same_pinned_runtime_versions": null,
+      "comparison_status": "Unavailable: a trial image object was already removed; failed inspection is not evidence of a package-version mismatch."
+    }
+  },
+  "note": "Output image IDs can differ with build context metadata and unpinned OS packages. The Dockerfile base digest and task bytes remain pinned. No claim of byte-identical rebuilt image output is made.",
+  "correction_utc": "2026-10-22T22:26:43.113638+00:00",
+  "original_attempt_preserved": "image-provenance-initial-attempt.json"
+}

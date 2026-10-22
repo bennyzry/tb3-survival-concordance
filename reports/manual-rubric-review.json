@@ -1,22 +1,22 @@
 {
-  "reviewed_utc": "2026-10-22T21:36:33.888503+00:00",
+  "reviewed_utc": "2026-10-22T22:26:43.110675+00:00",
   "reviewer": "Codex, refreshed source-based manual self-review; not an independent or official verdict",
   "official_automated_review_executed": false,
   "independent_human_review_executed": false,
   "upstream_commit": "7dcecbd7e5427bec70b013da5549667ceaace041",
   "rubric_sha256": "345a566111d767fb79ce72c4b772cbc897a9638114a08f80e094beb8a72c6f1c",
-  "overall": "CONDITIONAL GO for local development; not submission compliant",
+  "overall": "Not ready to claim submission compliance; preserve and publish the experimental artifact with actual results and limitations.",
   "counts": {
-    "supported": 30,
-    "unresolved": 4,
+    "unresolved": 5,
+    "supported": 29,
     "noncompliant": 1,
     "advisory_ok": 1
   },
   "criteria": [
     {
       "criterion": "verifiable",
-      "manual_status": "supported",
-      "reason": "Deterministic inputs and executable pair/count checks are supported by the preserved Oracle/alternative results. Verifier tooling is baked; hundreds of repetitions have not been run."
+      "manual_status": "unresolved",
+      "reason": "Deterministic executable grading and repeated correct-solution passes are established, but a reward-1 Codex submission has a confirmed compatibility defect outside the frozen 333 cases. The standalone analytical diagnostic is preserved; the verifier was not expanded."
     },
     {
       "criterion": "solvable",
@@ -26,7 +26,7 @@
     {
       "criterion": "difficult",
       "manual_status": "unresolved",
-      "reason": "Numerical compatibility and weighted counting are real engineering concerns, but professional difficulty at the TB3 bar has not been established by independent expert review or model evidence."
+      "reason": "Every valid completed standard run so far received reward 1. This does not alone settle human difficulty, but it supplies no evidence of a valid model failure. Numerical integration value is real; the TB3 professional-difficulty bar remains unproven."
     },
     {
       "criterion": "interesting",
@@ -41,7 +41,7 @@
     {
       "criterion": "anti_cheat_robustness",
       "manual_status": "supported",
-      "reason": "Agent image excludes tests/Oracle; the separate verifier uses root-protected expected answers and unprivileged subprocesses. No adversarial trials or blanket security guarantee are claimed."
+      "reason": "Source review finds separate verifier isolation and protected grading state; common shared-filesystem shortcuts are prevented. The requested adversarial checks were unavailable after the provider safety rejection and were not rerouted. No adversarial robustness pass is claimed."
     },
     {
       "criterion": "task_security",
@@ -65,8 +65,8 @@
     },
     {
       "criterion": "test_instruction_alignment",
-      "manual_status": "supported",
-      "reason": "The audit maps APIs/defaults/keywords, pairs, weights, errors, warnings, numerics, timing and artifacts to actual tests or harness enforcement. Selected coverage is not exhaustive API proof."
+      "manual_status": "unresolved",
+      "reason": "Existing assertions trace to public requirements, but the blanket numerical compatibility contract has a demonstrated grading false positive: tiny negative tied_tol with float16 equal risks. The frozen suite remains unchanged under the user decision."
     },
     {
       "criterion": "novel",
@@ -75,8 +75,8 @@
     },
     {
       "criterion": "agentic",
-      "manual_status": "unresolved",
-      "reason": "Source inspection, implementation and profiling provide a multi-step workflow. The first prescribed standard trials have started, but no completed benchmark result is available at this review timestamp."
+      "manual_status": "supported",
+      "reason": "Reviewed successful trajectories show source exploration, implementation, differential testing, profiling and iteration across multiple tool calls."
     },
     {
       "criterion": "reviewable",
@@ -205,5 +205,6 @@
     "native_exit_code": 0,
     "directory": "static"
   },
-  "runtime_review": "Harbor clears extra Docker Compose overlays and agent mounts before creating the separate verifier. Native CLI mounts and the metadata-only provider adapter do not enter grading environments."
+  "runtime_review": "Harbor clears extra Docker Compose overlays and agent mounts before creating the separate verifier. Native CLI mounts and the metadata-only provider adapter do not enter grading environments.",
+  "known_ungraded_compatibility_gap": "posthoc-numerical-check.json; native exit 0; reward-1 codex-standard-3 differs from pristine 0.28.0. No grading result was changed."
 }

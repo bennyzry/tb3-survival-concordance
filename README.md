@@ -44,6 +44,8 @@ Adversarial evaluation is currently unavailable: the official adversarial prompt
 
 Both Docker images completed public-source cold builds. These are prior executed validation results, not model-trial results. [CTRF reports](reports/ctrf) and [validation metadata](reports/validation.json) preserve the observations. [Evaluation status](reports/evaluation.json) reports actual model runs when available; pending, infrastructure and authentication failures are not valid task failures.
 
+A standalone, ungraded diagnostic found a compatibility defect in the reward-1 `codex-standard-3` submission for a tiny negative tolerance and equal float16 risks. The frozen 333-test verifier did not detect it. [The evaluation report](reports/evaluation.md) preserves the exact fixture and outcomes; the original reward remains 1 and no test or threshold was changed.
+
 ## Evaluation and compliance
 
 The intended matrix is three Codex / GPT-6.1 Sol / xhigh runs, three Claude Code / DeepSeek V4.1 Flash / max runs, and one adversarial run per configuration. Do not interpret an empty or unfinished result as a model failure.

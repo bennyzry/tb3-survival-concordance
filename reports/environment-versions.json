@@ -1,0 +1,89 @@
+{
+  "utc": "2026-10-22T22:13:01.656725+00:00",
+  "commands": [
+    {
+      "argv": [
+        "/usr/local/bin/harbor",
+        "--version"
+      ],
+      "exit_code": 0,
+      "elapsed_sec": 1.59170274099597,
+      "stdout": "0.23.1.dev202609170426\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "--version"
+      ],
+      "exit_code": 0,
+      "elapsed_sec": 0.0032387860046583228,
+      "stdout": "Python 3.12.3\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/opt/tb3/harbor/bin/python",
+        "--version"
+      ],
+      "exit_code": 0,
+      "elapsed_sec": 0.0028559810016304255,
+      "stdout": "Python 3.12.3\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "--version"
+      ],
+      "exit_code": 0,
+      "elapsed_sec": 0.0037262319965520874,
+      "stdout": "git version 2.43.0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "uname",
+        "-r"
+      ],
+      "exit_code": 0,
+      "elapsed_sec": 0.003485451001324691,
+      "stdout": "6.6.87.2-microsoft-standard-WSL2\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "lsb_release",
+        "-ds"
+      ],
+      "exit_code": 0,
+      "elapsed_sec": 0.03385786699800519,
+      "stdout": "Ubuntu 24.04.5 LTS\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "docker",
+        "version",
+        "--format",
+        "{{.Client.Version}} {{.Server.Version}}"
+      ],
+      "exit_code": 0,
+      "elapsed_sec": 0.0619584300002316,
+      "stdout": "28.3.0 28.3.0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "docker",
+        "info",
+        "--format",
+        "version={{.ServerVersion}} cpus={{.NCPU}} memory_bytes={{.MemTotal}} os={{.OSType}} arch={{.Architecture}}"
+      ],
+      "exit_code": 0,
+      "elapsed_sec": 0.5586592729960103,
+      "stdout": "version=28.3.0 cpus=12 memory_bytes=7915909120 os=linux arch=x86_64\n",
+      "stderr": ""
+    }
+  ]
+}

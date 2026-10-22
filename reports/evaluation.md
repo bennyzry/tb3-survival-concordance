@@ -1,6 +1,6 @@
 # Evaluation record
 
-Generated: 2026-10-22T22:10:44.395501+00:00. Task revision SHA-256: `37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b`.
+Generated: 2026-10-22T22:29:11.536052+00:00. Task revision SHA-256: `37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b`.
 
 The task remains the frozen 333-test revision. Both images previously completed public-source cold builds. Accepted validation: Oracle 333/333, reward 1; independent alternative 333/333, reward 1; Nop 328/333, reward 0, with five performance failures. All 28 current upstream static checks passed again after verified author metadata was filled in.
 
@@ -11,12 +11,15 @@ The task remains the frozen 333-test revision. Both images previously completed 
 | deepseek-standard-1 | claude-code / deepseek-flash / max | 1 | completed; valid legitimate model completion |
 | codex-standard-1 | codex / openai/gpt-6.1-sol / xhigh | 0 | completed; invalid infrastructure attempt |
 | codex-adversarial-1 | codex / openai/gpt-6.1-sol / xhigh | pending | execution-error; unavailable: provider safety restriction; not a valid task failure |
-| codex-standard-2 | codex / openai/gpt-6.1-sol / xhigh | 1 | completed; valid-execution; trajectory review pending |
+| codex-standard-2 | codex / openai/gpt-6.1-sol / xhigh | 1 | completed; valid legitimate graded model completion |
 | deepseek-adversarial-1 | claude-code / deepseek-flash / max | pending | execution-error; withheld: do not route the same blocked adversarial prompt through another provider |
-| deepseek-standard-2 | claude-code / deepseek-flash / max | pending | running; pending |
-| codex-standard-3 | codex / openai/gpt-6.1-sol / xhigh | pending | running; pending |
+| deepseek-standard-2 | claude-code / deepseek-flash / max | 1 | completed; valid legitimate graded model completion |
+| codex-standard-3 | codex / openai/gpt-6.1-sol / xhigh | 1 | completed; valid graded model execution; confirmed ungraded compatibility defect |
+| deepseek-standard-3 | claude-code / deepseek-flash / max | pending | running; pending |
 
-Standard configurations still unfinished or not started at this timestamp: codex-standard-1-replacement, codex-standard-3, deepseek-standard-2, deepseek-standard-3. A missing or unfinished result is not a model failure. The original `codex-standard-1` attempt is excluded: the CLI preload omitted a required helper, and its trajectory shows that all workspace commands failed. Its observed reward is preserved; one independent replacement is scheduled after the complete native package repair.
+Standard configurations still unfinished or not started at this timestamp: codex-standard-1-replacement, deepseek-standard-3. A missing or unfinished result is not a model failure. The original `codex-standard-1` attempt is excluded: the CLI preload omitted a required helper, and its trajectory shows that all workspace commands failed. Its observed reward is preserved; one independent replacement is scheduled after the complete native package repair.
+
+Observed standard results: 4/4 completed required standard trials received reward 1. No valid reward-0 model result has been established at this timestamp. These observations do not demonstrate that this task reliably challenges either configured model.
 
 The Codex adversarial request was rejected by the provider safety check before task actions. It was stopped and will not be retried or rephrased. The matching DeepSeek adversarial request was withheld rather than routing the same blocked prompt through another provider. Neither is a valid model failure or a successful anti-cheating validation.
 
@@ -34,6 +37,10 @@ The source-based rubric self-review is manual, not an official verdict. A single
 
 The instruction and four README explanations were AI-generated and are disclosed as such. They do not satisfy the upstream human-authorship requirement. The GitHub display identity comes from existing Git configuration and a matching email on the connected account; no legal-name inference or survival-analysis expertise claim is made.
 
+An ungraded diagnostic found a concrete compatibility gap in `codex-standard-3`, despite its observed 333/333 reward 1. For two records with event indicators `[True, False]`, times `[1, 2]`, equal float16 risks and `tied_tol=-1e-100`, pristine 0.28.0 returns `(0.5, 0, 0, 1, 0)` while that submission returns `(0.0, 0, 1, 0, 0)`. NumPy casts the tolerance to float16 negative zero. The standalone diagnostic exited 0; other already-reviewed submissions matched pristine behavior. See [the diagnostic record](posthoc-numerical-check.json). This is a grading false positive for the broader compatibility contract, not a new graded failure. The frozen verifier, task requirements and all reported rewards remain unchanged.
+
 GitHub publication was initially blocked by an invalid saved credential (401). The connected app can write repository files but cannot create a repository; browser interaction was stopped by its URL-policy check. No browser retry or safety-control bypass was attempted. A complete sanitized local repository and ZIP are prepared; a remote URL is verified only after an actual successful publication.
 
 Task difficulty and model-success claims require the completed trajectory analysis. Do not interpret preliminary rewards, authentication smokes, or the blocked adversarial requests as established frontier-model difficulty or verifier robustness.
+
+Readiness: this is an executable experimental artifact, not a fully compliant submission. Human authorship, unavailable adversarial checks, the demonstrated ungraded compatibility gap, and the missing verified GitHub publication remain explicit limitations. No task redesign or threshold change was made to improve failure statistics.
