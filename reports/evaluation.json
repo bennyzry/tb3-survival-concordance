@@ -1093,7 +1093,7 @@
   "heartbeat_utc": "2026-10-22T22:51:17.536414+00:00",
   "finished_utc": "2026-10-22T22:41:02.569356+00:00",
   "trials_before_replacement": 8,
-  "generated_report_utc": "2026-10-22T22:52:42.222324+00:00",
+  "generated_report_utc": "2026-10-22T22:59:22.865579+00:00",
   "cost_note": "Agent-reported USD cost fields are estimates, not provider invoices. Codex used ChatGPT subscription authentication. Claude Code estimates may not reflect DeepSeek pricing.",
   "adversarial_restriction": {
     "utc": "2026-10-22T21:47:14.096056+00:00",

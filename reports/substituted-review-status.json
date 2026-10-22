@@ -1,5 +1,5 @@
 {
-  "status": "running",
+  "status": "execution finished; inspect verdict artifact",
   "review_type": "substituted automated; not official",
   "command": [
     "/usr/local/bin/harbor",
@@ -13,5 +13,13 @@
   "started_utc": "2026-10-22T22:51:17.926157+00:00",
   "upstream_commit": "7dcecbd7e5427bec70b013da5549667ceaace041",
   "rubric_sha256": "345a566111d767fb79ce72c4b772cbc897a9638114a08f80e094beb8a72c6f1c",
-  "prompt_sha256": "1fc9d68db213bee46d28042d24fd1c3f33e28d1436fb16fe2f8e39b2fc7ecf3e"
+  "prompt_sha256": "1fc9d68db213bee46d28042d24fd1c3f33e28d1436fb16fe2f8e39b2fc7ecf3e",
+  "exit_code": 0,
+  "finished_utc": "2026-10-22T22:58:56.973789+00:00",
+  "verdict_counts": {
+    "pass": 33,
+    "fail": 2,
+    "warn": 0,
+    "not_applicable": 1
+  }
 }

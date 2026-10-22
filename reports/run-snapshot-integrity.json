@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-22T22:56:23.259371+00:00",
+  "scope": "The task copy actually supplied to all model Harbor jobs; read-only file hashing.",
+  "task_revision_sha256": "37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b",
+  "expected_revision_sha256": "37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b",
+  "files": 26,
+  "mismatched_files": [],
+  "matches_published_manifest": true,
+  "native_exit_code": 0
+}

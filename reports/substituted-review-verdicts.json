@@ -1,0 +1,148 @@
+{
+  "checks": {
+    "verifiable": {
+      "outcome": "pass",
+      "explanation": "The verifier programmatically compares API results, exception compatibility, warnings, and runtime against seeded inputs and trusted references. Verifier dependencies are installed in tests/Dockerfile, and generous timing margins plus timeout-only retries reduce scheduling sensitivity."
+    },
+    "solvable": {
+      "outcome": "pass",
+      "explanation": "The supplied patch passed all 333 tests in a temporary copy of the verifier using the pinned runtime under one CPU and 2 GiB RAM. Its compact sweep-and-tree implementation with compatibility fallbacks is feasible for a knowledgeable expert within a few hours."
+    },
+    "difficult": {
+      "outcome": "pass",
+      "explanation": "Achieving subquadratic performance while preserving IPCW weighting, censoring conventions, nontransitive dtype-sensitive ties, and legacy exceptions requires scientific-software and numerical-algorithm expertise. These interacting compatibility requirements make the task substantially harder than implementing a standard ranking algorithm."
+    },
+    "interesting": {
+      "outcome": "pass",
+      "explanation": "Accelerating survival-model evaluation on large cohorts is realistic ML maintenance work with practical value. Preserving the published statistical behavior makes the optimization useful to existing library users."
+    },
+    "outcome_verified": {
+      "outcome": "pass",
+      "explanation": "Instructions specify observable API compatibility, statistical results, and runtime limits without prescribing an optimization algorithm. Tests accept any implementation that produces correct results within those limits."
+    },
+    "anti_cheat_robustness": {
+      "outcome": "pass",
+      "explanation": "Expected answers and workload definitions remain in the protected separate-verifier image, while the agent receives only the original quadratic implementation. Submitted code runs unprivileged, cannot modify the trusted tests or reward directory, and is evaluated on varied inputs rather than a single reusable answer."
+    },
+    "task_security": {
+      "outcome": "pass",
+      "explanation": "The Dockerfiles, solution, and verification scripts perform legitimate dependency setup, numerical computation, isolation, and reporting. No credential access, exfiltration, malicious payloads, or host-escape behavior appears in the task files."
+    },
+    "functional_verification": {
+      "outcome": "pass",
+      "explanation": "The tests execute both submitted public APIs and compare their results, numeric types, exceptions, warning categories, and whole-process runtime. The baseline checksum protects the oracle rather than imposing source-pattern requirements on submissions."
+    },
+    "deterministic_reproducible": {
+      "outcome": "pass",
+      "explanation": "Both images pin the Python base image and Python dependencies, and the verifier uses deterministic seeded workloads without live services. Single-thread settings, broad time allowances, and two performance attempts limit timing variability."
+    },
+    "essential_difficulty": {
+      "outcome": "pass",
+      "explanation": "The core challenge is designing an efficient counting algorithm that preserves statistical and floating-point semantics. The direct Python API and five-element result avoid clerical formatting burdens, and exact counts and tolerance-boundary behavior are meaningful compatibility requirements."
+    },
+    "test_instruction_alignment": {
+      "outcome": "pass",
+      "explanation": "Tests cover the stated pair rules, IPCW weights and truncation, API keywords and defaults, numeric types, warning and exception behavior, large counts, and performance budgets. Their assertions follow the instruction's specified score tolerances and timeout-only retry policy."
+    },
+    "novel": {
+      "outcome": "pass",
+      "explanation": "Although ordered counting structures are established techniques, this task combines release-specific survival semantics with exact dtype arithmetic and IPCW compatibility. Reproducing a textbook concordance algorithm alone would not satisfy these requirements."
+    },
+    "agentic": {
+      "outcome": "pass",
+      "explanation": "A successful solution requires inspecting the existing implementation and its validation paths, modifying the importable module, and checking numerical compatibility and performance. The need to preserve undocumented edge behavior makes environment exploration and iterative execution material to the task."
+    },
+    "reviewable": {
+      "outcome": "pass",
+      "explanation": "The instruction defines the statistical rules, and the README explains the optimization and verification strategies. Expected results are derived from the pristine release, independent pair and block calculations, and a documented closed-form count rather than unexplained constants."
+    },
+    "instruction_concision": {
+      "outcome": "fail",
+      "explanation": "README.md explicitly states that the task instruction was generated by Codex and that the human-authorship requirement remains unresolved. This conflicts with the criterion's requirement for human-written instructions, despite the clear absolute paths and outcome-focused wording."
+    },
+    "effective_instruction_length": {
+      "outcome": "pass",
+      "explanation": "The 691-word agent-facing instruction in instruction.md gives justified detail about statistical compatibility, numerical edge cases, artifact transfer, and timing. It contains no substantial unnecessary repetition or fragmented requirement text in referenced context."
+    },
+    "solution_quality": {
+      "outcome": "pass",
+      "explanation": "solve.sh applies a separately stored source patch that computes concordance through a time-ordered Fenwick-tree sweep and actual dtype-aware tie comparisons. It retains genuine quadratic computation for compatibility cases and contains no hardcoded test answers."
+    },
+    "separate_verifier_configured": {
+      "outcome": "pass",
+      "explanation": "The submitted module and helpers arrive through the declared /app/work artifact, while trusted scripts, references, and dependencies are baked into the verifier image. Shared runtime pins, base-image digests, and license copies match across the images, and test.sh installs nothing."
+    },
+    "environment_hygiene": {
+      "outcome": "pass",
+      "explanation": "The agent image includes the baseline module and task runtime without tests, solutions, or pytest dependencies. The verifier owns its testing dependencies, and both Dockerfiles update apt before installation and remove package lists afterward."
+    },
+    "structured_data_schema": {
+      "outcome": "pass",
+      "explanation": "instruction.md specifies both API signatures, optional defaults, input roles, and the exact ordered five-element result with numeric score and integer counts. It also explicitly describes exception and warning compatibility and score comparison tolerances."
+    },
+    "typos": {
+      "outcome": "pass",
+      "explanation": "The instruction's paths and public argument names agree with the Dockerfiles, source, solution patch, and worker adapter. No critical filename, command, or variable-name typo was found, and the patched module passed the full copied suite."
+    },
+    "difficulty_explanation_quality": {
+      "outcome": "pass",
+      "explanation": "The README identifies the interaction between quadratic pair counting, censoring rules, dtype-sensitive ties, and weighted scores with unweighted counts. It describes the synthetic cohorts' realistic variation and identifies ML engineers maintaining survival-model evaluation as the real-world audience."
+    },
+    "solution_explanation_quality": {
+      "outcome": "pass",
+      "explanation": "The README accurately summarizes the time-ordered sweep, Fenwick tree, equal-time handling, tolerance boundaries, and separate treatment of weights and counts. Its compatibility-path explanation matches the supplied patch."
+    },
+    "verification_explanation_quality": {
+      "outcome": "pass",
+      "explanation": "The README describes the separate verifier, independent references, exact counts, floating-point accumulation allowances, and whole-process timing. It reports validation against an alternative correct implementation and a failing baseline, supporting the numerical and timing bounds; the copied suite confirmed the stated 333 cases."
+    },
+    "category_and_tags": {
+      "outcome": "pass",
+      "explanation": "ML and Evaluation fit the task's focus on survival-model metrics. The survival-analysis, concordance, numerical-correctness, performance, and python tags are specific and relevant."
+    },
+    "task_name": {
+      "outcome": "pass",
+      "explanation": "The folder name survival-concordance is a descriptive, specific two-word lowercase kebab-case slug. It clearly identifies the statistical metric at the center of the task."
+    },
+    "resource_configuration": {
+      "outcome": "pass",
+      "explanation": "The four-hour agent timeout is consistent with the three-hour expert estimate, while one CPU and 2 GiB RAM emphasize algorithmic improvement. The 1200-second verifier allowance accommodates compatibility batches, repeated performance timeouts, and reference computation; the copied correct-solution suite completed in about 109 seconds."
+    },
+    "task_readme": {
+      "outcome": "pass",
+      "explanation": "README.md includes all four required explanation and experience sections plus metadata, source provenance, licensing, and build-validation context. The explanations are consistent with the task files and provide useful reviewer context."
+    },
+    "expert_time_estimate": {
+      "outcome": "pass",
+      "explanation": "task.toml provides a nonzero expert_time_estimate_hours of 3.0. This is plausible for an expert implementing a compact ordered-counting optimization and checking the release's numerical and survival-analysis edge cases."
+    },
+    "task_toml_schema": {
+      "outcome": "fail",
+      "explanation": "The [environment] section contains network_mode = \"public\", which is not among the rubric's recognized Harbor fields. Use the supported allow_internet field for the intended network configuration."
+    },
+    "no_extraneous_files": {
+      "outcome": "pass",
+      "explanation": "The task contains the required scaffold, baseline source, dependency locks, Docker build files, referenced verifier modules, solution script and patch, and permitted license files. No scratch artifacts, caches, backups, or unused standalone assets are present."
+    },
+    "artifact_efficiency": {
+      "outcome": "pass",
+      "explanation": "The artifact is the small editable /app/work module tree and any submitted helpers, with caches, bytecode, git metadata, and virtual environments excluded. Dependencies and trusted reference material are baked into the verifier rather than transferred, and there are no collect hooks to introduce stale-capture risks."
+    },
+    "verifier_execution_isolation": {
+      "outcome": "pass",
+      "explanation": "Only isolated child processes import submitted code, using UID/GID 10001, no supplementary groups, and no new privileges. Root protects the reward directory before execution, captures output in temporary files, kills child process groups, and derives the binary reward from pytest's status."
+    },
+    "ctrf_reporting": {
+      "outcome": "pass",
+      "explanation": "test.sh invokes pytest with --ctrf and converts the raw report into /logs/verifier/ctrf.json with canonical case names and validated summary counts. The copied report pipeline successfully preserved all 333 individual test results."
+    },
+    "do_not_modify_enforced": {
+      "outcome": "not_applicable",
+      "explanation": "The instruction does not require a concrete source file, directory, or declaration to remain unchanged. Its API-preservation requirements concern observable behavior, which is checked through execution."
+    },
+    "binary_reward": {
+      "outcome": "pass",
+      "explanation": "The only reward writes in test.sh emit exactly 1 for pytest success or 0 for test failure. Missing artifacts and verifier infrastructure errors exit without writing a reward, and no fractional reward path exists."
+    }
+  }
+}

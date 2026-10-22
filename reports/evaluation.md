@@ -1,6 +1,6 @@
 # Evaluation record
 
-Generated: 2026-10-22T22:52:42.222324+00:00. Task revision SHA-256: `37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b`.
+Generated: 2026-10-22T22:59:22.865579+00:00. Task revision SHA-256: `37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b`.
 
 The task remains the frozen 333-test revision. Both images previously completed public-source cold builds. Accepted validation: Oracle 333/333, reward 1; independent alternative 333/333, reward 1; Nop 328/333, reward 0, with five performance failures. All 28 current upstream static checks passed again after verified author metadata was filled in.
 
@@ -34,7 +34,7 @@ Harbor removes agent CLI mounts and Compose overlays before starting the separat
 
 ## Review and remaining concerns
 
-The source-based rubric self-review is manual, not an official verdict. The single substituted automated review uses the pinned upstream rubric, instruction and word-count helper. Its actual status is: running. It reviews the task package, not the complete model-experiment record or post-hoc diagnostic. A reward for that review means a structurally valid verdict artifact, not that all task criteria passed. No official upstream hosted review or PR workflow result is claimed.
+The source-based rubric self-review is manual, not an official verdict. The single substituted automated review uses the pinned upstream rubric, instruction and word-count helper. Its actual status is: execution finished; inspect verdict artifact; verdict counts {"fail": 2, "not_applicable": 1, "pass": 33, "warn": 0}. It reviews the task package, not the complete model-experiment record or post-hoc diagnostic. A reward for that review means a structurally valid verdict artifact, not that all task criteria passed. No official upstream hosted review or PR workflow result is claimed.
 
 The instruction and four README explanations were AI-generated and are disclosed as such. They do not satisfy the upstream human-authorship requirement. The GitHub display identity comes from existing Git configuration and a matching email on the connected account; no legal-name inference or survival-analysis expertise claim is made.
 
