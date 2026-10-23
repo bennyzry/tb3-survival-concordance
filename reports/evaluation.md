@@ -18,7 +18,7 @@ The task remains the frozen 333-test revision. Both images previously completed 
 | deepseek-standard-3 | claude-code / deepseek-flash / max | 1 | completed; valid legitimate graded model completion |
 | codex-standard-1-replacement | codex / openai/gpt-6.1-sol / xhigh | 1 | completed; valid legitimate graded model completion |
 
-Standard configurations still unfinished or not started at this timestamp: none. A missing or unfinished result is not a model failure. The original `codex-standard-1` attempt is excluded: the CLI preload omitted a required helper, and its trajectory shows that all workspace commands failed. Its observed reward is preserved; one independent replacement is scheduled after the complete native package repair.
+Standard configurations still unfinished or not started at this timestamp: none. A missing or unfinished result is not a model failure. The original `codex-standard-1` attempt is excluded: the CLI preload omitted a required helper, and its trajectory shows that all workspace commands failed. Its observed reward is preserved; one independent replacement completed after the complete native package repair, as recorded above.
 
 Observed standard results: 6/6 completed required standard trials received reward 1; 0 required standard runs received reward 0. Execution validity and semantic limitations are recorded per row. The observed pass rate alone does not establish professional difficulty.
 
@@ -40,11 +40,11 @@ The instruction and four README explanations were AI-generated and are disclosed
 
 An ungraded diagnostic found a concrete compatibility gap in `codex-standard-3`, despite its observed 333/333 reward 1. For two records with event indicators `[True, False]`, times `[1, 2]`, equal float16 risks and `tied_tol=-1e-100`, pristine 0.28.0 returns `(0.5, 0, 0, 1, 0)` while that submission returns `(0.0, 0, 1, 0, 0)`. NumPy casts the tolerance to float16 negative zero. The standalone diagnostic exited 0; other already-reviewed submissions matched pristine behavior. See [the diagnostic record](posthoc-numerical-check.json). This is a grading false positive for the broader compatibility contract, not a new graded failure. The frozen verifier, task requirements and all reported rewards remain unchanged.
 
-GitHub publication was initially blocked by an invalid saved credential (401). The connected app can write repository files but cannot create a repository; browser interaction was stopped by its URL-policy check. No browser retry or safety-control bypass was attempted. A complete sanitized local repository and ZIP are prepared; a remote URL is verified only after an actual successful publication.
+GitHub publication initially failed with the saved credential (401). After the contributor created the public repository, the connected app also rejected its write request (403). Publication then succeeded through the official GitHub CLI browser sign-in and native Git HTTPS push, without using the invalid credential or retrying the earlier blocked computer-use action. The [public repository](https://github.com/bennyzry/tb3-survival-concordance) was independently cloned without credentials: all 131 file paths, modes and blob hashes matched the sanitized local snapshot, and all 26 frozen task files matched byte for byte. The first verified publication is commit `7c1603b77218179368a39dadc546377a8ddd0a32`, tree `04fc15fa24e48d78f29354e6dab04446bf1652e9`. Anonymous REST verification hit a rate limit; anonymous Git verification succeeded. This follow-up changes publication status only.
 
 Task difficulty and model-success claims require the completed trajectory analysis. Do not interpret preliminary rewards, authentication smokes, or the blocked adversarial requests as established frontier-model difficulty or verifier robustness.
 
-Readiness: this is an executable experimental artifact, not a fully compliant submission. Human authorship, unavailable adversarial checks, the demonstrated ungraded compatibility gap, and the missing verified GitHub publication remain explicit limitations. No task redesign or threshold change was made to improve failure statistics.
+Readiness: this is an executable experimental artifact, not a fully compliant submission. Human authorship, unavailable adversarial checks, and the demonstrated ungraded compatibility gap remain explicit limitations. GitHub publication is now verified. No task redesign or threshold change was made to improve failure statistics.
 
 ## Final review follow-up
 

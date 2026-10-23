@@ -23,9 +23,23 @@
   "known_grading_gap": "codex-standard-3 received 333/333 reward 1 but differs from pristine 0.28.0 on the analytical float16 negative-tolerance fixture. This remains an ungraded finding; no case or reward was changed.",
   "adversarial": "Codex request blocked by provider safety check; corresponding DeepSeek request withheld. Neither produced a valid adversarial result; no retry or rerouting occurred.",
   "publication": {
-    "status": "blocked; no verified repository URL",
-    "latest_native_error": "GitHub API 401 /user Bad credentials",
-    "public_repository_lookup": "404 via the connected GitHub app"
+    "status": "published and independently verified",
+    "verified_utc": "2026-10-23T02:34:30.402792+00:00",
+    "repository_url": "https://github.com/bennyzry/tb3-survival-concordance",
+    "first_published_commit": "7c1603b77218179368a39dadc546377a8ddd0a32",
+    "first_published_tree": "04fc15fa24e48d78f29354e6dab04446bf1652e9",
+    "tracked_files_verified": 131,
+    "frozen_task_files_verified": 26,
+    "verification": "Unauthenticated Git clone: every path, mode and blob SHA matched the scanned local snapshot; all 26 task files also compared byte for byte.",
+    "secret_scan_findings": [],
+    "publication_method": "Official GitHub CLI browser authentication and native Git HTTPS push; the invalid saved credential was not used.",
+    "app_write_failure": "403 Resource not accessible by integration",
+    "anonymous_rest_failure": "403 rate limit exceeded; anonymous Git verification succeeded",
+    "previous_status": {
+      "status": "blocked; no verified repository URL",
+      "latest_native_error": "GitHub API 401 /user Bad credentials",
+      "public_repository_lookup": "404 via the connected GitHub app"
+    }
   },
   "readiness": "Not ready to claim a complete, compliant TB3 submission. Preserve the usable experimental artifact and all actual successes, gaps and unavailable checks."
 }
