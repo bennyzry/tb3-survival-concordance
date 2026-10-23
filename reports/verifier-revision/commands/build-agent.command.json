@@ -1,0 +1,12 @@
+{
+  "name": "build-agent",
+  "argv": [
+    "docker",
+    "build",
+    "--progress=plain",
+    "-t",
+    "tb3-survival-numeric-v030-agent",
+    "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance/environment"
+  ],
+  "started_utc": "2026-10-23T03:02:22.229111+00:00"
+}

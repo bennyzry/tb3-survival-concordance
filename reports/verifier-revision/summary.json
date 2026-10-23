@@ -1,0 +1,518 @@
+{
+  "generated_utc": "2026-10-23T03:23:56.162047+00:00",
+  "task_version": "0.3.0",
+  "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+  "baseline_task_revision_sha256": "37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b",
+  "baseline_commit": "4d2ea842f5c74ae41b817c83e5ab2854c9a767ea",
+  "baseline_public_tag": "baseline-v0.2.0",
+  "grading_tests": 365,
+  "new_regression_cases": 32,
+  "new_model_inference": false,
+  "harbor_version": "0.23.1.dev202609170426",
+  "controls": {
+    "oracle": {
+      "result_path": "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/jobs/numeric-v030-oracle/survival-concordance__LY9nv2P/result.json",
+      "reward": 1.0,
+      "ctrf": {
+        "tests": 365,
+        "passed": 365,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792724586279,
+        "stop": 1792724725101
+      },
+      "failed_tests": [],
+      "trial_id": "bf321429-a7d1-4f51-b8ec-9524875c6dad",
+      "exception_info": null
+    },
+    "alternative": {
+      "reward": 1.0,
+      "ctrf": {
+        "tests": 365,
+        "passed": 365,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792724751227,
+        "stop": 1792724937597
+      },
+      "verifier_path": "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/alternative-verifier",
+      "source_sha256": "b93514303032d56752c0c22b0d88e66f585ddae933d088a23e477aaacdf5c24e"
+    },
+    "nop": {
+      "result_path": "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/jobs/numeric-v030-nop/survival-concordance__ARDRTix/result.json",
+      "reward": 0.0,
+      "ctrf": {
+        "tests": 365,
+        "passed": 359,
+        "failed": 6,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792724582528,
+        "stop": 1792725265221
+      },
+      "failed_tests": [
+        "test_state.py::test_scaled_performance_and_correctness[ipcw-continuous-n98317]",
+        "test_state.py::test_scaled_performance_and_correctness[censored-discrete-n131101]",
+        "test_state.py::test_scaled_performance_and_correctness[ipcw-continuous-n147457]",
+        "test_state.py::test_scaled_performance_and_correctness[censored-constant-n163841]",
+        "test_state.py::test_scaled_performance_and_correctness[censored-continuous-n196613]",
+        "test_state.py::test_large_exact_counts"
+      ],
+      "trial_id": "6332e397-79cb-46b4-a6bc-0faf74695bdc",
+      "exception_info": null
+    }
+  },
+  "offline_regrades": [
+    {
+      "implementation": "codex-standard-1-replacement",
+      "original_trial_reward": 1,
+      "original_trial_passed": 333,
+      "original_trial_total": 333,
+      "revised_offline_reward": 1.0,
+      "revised_offline_passed": 365,
+      "revised_offline_total": 365,
+      "failed_test_ids": [],
+      "source_sha256": "598768a46ae3c784f562719adb7a6abf71c5947e84c4fd335e4e5e12e4f5e078",
+      "original_trial_unchanged": true,
+      "new_model_inference": false
+    },
+    {
+      "implementation": "codex-standard-2",
+      "original_trial_reward": 1,
+      "original_trial_passed": 333,
+      "original_trial_total": 333,
+      "revised_offline_reward": 1.0,
+      "revised_offline_passed": 365,
+      "revised_offline_total": 365,
+      "failed_test_ids": [],
+      "source_sha256": "76fcbde4879f381029fa75aa94e7532c74651b8be16b900de0061bfddfa011cd",
+      "original_trial_unchanged": true,
+      "new_model_inference": false
+    },
+    {
+      "implementation": "codex-standard-3",
+      "original_trial_reward": 1,
+      "original_trial_passed": 333,
+      "original_trial_total": 333,
+      "revised_offline_reward": 0.0,
+      "revised_offline_passed": 357,
+      "revised_offline_total": 365,
+      "failed_test_ids": [
+        "test_state.py::test_public_behavior[scalar-promotion-float16--0.25-equal-ordinary]",
+        "test_state.py::test_public_behavior[scalar-promotion-float16--0.25-equal-ipcw]",
+        "test_state.py::test_public_behavior[scalar-promotion-float16--0.25-subnormal-ordinary]",
+        "test_state.py::test_public_behavior[scalar-promotion-float16--0.25-subnormal-ipcw]",
+        "test_state.py::test_public_behavior[scalar-promotion-float32--0.25-equal-ordinary]",
+        "test_state.py::test_public_behavior[scalar-promotion-float32--0.25-equal-ipcw]",
+        "test_state.py::test_public_behavior[scalar-promotion-float32--0.25-subnormal-ordinary]",
+        "test_state.py::test_public_behavior[scalar-promotion-float32--0.25-subnormal-ipcw]"
+      ],
+      "source_sha256": "ae1d340237eed6334321f5a3b98de05ce7d8157bb04433ac3be82ccdbd1ca224",
+      "original_trial_unchanged": true,
+      "new_model_inference": false
+    },
+    {
+      "implementation": "deepseek-standard-1",
+      "original_trial_reward": 1,
+      "original_trial_passed": 333,
+      "original_trial_total": 333,
+      "revised_offline_reward": 1.0,
+      "revised_offline_passed": 365,
+      "revised_offline_total": 365,
+      "failed_test_ids": [],
+      "source_sha256": "d81b1a98566253efb29dc545228bc286ed6276ea6a5e8ec8a04312c53e4e52e1",
+      "original_trial_unchanged": true,
+      "new_model_inference": false
+    },
+    {
+      "implementation": "deepseek-standard-2",
+      "original_trial_reward": 1,
+      "original_trial_passed": 333,
+      "original_trial_total": 333,
+      "revised_offline_reward": 1.0,
+      "revised_offline_passed": 365,
+      "revised_offline_total": 365,
+      "failed_test_ids": [],
+      "source_sha256": "91c4dff0cf73235a41f1f17e082fc929c6082da6c24e9468600c83c87b9563e8",
+      "original_trial_unchanged": true,
+      "new_model_inference": false
+    },
+    {
+      "implementation": "deepseek-standard-3",
+      "original_trial_reward": 1,
+      "original_trial_passed": 333,
+      "original_trial_total": 333,
+      "revised_offline_reward": 1.0,
+      "revised_offline_passed": 365,
+      "revised_offline_total": 365,
+      "failed_test_ids": [],
+      "source_sha256": "80f3b7af5c02bf96fe8d8e9fd33ec7565efc5182eb7df2b9b64b8547383852f6",
+      "original_trial_unchanged": true,
+      "new_model_inference": false
+    }
+  ],
+  "commands": [
+    {
+      "name": "build-agent",
+      "argv": [
+        "docker",
+        "build",
+        "--progress=plain",
+        "-t",
+        "tb3-survival-numeric-v030-agent",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance/environment"
+      ],
+      "started_utc": "2026-10-23T03:02:22.229111+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 1.1315136310004164,
+      "finished_utc": "2026-10-23T03:02:23.360619+00:00"
+    },
+    {
+      "name": "build-verifier",
+      "argv": [
+        "docker",
+        "build",
+        "--progress=plain",
+        "-t",
+        "tb3-survival-numeric-v030-verifier",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance/tests"
+      ],
+      "started_utc": "2026-10-23T03:02:23.479982+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 1.897604546000366,
+      "finished_utc": "2026-10-23T03:02:25.377576+00:00"
+    },
+    {
+      "name": "upstream-static",
+      "argv": [
+        "bash",
+        "[WORKSPACE]/outputs/run-static-preflight.sh",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance",
+        "[WORKSPACE]/outputs/tb3-documentation-integration/evidence/upstream",
+        "[WORKSPACE]/outputs/tb3-numeric-revision-r2/static"
+      ],
+      "started_utc": "2026-10-23T03:02:25.536187+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 2.6079262090061093,
+      "finished_utc": "2026-10-23T03:02:28.144102+00:00"
+    },
+    {
+      "name": "numeric-v030-oracle",
+      "argv": [
+        "/usr/local/bin/harbor",
+        "run",
+        "--config",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/configs/numeric-v030-oracle.json",
+        "--no-stream",
+        "--max-retries",
+        "0"
+      ],
+      "started_utc": "2026-10-23T03:02:28.166118+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 200.47897752300196,
+      "finished_utc": "2026-10-23T03:05:47.662196+00:00"
+    },
+    {
+      "name": "numeric-v030-alternative",
+      "argv": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "numeric-v030-alternative",
+        "--network",
+        "none",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--mount",
+        "type=bind,source=[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/candidates/alternative,target=/app/work,readonly",
+        "--mount",
+        "type=bind,source=[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/alternative-verifier,target=/logs/verifier",
+        "sha256:1e3234fb43bb9029e023dfa293c33abc0a023eaa30ffee92989202529b8537d8",
+        "bash",
+        "/tests/test.sh"
+      ],
+      "started_utc": "2026-10-23T03:05:47.745248+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 192.23113272199407,
+      "finished_utc": "2026-10-23T03:08:58.733418+00:00"
+    },
+    {
+      "name": "numeric-v030-nop",
+      "argv": [
+        "/usr/local/bin/harbor",
+        "run",
+        "--config",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/configs/numeric-v030-nop.json",
+        "--no-stream",
+        "--max-retries",
+        "0"
+      ],
+      "started_utc": "2026-10-23T03:02:28.166484+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 742.2856580299995,
+      "finished_utc": "2026-10-23T03:14:45.173069+00:00"
+    },
+    {
+      "name": "numeric-v030-regrade-codex-standard-2",
+      "argv": [
+        "/usr/local/bin/harbor",
+        "trials",
+        "regrade",
+        "[LOCAL_HOME]/tb3-final-submission-20261023/jobs/codex-standard-2/survival-concordance__mfhcdUc",
+        "--task-path",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance",
+        "--env",
+        "docker",
+        "--trial-name",
+        "numeric-v030-regrade-codex-standard-2",
+        "--trials-dir",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/regrades"
+      ],
+      "started_utc": "2026-10-23T03:14:45.248596+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 154.95092133400613,
+      "finished_utc": "2026-10-23T03:17:18.632689+00:00"
+    },
+    {
+      "name": "numeric-v030-regrade-codex-standard-1-replacement",
+      "argv": [
+        "/usr/local/bin/harbor",
+        "trials",
+        "regrade",
+        "[LOCAL_HOME]/tb3-final-submission-20261023/jobs/codex-standard-1-replacement/survival-concordance__CWa9VNb",
+        "--task-path",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance",
+        "--env",
+        "docker",
+        "--trial-name",
+        "numeric-v030-regrade-codex-standard-1-replacement",
+        "--trials-dir",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/regrades"
+      ],
+      "started_utc": "2026-10-23T03:14:45.248449+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 155.8561747519998,
+      "finished_utc": "2026-10-23T03:17:19.537737+00:00"
+    },
+    {
+      "name": "numeric-v030-regrade-codex-standard-3",
+      "argv": [
+        "/usr/local/bin/harbor",
+        "trials",
+        "regrade",
+        "[LOCAL_HOME]/tb3-final-submission-20261023/jobs/codex-standard-3/survival-concordance__fe6y3iz",
+        "--task-path",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance",
+        "--env",
+        "docker",
+        "--trial-name",
+        "numeric-v030-regrade-codex-standard-3",
+        "--trials-dir",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/regrades"
+      ],
+      "started_utc": "2026-10-23T03:17:18.759205+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 153.73494615699747,
+      "finished_utc": "2026-10-23T03:19:49.718675+00:00"
+    },
+    {
+      "name": "numeric-v030-regrade-deepseek-standard-1",
+      "argv": [
+        "/usr/local/bin/harbor",
+        "trials",
+        "regrade",
+        "[LOCAL_HOME]/tb3-final-submission-20261023/jobs/deepseek-standard-1/survival-concordance__UZsGnjB",
+        "--task-path",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance",
+        "--env",
+        "docker",
+        "--trial-name",
+        "numeric-v030-regrade-deepseek-standard-1",
+        "--trials-dir",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/regrades"
+      ],
+      "started_utc": "2026-10-23T03:17:19.732129+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 155.3954849540023,
+      "finished_utc": "2026-10-23T03:19:52.352094+00:00"
+    },
+    {
+      "name": "numeric-v030-regrade-deepseek-standard-3",
+      "argv": [
+        "/usr/local/bin/harbor",
+        "trials",
+        "regrade",
+        "[LOCAL_HOME]/tb3-final-submission-20261023/jobs/deepseek-standard-3/survival-concordance__w8Y9to8",
+        "--task-path",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance",
+        "--env",
+        "docker",
+        "--trial-name",
+        "numeric-v030-regrade-deepseek-standard-3",
+        "--trials-dir",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/regrades"
+      ],
+      "started_utc": "2026-10-23T03:19:52.589835+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 152.47970795299625,
+      "finished_utc": "2026-10-23T03:22:22.178875+00:00"
+    },
+    {
+      "name": "numeric-v030-regrade-deepseek-standard-2",
+      "argv": [
+        "/usr/local/bin/harbor",
+        "trials",
+        "regrade",
+        "[LOCAL_HOME]/tb3-final-submission-20261023/jobs/deepseek-standard-2/survival-concordance__igpcpi3",
+        "--task-path",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance",
+        "--env",
+        "docker",
+        "--trial-name",
+        "numeric-v030-regrade-deepseek-standard-2",
+        "--trials-dir",
+        "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/regrades"
+      ],
+      "started_utc": "2026-10-23T03:19:49.845311+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 175.0946805620042,
+      "finished_utc": "2026-10-23T03:22:41.421577+00:00"
+    }
+  ],
+  "images": {
+    "agent": "sha256:8113f6112a2b2c073285c105a02a1ec88c941aa3d4f15938c4e38fbf82153e84",
+    "verifier": "sha256:1e3234fb43bb9029e023dfa293c33abc0a023eaa30ffee92989202529b8537d8"
+  },
+  "build_mode": "Normal public Dockerfiles; dependency-layer cache enabled, not claimed as new cold builds.",
+  "ctrf_and_isolation_audits": [
+    {
+      "run": "oracle",
+      "tests": 365,
+      "passed": 365,
+      "failed": 0,
+      "reward": 1.0,
+      "complete_unique_ctrf": true,
+      "observed_uid": 10001,
+      "observed_no_new_privileges": true,
+      "observed_cpus": 1,
+      "observed_memory_bytes": 2147483648
+    },
+    {
+      "run": "alternative",
+      "tests": 365,
+      "passed": 365,
+      "failed": 0,
+      "reward": 1.0,
+      "complete_unique_ctrf": true,
+      "observed_uid": 10001,
+      "observed_no_new_privileges": true,
+      "observed_cpus": 1,
+      "observed_memory_bytes": 2147483648
+    },
+    {
+      "run": "nop",
+      "tests": 365,
+      "passed": 359,
+      "failed": 6,
+      "reward": 0.0,
+      "complete_unique_ctrf": true,
+      "observed_uid": 10001,
+      "observed_no_new_privileges": true,
+      "observed_cpus": 1,
+      "observed_memory_bytes": 2147483648
+    },
+    {
+      "run": "codex-standard-2",
+      "tests": 365,
+      "passed": 365,
+      "failed": 0,
+      "reward": 1.0,
+      "complete_unique_ctrf": true,
+      "observed_uid": 10001,
+      "observed_no_new_privileges": true,
+      "observed_cpus": 1,
+      "observed_memory_bytes": 2147483648
+    },
+    {
+      "run": "codex-standard-1-replacement",
+      "tests": 365,
+      "passed": 365,
+      "failed": 0,
+      "reward": 1.0,
+      "complete_unique_ctrf": true,
+      "observed_uid": 10001,
+      "observed_no_new_privileges": true,
+      "observed_cpus": 1,
+      "observed_memory_bytes": 2147483648
+    },
+    {
+      "run": "codex-standard-3",
+      "tests": 365,
+      "passed": 357,
+      "failed": 8,
+      "reward": 0.0,
+      "complete_unique_ctrf": true,
+      "observed_uid": 10001,
+      "observed_no_new_privileges": true,
+      "observed_cpus": 1,
+      "observed_memory_bytes": 2147483648
+    },
+    {
+      "run": "deepseek-standard-1",
+      "tests": 365,
+      "passed": 365,
+      "failed": 0,
+      "reward": 1.0,
+      "complete_unique_ctrf": true,
+      "observed_uid": 10001,
+      "observed_no_new_privileges": true,
+      "observed_cpus": 1,
+      "observed_memory_bytes": 2147483648
+    },
+    {
+      "run": "deepseek-standard-3",
+      "tests": 365,
+      "passed": 365,
+      "failed": 0,
+      "reward": 1.0,
+      "complete_unique_ctrf": true,
+      "observed_uid": 10001,
+      "observed_no_new_privileges": true,
+      "observed_cpus": 1,
+      "observed_memory_bytes": 2147483648
+    },
+    {
+      "run": "deepseek-standard-2",
+      "tests": 365,
+      "passed": 365,
+      "failed": 0,
+      "reward": 1.0,
+      "complete_unique_ctrf": true,
+      "observed_uid": 10001,
+      "observed_no_new_privileges": true,
+      "observed_cpus": 1,
+      "observed_memory_bytes": 2147483648
+    }
+  ],
+  "deadline_cst": "2026-10-23T15:00:00+08:00",
+  "earlier_1413_cst_was_internal_buffer": true,
+  "upstream_current_commit": "e67a2cb7db4d9795c212909b3395d8c22ad60aec",
+  "static_script_source_commit": "7dcecbd7e5427bec70b013da5549667ceaace041",
+  "upstream_comparison": "One intervening commit changes only a leaderboard submission; AGENTS, contribution guide, review rubrics, CI workflow and check scripts are byte-unchanged.",
+  "decision": "Adopt v0.3.0 as the stronger experimental artifact; do not claim all employer or upstream acceptance requirements are met.",
+  "limitations": [
+    "Original six standard trials all received reward 1. Revised saved-artifact grades are distinct offline regrades.",
+    "The requested six legitimate reward-0 model outcomes are not achieved. A narrow numeric regression does not establish frontier-level task difficulty.",
+    "Adversarial results remain unavailable; the provider-blocked request is not retried or rerouted.",
+    "The instruction and four required README explanations remain AI-generated and require human authorship.",
+    "The prior substituted review is not official; this revision receives a manual delta review, not an upstream hosted verdict."
+  ]
+}

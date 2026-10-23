@@ -1,0 +1,24 @@
+{
+  "name": "numeric-v030-alternative",
+  "argv": [
+    "docker",
+    "run",
+    "--rm",
+    "--name",
+    "numeric-v030-alternative",
+    "--network",
+    "none",
+    "--cpus",
+    "1",
+    "--memory",
+    "2g",
+    "--mount",
+    "type=bind,source=[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/candidates/alternative,target=/app/work,readonly",
+    "--mount",
+    "type=bind,source=[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/alternative-verifier,target=/logs/verifier",
+    "sha256:1e3234fb43bb9029e023dfa293c33abc0a023eaa30ffee92989202529b8537d8",
+    "bash",
+    "/tests/test.sh"
+  ],
+  "started_utc": "2026-10-23T03:05:47.745248+00:00"
+}

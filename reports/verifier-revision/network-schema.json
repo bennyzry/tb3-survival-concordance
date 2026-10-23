@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-23T03:08:02.805717+00:00",
+  "native_exit_code": 0,
+  "harbor_version": "0.23.1.dev202609170426",
+  "task_version": "0.3.0",
+  "network_mode": "public",
+  "network_field_recognized": true,
+  "agent_timeout": 14400.0,
+  "verifier_timeout": 1200.0,
+  "schema_sha256": "d8c62a49acefb8cd6a0be4c4d48dc0f4f52f31f8a8a6728439aad04e1c62e9fb"
+}

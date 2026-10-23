@@ -1,0 +1,21 @@
+{
+  "name": "numeric-v030-regrade-deepseek-standard-2",
+  "argv": [
+    "/usr/local/bin/harbor",
+    "trials",
+    "regrade",
+    "[LOCAL_HOME]/tb3-final-submission-20261023/jobs/deepseek-standard-2/survival-concordance__igpcpi3",
+    "--task-path",
+    "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance",
+    "--env",
+    "docker",
+    "--trial-name",
+    "numeric-v030-regrade-deepseek-standard-2",
+    "--trials-dir",
+    "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/regrades"
+  ],
+  "started_utc": "2026-10-23T03:19:49.845311+00:00",
+  "native_exit_code": 0,
+  "elapsed_sec": 175.0946805620042,
+  "finished_utc": "2026-10-23T03:22:41.421577+00:00"
+}

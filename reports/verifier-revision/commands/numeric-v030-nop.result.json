@@ -1,0 +1,16 @@
+{
+  "name": "numeric-v030-nop",
+  "argv": [
+    "/usr/local/bin/harbor",
+    "run",
+    "--config",
+    "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/configs/numeric-v030-nop.json",
+    "--no-stream",
+    "--max-retries",
+    "0"
+  ],
+  "started_utc": "2026-10-23T03:02:28.166484+00:00",
+  "native_exit_code": 0,
+  "elapsed_sec": 742.2856580299995,
+  "finished_utc": "2026-10-23T03:14:45.173069+00:00"
+}

@@ -3,13 +3,13 @@
 import math
 import pytest
 import sksurv.metrics as baseline
-from cases import small_cases, api_call_cases, independent_pairs, ordinary, production_case
+from cases import small_cases, api_call_cases, scalar_promotion_cases, independent_pairs, ordinary, production_case
 from harness import run
 from worker import capture
 from workloads import intermediate_cases, PERFORMANCE_SPECS, performance_case, exact_count_case
 from reference import blocked_pairs
 
-CASES=small_cases()+api_call_cases()
+CASES=small_cases()+api_call_cases()+scalar_promotion_cases()
 INTERMEDIATE=intermediate_cases()
 # Size-based allowance includes startup/input overhead and broad algorithm margins.
 def process_budget(n):
@@ -44,8 +44,8 @@ def test_public_behavior(case,answers):
     assert actual['numeric_score'] and actual['integer_counts']
     same_result(actual['result'],expected['result'])
     assert actual['warnings']==expected['warnings']
-    # Negative tolerance is an undocumented legacy behavior: compatibility oracle only.
-    if case.get('tol',1e-8)>=0 and math.isfinite(case.get('tol',1e-8)):
+    # Pair arithmetic preserves NumPy scalar promotion for finite legacy tolerances.
+    if math.isfinite(case.get('tol',1e-8)):
         same_result(actual['result'],independent_pairs(case))
 
 

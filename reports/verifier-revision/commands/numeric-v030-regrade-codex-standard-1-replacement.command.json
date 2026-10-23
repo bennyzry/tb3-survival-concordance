@@ -1,0 +1,18 @@
+{
+  "name": "numeric-v030-regrade-codex-standard-1-replacement",
+  "argv": [
+    "/usr/local/bin/harbor",
+    "trials",
+    "regrade",
+    "[LOCAL_HOME]/tb3-final-submission-20261023/jobs/codex-standard-1-replacement/survival-concordance__CWa9VNb",
+    "--task-path",
+    "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance",
+    "--env",
+    "docker",
+    "--trial-name",
+    "numeric-v030-regrade-codex-standard-1-replacement",
+    "--trials-dir",
+    "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/regrades"
+  ],
+  "started_utc": "2026-10-23T03:14:45.248449+00:00"
+}

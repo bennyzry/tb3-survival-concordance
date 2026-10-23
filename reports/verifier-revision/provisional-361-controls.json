@@ -1,0 +1,209 @@
+{
+  "started_utc": "2026-10-23T02:48:58.631561+00:00",
+  "status": "controls running",
+  "new_model_inference": false,
+  "max_concurrency": 2,
+  "deadline_cst": "2026-10-23T15:00:00+08:00",
+  "validation_milestone_cst": "2026-10-23T12:30:00+08:00",
+  "regrade_milestone_cst": "2026-10-23T13:30:00+08:00",
+  "commands": [
+    {
+      "name": "build-agent",
+      "argv": [
+        "docker",
+        "build",
+        "--progress=plain",
+        "-t",
+        "tb3-survival-numeric-v030-agent",
+        "[LOCAL_HOME]/tb3-numeric-revision-20261023/tasks/survival-concordance/environment"
+      ],
+      "started_utc": "2026-10-23T02:48:59.064755+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 2.595163721998688,
+      "finished_utc": "2026-10-23T02:49:01.659909+00:00"
+    },
+    {
+      "name": "build-verifier",
+      "argv": [
+        "docker",
+        "build",
+        "--progress=plain",
+        "-t",
+        "tb3-survival-numeric-v030-verifier",
+        "[LOCAL_HOME]/tb3-numeric-revision-20261023/tasks/survival-concordance/tests"
+      ],
+      "started_utc": "2026-10-23T02:49:01.900298+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 2.2482838650030317,
+      "finished_utc": "2026-10-23T02:49:04.148566+00:00"
+    },
+    {
+      "name": "upstream-static",
+      "argv": [
+        "bash",
+        "[WORKSPACE]/outputs/run-static-preflight.sh",
+        "[LOCAL_HOME]/tb3-numeric-revision-20261023/tasks/survival-concordance",
+        "[WORKSPACE]/outputs/tb3-documentation-integration/evidence/upstream",
+        "[WORKSPACE]/outputs/tb3-numeric-revision/static"
+      ],
+      "started_utc": "2026-10-23T02:49:04.346384+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 3.317283092008438,
+      "finished_utc": "2026-10-23T02:49:07.663653+00:00"
+    },
+    {
+      "name": "numeric-v030-oracle",
+      "argv": [
+        "/usr/local/bin/harbor",
+        "run",
+        "--config",
+        "[LOCAL_HOME]/tb3-numeric-revision-20261023/configs/numeric-v030-oracle.json",
+        "--no-stream",
+        "--max-retries",
+        "0"
+      ],
+      "started_utc": "2026-10-23T02:49:07.696009+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 206.07173390199023,
+      "finished_utc": "2026-10-23T02:52:32.799848+00:00"
+    },
+    {
+      "name": "numeric-v030-alternative",
+      "argv": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "numeric-v030-alternative",
+        "--network",
+        "none",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--mount",
+        "type=bind,source=[LOCAL_HOME]/tb3-numeric-revision-20261023/candidates/alternative,target=/app/work,readonly",
+        "--mount",
+        "type=bind,source=[LOCAL_HOME]/tb3-numeric-revision-20261023/alternative-verifier,target=/logs/verifier",
+        "sha256:c94cc109dc9966253a2df38c98365d195c524dcf53891a5aef9d8bcf1028078c",
+        "bash",
+        "/tests/test.sh"
+      ],
+      "started_utc": "2026-10-23T02:52:32.916669+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 184.63522309200198,
+      "finished_utc": "2026-10-23T02:55:36.745777+00:00"
+    },
+    {
+      "name": "numeric-v030-nop",
+      "argv": [
+        "/usr/local/bin/harbor",
+        "run",
+        "--config",
+        "[LOCAL_HOME]/tb3-numeric-revision-20261023/configs/numeric-v030-nop.json",
+        "--no-stream",
+        "--max-retries",
+        "0"
+      ],
+      "started_utc": "2026-10-23T02:49:07.696342+00:00",
+      "native_exit_code": 0,
+      "elapsed_sec": 742.8325218109967,
+      "finished_utc": "2026-10-23T03:01:27.053631+00:00"
+    }
+  ],
+  "controls": {
+    "oracle": {
+      "result_path": "[LOCAL_HOME]/tb3-numeric-revision-20261023/jobs/numeric-v030-oracle/survival-concordance__fvhBXNM/result.json",
+      "reward": 1.0,
+      "ctrf": {
+        "tests": 361,
+        "passed": 361,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792723797287,
+        "stop": 1792723929303
+      },
+      "failed_tests": [],
+      "trial_id": "eef70ad2-5495-4d26-bef5-3a2ea28bb464",
+      "exception_info": null
+    },
+    "alternative": {
+      "reward": 1.0,
+      "ctrf": {
+        "tests": 361,
+        "passed": 361,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792723959449,
+        "stop": 1792724135716
+      },
+      "verifier_path": "[LOCAL_HOME]/tb3-numeric-revision-20261023/alternative-verifier",
+      "source_sha256": "b93514303032d56752c0c22b0d88e66f585ddae933d088a23e477aaacdf5c24e"
+    },
+    "nop": {
+      "result_path": "[LOCAL_HOME]/tb3-numeric-revision-20261023/jobs/numeric-v030-nop/survival-concordance__R3TM4Rm/result.json",
+      "reward": 0.0,
+      "ctrf": {
+        "tests": 361,
+        "passed": 356,
+        "failed": 5,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792723793082,
+        "stop": 1792724467354
+      },
+      "failed_tests": [
+        "test_state.py::test_scaled_performance_and_correctness[censored-discrete-n131101]",
+        "test_state.py::test_scaled_performance_and_correctness[ipcw-continuous-n147457]",
+        "test_state.py::test_scaled_performance_and_correctness[censored-constant-n163841]",
+        "test_state.py::test_scaled_performance_and_correctness[censored-continuous-n196613]",
+        "test_state.py::test_large_exact_counts"
+      ],
+      "trial_id": "bef50e28-6684-4473-9b31-22160e5012df",
+      "exception_info": null
+    }
+  },
+  "regrades": {},
+  "task_revision_sha256": "258e88e39cbcba5073222e57eca6b7611e7ef23794747cfe1afbde15f90a5009",
+  "task_version": "0.3.0",
+  "snapshot": "[LOCAL_HOME]/tb3-numeric-revision-20261023/tasks/survival-concordance",
+  "snapshot_files": {
+    "instruction.md": "d4769c7e9d7cb5369bcd3a02861dc3fc33a03f5ff7702f83139ea07e77fbd446",
+    "LICENSE": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "README.md": "ee4bfa657c04e1665160a05163c1fc52758054c246a7fc5b3dfeaac79d0927c1",
+    "task.toml": "ffeeb646cb30840e52eda549cc59414372e9682231a9503bca17ad5c41e5fbb9",
+    "environment/.dockerignore": "7005035559143cd2bd47bc85eb46c85fce7ad7faea64763b371bde62c08ddb02",
+    "environment/Dockerfile": "137669181b7df8f0894f6a0180852e6b09d47c88ad2f1d4f3b26fe58c55014a5",
+    "environment/LICENSE": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "environment/metrics.py": "52a01078d8883a588c55833d78d6c6e4d882ae40201280dddc256e53ad07e711",
+    "environment/requirements.lock": "aaa12a38e78090776dec9c4fc82a35bacbeb25751d5cf1407664b46ca84a0738",
+    "solution/concordance.patch": "7659d240937b72eca6ff97654f5caa97b98a3e690a0c3d5b92a53faeb674b415",
+    "solution/solve.sh": "79b2593bb8b4fe8e32d369a85433716a20c38bfa8e50b23e71c342f270468803",
+    "tests/.dockerignore": "7005035559143cd2bd47bc85eb46c85fce7ad7faea64763b371bde62c08ddb02",
+    "tests/cases.py": "83035096e0fdbc8987c16daa662859bb38a0f415706700ad8b6cb6fc0c65b70e",
+    "tests/conftest.py": "58576dafc606f7963a9bf411fcfe1dcc23aafd071a8fe6c9204a74dbecd98c4d",
+    "tests/Dockerfile": "98d74c19a1af28dc8f22aed73793b420a321d8822404fa4d540f00bf6db34d6e",
+    "tests/format_report.py": "06cdc9a3ea20b268c73c4defcdc11ec529a9e79ae9cdfe0d5f47e7ce1fa1859b",
+    "tests/harness.py": "478550b1b0cbd4614e4665a42118329dee8bf7822903f3215a530694c00f697c",
+    "tests/LICENSE": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "tests/preflight.py": "ac8c0b99705a8fd28989cb9addd698cc2e9b0afd06101e9f0eadb5be8fd8e63f",
+    "tests/reference.py": "a11af8ffad896fd2b176e36e197146833262e02179259364a656aed7cd1e08e9",
+    "tests/requirements.lock": "fd78a8edfafa90e4bcfcc6dca23189f6a4899f821294f52e17b259a9dbc91f3b",
+    "tests/runtime.lock": "aaa12a38e78090776dec9c4fc82a35bacbeb25751d5cf1407664b46ca84a0738",
+    "tests/test.sh": "33ac84b02966604dab613734acf6aa8275d776531ec2fbfae87ed6ec5fbe8c3a",
+    "tests/test_state.py": "5a8c8498a73a965b421942294215c47e93401c4bc0a081a7500313671b7baf25",
+    "tests/worker.py": "dd444fb3911a19602e01d365f5ceedcfd2d00d575d2219c93cb6350dec023446",
+    "tests/workloads.py": "4780316aefbe47749783aba6fbab381f048483e8fc97cbacf4c01d5530b7e01d"
+  },
+  "images": {
+    "agent": "sha256:3cedda814e35287f89a2d4b85070b85cacfad85bf2b7eb2dfb896950914269d0",
+    "verifier": "sha256:c94cc109dc9966253a2df38c98365d195c524dcf53891a5aef9d8bcf1028078c"
+  },
+  "build_mode": "Normal public Dockerfiles; dependency-layer cache enabled, not claimed as new cold builds.",
+  "finished_utc": "2026-10-23T03:01:27.079127+00:00"
+}

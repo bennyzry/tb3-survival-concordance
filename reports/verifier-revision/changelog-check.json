@@ -1,0 +1,12 @@
+{
+  "command": [
+    "bash",
+    "[WORKSPACE]/outputs/tb3-documentation-integration/evidence/upstream/scripts/checks/check-task-changelog.sh",
+    "tasks/survival-concordance"
+  ],
+  "native_exit_code": 0,
+  "elapsed_sec": 0.07685486899572425,
+  "stdout": "",
+  "stderr": "",
+  "context": "Additional existing-task version/changelog check against the preserved baseline. No PR exists; no fabricated PR link."
+}

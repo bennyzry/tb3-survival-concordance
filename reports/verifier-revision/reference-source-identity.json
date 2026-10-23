@@ -1,0 +1,6 @@
+{
+  "oracle_v020_source_sha256": "c4f56885556e300530dd282aa2c1ff03405a44a649ac7a47cb1251807dd4cebc",
+  "oracle_v030_source_sha256": "bdb27746f5a5cf988cbddc417c53698b5ae4a341e0dfe3c4b23981ae451683b0",
+  "alternative_source_sha256": "b93514303032d56752c0c22b0d88e66f585ddae933d088a23e477aaacdf5c24e",
+  "baseline_oracle_diagnostic_source_matches_executed_control": true
+}

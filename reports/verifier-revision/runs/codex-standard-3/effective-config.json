@@ -1,0 +1,21 @@
+{
+  "task": {
+    "path": "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance"
+  },
+  "trial_name": "numeric-v030-regrade-codex-standard-3",
+  "trials_dir": "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/regrades",
+  "agent": {
+    "name": "codex",
+    "model_name": "openai/gpt-6.1-sol",
+    "kwargs": {
+      "reasoning_effort": "xhigh",
+      "version": "0.163.0"
+    }
+  },
+  "source_trial": {
+    "action": "regrade",
+    "type": "local",
+    "trial_id": "5013245e-a7d5-4481-b81b-c84dae2b0cc8",
+    "path": "[LOCAL_HOME]/tb3-final-submission-20261023/jobs/codex-standard-3/survival-concordance__fe6y3iz"
+  }
+}

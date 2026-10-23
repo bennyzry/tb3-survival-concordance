@@ -1,0 +1,5815 @@
+{
+  "diagnostic_only": true,
+  "new_model_inference": false,
+  "derivation": "Replicating each subject r times multiplies every eligible pair category by r squared and leaves the weighted score invariant. Training data is unchanged.",
+  "results": {
+    "codex-standard-1-replacement": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "promotion-float16--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        }
+      ]
+    },
+    "codex-standard-2": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "promotion-float16--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        }
+      ]
+    },
+    "codex-standard-3": {
+      "checked": 16,
+      "matched": 8,
+      "records": [
+        {
+          "case": "promotion-float16--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.0,
+              0,
+              660490,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": false
+        },
+        {
+          "case": "promotion-float16--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.0,
+              0,
+              660490,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": false
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": false
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": false
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.0,
+              0,
+              660490,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": false
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.0,
+              0,
+              660490,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": false
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": false
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": false
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        }
+      ]
+    },
+    "deepseek-standard-1": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "promotion-float16--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        }
+      ]
+    },
+    "deepseek-standard-2": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "promotion-float16--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        }
+      ]
+    },
+    "deepseek-standard-3": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "promotion-float16--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        }
+      ]
+    },
+    "oracle": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "promotion-float16--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        }
+      ]
+    },
+    "alternative": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "promotion-float16--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float16-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-equal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ordinary",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.55,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        },
+        {
+          "case": "promotion-float32-0.25-subnormal-ipcw",
+          "n": 1542,
+          "replication_factor": 257,
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "analytical_replication": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5639999999999874,
+              330245,
+              264196,
+              66049,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "matches": true
+        }
+      ]
+    }
+  }
+}

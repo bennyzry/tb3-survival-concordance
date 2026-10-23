@@ -1,0 +1,4203 @@
+{
+  "diagnostic_only": true,
+  "new_model_inference": false,
+  "purpose": "NumPy dtype scalar-promotion at subnormal tolerance boundaries, across both published APIs.",
+  "numpy": "2.5.4",
+  "cases": [
+    {
+      "id": "promotion-float16--1.0-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": -5.960464477539063e-08
+    },
+    {
+      "id": "promotion-float16--1.0-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": -5.960464477539063e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16--1.0-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": -5.960464477539063e-08
+    },
+    {
+      "id": "promotion-float16--1.0-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": -5.960464477539063e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16--0.75-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": -4.470348358154297e-08
+    },
+    {
+      "id": "promotion-float16--0.75-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": -4.470348358154297e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16--0.75-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": -4.470348358154297e-08
+    },
+    {
+      "id": "promotion-float16--0.75-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": -4.470348358154297e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16--0.5-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": -2.9802322387695312e-08
+    },
+    {
+      "id": "promotion-float16--0.5-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": -2.9802322387695312e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16--0.5-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": -2.9802322387695312e-08
+    },
+    {
+      "id": "promotion-float16--0.5-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": -2.9802322387695312e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16--0.25-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": -1.4901161193847656e-08
+    },
+    {
+      "id": "promotion-float16--0.25-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": -1.4901161193847656e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16--0.25-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": -1.4901161193847656e-08
+    },
+    {
+      "id": "promotion-float16--0.25-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": -1.4901161193847656e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16-0.25-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": 1.4901161193847656e-08
+    },
+    {
+      "id": "promotion-float16-0.25-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": 1.4901161193847656e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16-0.25-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": 1.4901161193847656e-08
+    },
+    {
+      "id": "promotion-float16-0.25-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": 1.4901161193847656e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16-0.5-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": 2.9802322387695312e-08
+    },
+    {
+      "id": "promotion-float16-0.5-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": 2.9802322387695312e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16-0.5-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": 2.9802322387695312e-08
+    },
+    {
+      "id": "promotion-float16-0.5-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": 2.9802322387695312e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16-0.75-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": 4.470348358154297e-08
+    },
+    {
+      "id": "promotion-float16-0.75-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": 4.470348358154297e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16-0.75-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": 4.470348358154297e-08
+    },
+    {
+      "id": "promotion-float16-0.75-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": 4.470348358154297e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16-1.0-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": 5.960464477539063e-08
+    },
+    {
+      "id": "promotion-float16-1.0-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float16",
+      "tol": 5.960464477539063e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float16-1.0-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": 5.960464477539063e-08
+    },
+    {
+      "id": "promotion-float16-1.0-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5.960464477539063e-08,
+        -5.960464477539063e-08,
+        0.0,
+        1.1920928955078125e-07,
+        -1.1920928955078125e-07
+      ],
+      "dtype": "float16",
+      "tol": 5.960464477539063e-08,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32--1.0-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": -1.401298464324817e-45
+    },
+    {
+      "id": "promotion-float32--1.0-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": -1.401298464324817e-45,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32--1.0-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": -1.401298464324817e-45
+    },
+    {
+      "id": "promotion-float32--1.0-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": -1.401298464324817e-45,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32--0.75-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": -1.0509738482436128e-45
+    },
+    {
+      "id": "promotion-float32--0.75-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": -1.0509738482436128e-45,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32--0.75-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": -1.0509738482436128e-45
+    },
+    {
+      "id": "promotion-float32--0.75-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": -1.0509738482436128e-45,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32--0.5-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": -7.006492321624085e-46
+    },
+    {
+      "id": "promotion-float32--0.5-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": -7.006492321624085e-46,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32--0.5-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": -7.006492321624085e-46
+    },
+    {
+      "id": "promotion-float32--0.5-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": -7.006492321624085e-46,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32--0.25-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": -3.503246160812043e-46
+    },
+    {
+      "id": "promotion-float32--0.25-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": -3.503246160812043e-46,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32--0.25-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": -3.503246160812043e-46
+    },
+    {
+      "id": "promotion-float32--0.25-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": -3.503246160812043e-46,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32-0.25-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": 3.503246160812043e-46
+    },
+    {
+      "id": "promotion-float32-0.25-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": 3.503246160812043e-46,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32-0.25-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": 3.503246160812043e-46
+    },
+    {
+      "id": "promotion-float32-0.25-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": 3.503246160812043e-46,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32-0.5-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": 7.006492321624085e-46
+    },
+    {
+      "id": "promotion-float32-0.5-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": 7.006492321624085e-46,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32-0.5-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": 7.006492321624085e-46
+    },
+    {
+      "id": "promotion-float32-0.5-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": 7.006492321624085e-46,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32-0.75-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": 1.0509738482436128e-45
+    },
+    {
+      "id": "promotion-float32-0.75-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": 1.0509738482436128e-45,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32-0.75-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": 1.0509738482436128e-45
+    },
+    {
+      "id": "promotion-float32-0.75-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": 1.0509738482436128e-45,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32-1.0-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": 1.401298464324817e-45
+    },
+    {
+      "id": "promotion-float32-1.0-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float32",
+      "tol": 1.401298464324817e-45,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float32-1.0-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": 1.401298464324817e-45
+    },
+    {
+      "id": "promotion-float32-1.0-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        1.401298464324817e-45,
+        -1.401298464324817e-45,
+        0.0,
+        2.802596928649634e-45,
+        -2.802596928649634e-45
+      ],
+      "dtype": "float32",
+      "tol": 1.401298464324817e-45,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64--1.0-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": -5e-324
+    },
+    {
+      "id": "promotion-float64--1.0-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": -5e-324,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64--1.0-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": -5e-324
+    },
+    {
+      "id": "promotion-float64--1.0-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": -5e-324,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64--0.75-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": -5e-324
+    },
+    {
+      "id": "promotion-float64--0.75-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": -5e-324,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64--0.75-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": -5e-324
+    },
+    {
+      "id": "promotion-float64--0.75-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": -5e-324,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64--0.5-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": -0.0
+    },
+    {
+      "id": "promotion-float64--0.5-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": -0.0,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64--0.5-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": -0.0
+    },
+    {
+      "id": "promotion-float64--0.5-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": -0.0,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64--0.25-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": -0.0
+    },
+    {
+      "id": "promotion-float64--0.25-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": -0.0,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64--0.25-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": -0.0
+    },
+    {
+      "id": "promotion-float64--0.25-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": -0.0,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64-0.25-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": 0.0
+    },
+    {
+      "id": "promotion-float64-0.25-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": 0.0,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64-0.25-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": 0.0
+    },
+    {
+      "id": "promotion-float64-0.25-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": 0.0,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64-0.5-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": 0.0
+    },
+    {
+      "id": "promotion-float64-0.5-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": 0.0,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64-0.5-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": 0.0
+    },
+    {
+      "id": "promotion-float64-0.5-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": 0.0,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64-0.75-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": 5e-324
+    },
+    {
+      "id": "promotion-float64-0.75-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": 5e-324,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64-0.75-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": 5e-324
+    },
+    {
+      "id": "promotion-float64-0.75-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": 5e-324,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64-1.0-equal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": 5e-324
+    },
+    {
+      "id": "promotion-float64-1.0-equal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dtype": "float64",
+      "tol": 5e-324,
+      "tau": 3.5
+    },
+    {
+      "id": "promotion-float64-1.0-subnormal-ordinary",
+      "api": "censored",
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": 5e-324
+    },
+    {
+      "id": "promotion-float64-1.0-subnormal-ipcw",
+      "api": "ipcw",
+      "train_event": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "train_time": [
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "event": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "time": [
+        1.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0
+      ],
+      "risk": [
+        0.0,
+        5e-324,
+        -5e-324,
+        0.0,
+        1e-323,
+        -1e-323
+      ],
+      "dtype": "float64",
+      "tol": 5e-324,
+      "tau": 3.5
+    }
+  ],
+  "case_count": 96,
+  "independent_reference_mismatches": [],
+  "implementations": {
+    "codex-standard-1-replacement": {
+      "checked": 96,
+      "matched": 96,
+      "mismatches": []
+    },
+    "codex-standard-2": {
+      "checked": 96,
+      "matched": 96,
+      "mismatches": []
+    },
+    "codex-standard-3": {
+      "checked": 96,
+      "matched": 80,
+      "mismatches": [
+        {
+          "case": "promotion-float16--0.5-equal-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.0,
+              0,
+              10,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float16--0.5-equal-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.0,
+              0,
+              10,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float16--0.5-subnormal-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              5,
+              4,
+              1,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float16--0.5-subnormal-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              5,
+              4,
+              1,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float16--0.25-equal-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.0,
+              0,
+              10,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float16--0.25-equal-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.0,
+              0,
+              10,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              5,
+              4,
+              1,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float16--0.25-subnormal-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              5,
+              4,
+              1,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float32--0.5-equal-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.0,
+              0,
+              10,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float32--0.5-equal-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.0,
+              0,
+              10,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float32--0.5-subnormal-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              5,
+              4,
+              1,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float32--0.5-subnormal-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              5,
+              4,
+              1,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.0,
+              0,
+              10,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float32--0.25-equal-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.0,
+              0,
+              10,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.55,
+              5,
+              4,
+              1,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        },
+        {
+          "case": "promotion-float32--0.25-subnormal-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5640000000000001,
+              5,
+              4,
+              1,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          }
+        }
+      ]
+    },
+    "deepseek-standard-1": {
+      "checked": 96,
+      "matched": 96,
+      "mismatches": []
+    },
+    "deepseek-standard-2": {
+      "checked": 96,
+      "matched": 96,
+      "mismatches": []
+    },
+    "deepseek-standard-3": {
+      "checked": 96,
+      "matched": 96,
+      "mismatches": []
+    }
+  }
+}

@@ -1,0 +1,52 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.45kB 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.13.7-slim-bookworm@sha256:adafcc17694d715c905b4c7bebd96907a1fd5cf183395f0ebc4d3428bd22d92d
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 82B done
+#3 DONE 0.0s
+
+#4 [1/8] FROM docker.io/library/python:3.13.7-slim-bookworm@sha256:adafcc17694d715c905b4c7bebd96907a1fd5cf183395f0ebc4d3428bd22d92d
+#4 resolve docker.io/library/python:3.13.7-slim-bookworm@sha256:adafcc17694d715c905b4c7bebd96907a1fd5cf183395f0ebc4d3428bd22d92d 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 98B done
+#5 DONE 0.0s
+
+#6 [3/8] COPY requirements.lock /opt/runtime.lock
+#6 CACHED
+
+#7 [7/8] RUN python -c 'from pathlib import Path; import hashlib, sksurv; p=Path("/app/work/sksurv/metrics.py"); assert hashlib.sha256(p.read_bytes()).hexdigest()=="52a01078d8883a588c55833d78d6c6e4d882ae40201280dddc256e53ad07e711"; site=Path(sksurv.__file__).parent.parent; (site/"tb3_work.pth").write_text("import sksurv; sksurv.__path__.insert(0, \"/app/work/sksurv\")\n")'
+#7 CACHED
+
+#8 [4/8] RUN python -m pip install --no-cache-dir numpy==2.5.4 setuptools==84.2.1 wheel==0.45.1     && python -m pip install --no-cache-dir --no-build-isolation -r /opt/runtime.lock     && python -m pip check
+#8 CACHED
+
+#9 [5/8] COPY LICENSE /app/LICENSE
+#9 CACHED
+
+#10 [6/8] COPY metrics.py /app/work/sksurv/metrics.py
+#10 CACHED
+
+#11 [2/8] RUN apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=20 update     && (apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=20 install -y --no-install-recommends         build-essential ca-certificates curl git patch procps time         || apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=20 install -y --no-install-recommends         build-essential ca-certificates curl git patch procps time)     && rm -rf /var/lib/apt/lists/*
+#11 CACHED
+
+#12 [8/8] WORKDIR /app/work
+#12 CACHED
+
+#13 exporting to image
+#13 exporting layers 0.0s done
+#13 exporting manifest sha256:1743bd81a1c1f762c6dedeb2f4fe27c48d72fbea3803993863af324dc1025f29 done
+#13 exporting config sha256:afd0e03f857f68bae34a4db35c59dfe9cb07fed1986b06d541cec5eaee82a9f8 done
+#13 exporting attestation manifest sha256:46d1bb5078c900c9774f9f8d884b65cbd6122b12fad4fcfefe217d14a4024e07 0.0s done
+#13 exporting manifest list sha256:8113f6112a2b2c073285c105a02a1ec88c941aa3d4f15938c4e38fbf82153e84 0.0s done
+#13 naming to docker.io/library/tb3-survival-numeric-v030-agent:latest done
+#13 unpacking to docker.io/library/tb3-survival-numeric-v030-agent:latest
+#13 unpacking to docker.io/library/tb3-survival-numeric-v030-agent:latest 0.0s done
+#13 DONE 0.2s

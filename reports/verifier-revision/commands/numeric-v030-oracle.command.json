@@ -1,0 +1,13 @@
+{
+  "name": "numeric-v030-oracle",
+  "argv": [
+    "/usr/local/bin/harbor",
+    "run",
+    "--config",
+    "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/configs/numeric-v030-oracle.json",
+    "--no-stream",
+    "--max-retries",
+    "0"
+  ],
+  "started_utc": "2026-10-23T03:02:28.166118+00:00"
+}

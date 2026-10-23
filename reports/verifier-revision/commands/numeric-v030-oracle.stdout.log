@@ -1,0 +1,24 @@
+  1/1 Mean: 1.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:03:09 0:00:00
+
+adhoc • oracle
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│      1 │          0 │ 1.000 │
+└────────┴────────────┴───────┘
+
+┏━━━━━━━━┳━━━━━━━┓
+┃ Reward ┃ Count ┃
+┡━━━━━━━━╇━━━━━━━┩
+│ 1.0    │     1 │
+└────────┴───────┘
+
+Job Info
+Total runtime: 3m 8s
+Results written to
+[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/jobs/numeric-v030-oracle/result.jso
+n
+Inspect results by running `harbor view
+[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/jobs`
+Share results by running `harbor upload
+[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/jobs/numeric-v030-oracle`

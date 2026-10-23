@@ -1,0 +1,11 @@
+Regrading trial: survival-concordance__w8Y9to8
+Task: terminal-bench/survival-concordance
+Verifier source:
+[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance
+New trial directory:
+[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/regrades/numeric-v030-regrade-deeps
+eek-standard-3
+
+Regrade completed!
+Original rewards: {'reward': 1.0}
+Regraded rewards: {'reward': 1.0}

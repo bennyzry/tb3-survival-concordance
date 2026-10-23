@@ -1,0 +1,47 @@
+{
+  "alternative": {
+    "scale_attempts": 18,
+    "timed_out_attempts": 0,
+    "min_completed_budget_ratio": 4.203098507989054
+  },
+  "codex-standard-1-replacement": {
+    "scale_attempts": 18,
+    "timed_out_attempts": 0,
+    "min_completed_budget_ratio": 6.4760298888371
+  },
+  "codex-standard-2": {
+    "scale_attempts": 18,
+    "timed_out_attempts": 0,
+    "min_completed_budget_ratio": 6.494736855475277
+  },
+  "codex-standard-3": {
+    "scale_attempts": 18,
+    "timed_out_attempts": 0,
+    "min_completed_budget_ratio": 7.057339051594353
+  },
+  "deepseek-standard-1": {
+    "scale_attempts": 18,
+    "timed_out_attempts": 0,
+    "min_completed_budget_ratio": 7.210999173875371
+  },
+  "deepseek-standard-2": {
+    "scale_attempts": 18,
+    "timed_out_attempts": 0,
+    "min_completed_budget_ratio": 6.22711006719548
+  },
+  "deepseek-standard-3": {
+    "scale_attempts": 18,
+    "timed_out_attempts": 0,
+    "min_completed_budget_ratio": 6.882111216265968
+  },
+  "nop": {
+    "scale_attempts": 18,
+    "timed_out_attempts": 12,
+    "min_completed_budget_ratio": 1.9810606985364796
+  },
+  "oracle": {
+    "scale_attempts": 18,
+    "timed_out_attempts": 0,
+    "min_completed_budget_ratio": 7.061817545911953
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "upstream-static",
+  "argv": [
+    "bash",
+    "[WORKSPACE]/outputs/run-static-preflight.sh",
+    "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance",
+    "[WORKSPACE]/outputs/tb3-documentation-integration/evidence/upstream",
+    "[WORKSPACE]/outputs/tb3-numeric-revision-r2/static"
+  ],
+  "started_utc": "2026-10-23T03:02:25.536187+00:00",
+  "native_exit_code": 0,
+  "elapsed_sec": 2.6079262090061093,
+  "finished_utc": "2026-10-23T03:02:28.144102+00:00"
+}

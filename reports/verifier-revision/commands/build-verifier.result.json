@@ -1,0 +1,15 @@
+{
+  "name": "build-verifier",
+  "argv": [
+    "docker",
+    "build",
+    "--progress=plain",
+    "-t",
+    "tb3-survival-numeric-v030-verifier",
+    "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance/tests"
+  ],
+  "started_utc": "2026-10-23T03:02:23.479982+00:00",
+  "native_exit_code": 0,
+  "elapsed_sec": 1.897604546000366,
+  "finished_utc": "2026-10-23T03:02:25.377576+00:00"
+}

@@ -1,0 +1,86 @@
+{
+  "reviewed_utc": "2026-10-23T03:23:53.892792+00:00",
+  "review_type": "Codex source-based manual delta review; not independent or official",
+  "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+  "upstream_head_verified": "e67a2cb7db4d9795c212909b3395d8c22ad60aec",
+  "rubric_sha256": "345a566111d767fb79ce72c4b772cbc897a9638114a08f80e094beb8a72c6f1c",
+  "prior_substituted_review": {
+    "scope": "v0.2.0 source package before complete model outcomes and post-hoc diagnostic",
+    "pass": 33,
+    "fail": 2,
+    "not_applicable": 1,
+    "official": false,
+    "record": "../substituted-review-verdicts.json"
+  },
+  "manual_delta_findings": [
+    {
+      "criterion": "verifiable",
+      "status": "supported for the revised coverage; no perfection claim",
+      "evidence": "Oracle and independent alternative pass 365/365. Nop remains reward 0. Thirty-two general scalar-conversion regressions detect the known functional error and preserve successful-call warning categories. All original cases and performance thresholds remain unchanged."
+    },
+    {
+      "criterion": "solvable",
+      "status": "supported",
+      "evidence": "The minimally repaired Oracle and the unchanged independently implemented segment-tree alternative both pass every revised case under one CPU and 2 GiB."
+    },
+    {
+      "criterion": "test_instruction_alignment",
+      "status": "demonstrated gap repaired",
+      "evidence": "The unchanged instruction explicitly requires release NumPy dtype arithmetic, negative/non-finite tolerance compatibility, and successful-call warning-category sets. Both new regression families enforce that existing contract; they add no solver-facing requirement."
+    },
+    {
+      "criterion": "outcome_verified",
+      "status": "supported",
+      "evidence": "API outcomes, exact integer counts, numeric scores, warnings and errors are checked through execution. Candidate source is neither searched nor restricted to a selected algorithm."
+    },
+    {
+      "criterion": "essential_difficulty",
+      "status": "do not overstate",
+      "evidence": "The original optimization remains the task. The small scalar-promotion defect is a real compatibility bug, but is not itself evidence of frontier-level professional difficulty. Thresholds and workloads were not tightened to force failures."
+    },
+    {
+      "criterion": "difficult",
+      "status": "unresolved",
+      "evidence": "All six original trials received reward 1. One saved implementation now receives an offline semantic failure; the other five pass. This does not achieve the requested six legitimate reward-0 outcomes or prove the TB3 difficulty bar."
+    },
+    {
+      "criterion": "novel",
+      "status": "unresolved",
+      "evidence": "Prior art remains a reviewer concern; no new originality claim follows from a numerical regression. No new candidate search was started."
+    },
+    {
+      "criterion": "verifier_execution_isolation",
+      "status": "supported by source and executed observations",
+      "evidence": "The existing harness and worker are byte-unchanged. Actual workers run as UID/GID 10001, clear groups and set NoNewPrivs; trusted grading and CTRF remain outside that user's access."
+    },
+    {
+      "criterion": "ctrf_reporting / binary_reward",
+      "status": "supported",
+      "evidence": "All nine control/regrade runs have 365 unique CTRF cases, consistent totals, no skipped/pending/other outcomes, and rewards exactly 0 or 1."
+    },
+    {
+      "criterion": "task_toml_schema",
+      "status": "valid network_mode retained; old raw review flag preserved",
+      "evidence": "Pinned Harbor parses network_mode=public and exposes the field in EnvironmentConfig. Its schema source hash is recorded. The old rubric inventory omits this supported field; no deprecated allow_internet field was introduced to satisfy it."
+    },
+    {
+      "criterion": "instruction_concision / task_readme human authorship",
+      "status": "noncompliant until the contributor authors the human-only sections",
+      "evidence": "The instruction and four explanation paragraphs remain explicitly AI-generated. Approval, factual edits and natural wording do not satisfy complete human authorship. Author metadata is unchanged and verified; no personal survival-analysis contribution is invented."
+    },
+    {
+      "criterion": "anti_cheat_robustness empirical evaluation",
+      "status": "unavailable",
+      "evidence": "Source-level isolation is retained. Neither adversarial attempt produced a valid result. The provider-blocked prompt was not retried, rephrased or rerouted."
+    },
+    {
+      "criterion": "remaining unchanged implementation surfaces",
+      "status": "prior source review retained; not a new hosted verdict",
+      "evidence": "The contract audit confirms identical instructions, runtime dependencies, Dockerfiles, transfer scope, worker, process controller, statistical/numerical limits, workloads, time budgets and resource settings. Only test coverage, the task version/README and the demonstrated reference warning defect changed."
+    }
+  ],
+  "overall": "Adopt the corrected verifier as the stronger experimental artifact, while retaining explicit unmet authorship, difficulty/matrix, adversarial and official-review requirements.",
+  "new_model_inference": false,
+  "official_hosted_review": false,
+  "independent_human_review": false
+}

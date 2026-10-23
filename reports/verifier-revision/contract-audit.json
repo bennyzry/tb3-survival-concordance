@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-23T03:23:35.626989+00:00",
+  "baseline_commit": "4d2ea842f5c74ae41b817c83e5ab2854c9a767ea",
+  "baseline_task_revision_sha256": "37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b",
+  "proposed_task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+  "task_version": "0.3.0",
+  "task_files": 26,
+  "changed_task_files": [
+    "README.md",
+    "task.toml",
+    "solution/concordance.patch",
+    "tests/cases.py",
+    "tests/test_state.py"
+  ],
+  "agent_instruction_byte_identical": true,
+  "instruction_sha256": "d4769c7e9d7cb5369bcd3a02861dc3fc33a03f5ff7702f83139ea07e77fbd446",
+  "agent_timeout_sec": 14400.0,
+  "verifier_timeout_sec": 1200.0,
+  "resource_and_artifact_configuration_unchanged": true,
+  "environment_dockerfile_unchanged": true,
+  "verifier_dockerfile_unchanged": true,
+  "all_existing_input_cases_unchanged": true,
+  "performance_cases_and_thresholds_unchanged": true,
+  "numerical_comparison_policy_unchanged": true,
+  "worker_and_isolation_harness_unchanged": true,
+  "ctrf_and_reward_code_unchanged": true,
+  "original_published_trial_files_unchanged": true,
+  "oracle_change": "One empty-array dtype comparison preserves scalar-cast warning categories before the existing bounded searches. The optimization algorithm is unchanged.",
+  "alignment": [
+    "New scalar rounding cases enforce the existing inclusive tolerance comparison with NumPy dtype arithmetic and the already explicit negative-tolerance compatibility requirement.",
+    "New cast-overflow cases enforce the existing successful-call warning-category contract.",
+    "No new solver steps, source restrictions, performance limits, dependencies or numerical accuracy requirements were introduced."
+  ],
+  "remaining_compliance": [
+    "Instruction and four README explanation paragraphs are AI-generated; human authorship remains unresolved.",
+    "No valid adversarial results are available and the provider-blocked prompt is not retried.",
+    "Original model rewards remain unchanged; revised artifact scores are offline regrades, not new inference trials."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "native_exit_code": 0,
+  "passed": 357,
+  "failed": 8,
+  "tests": 365,
+  "reward": 0,
+  "source_sha256": "ae1d340237eed6334321f5a3b98de05ce7d8157bb04433ac3be82ccdbd1ca224",
+  "public_reproducer_sha256": "1924d77383979b1511811c46a0c4f51a316d92dfbbc4b2c3217862ebddf69f01",
+  "same_failed_case_ids_as_native_harbor_regrade": true,
+  "new_model_inference": false
+}

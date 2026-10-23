@@ -1,0 +1,47 @@
+{
+  "kind": "offline artifact regrade; not a model trial",
+  "new_model_inference": false,
+  "started_utc": "2026-10-23T03:23:21.407543+00:00",
+  "implementation": "codex-standard-3",
+  "source_sha256": "ae1d340237eed6334321f5a3b98de05ce7d8157bb04433ac3be82ccdbd1ca224",
+  "commands": [
+    {
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "tb3-offline-bd7f567447eb",
+        "--network",
+        "none",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--mount",
+        "type=bind,source=[WORKSPACE]/work/tb3-submission/repository/reports/trials/codex-standard-3/submission,target=/app/work,readonly",
+        "--mount",
+        "type=bind,source=[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/public-reproducer-codex3/verifier,target=/logs/verifier",
+        "sha256:1e3234fb43bb9029e023dfa293c33abc0a023eaa30ffee92989202529b8537d8",
+        "bash",
+        "/tests/test.sh"
+      ],
+      "native_exit_code": 0,
+      "elapsed_sec": 112.19071870100743
+    }
+  ],
+  "image_id": "sha256:1e3234fb43bb9029e023dfa293c33abc0a023eaa30ffee92989202529b8537d8",
+  "container_name": "tb3-offline-bd7f567447eb",
+  "reward": 0.0,
+  "ctrf": {
+    "tests": 365,
+    "passed": 357,
+    "failed": 8,
+    "skipped": 0,
+    "pending": 0,
+    "other": 0,
+    "start": 1792725803483,
+    "stop": 1792725910339
+  },
+  "finished_utc": "2026-10-23T03:25:11.071084+00:00"
+}

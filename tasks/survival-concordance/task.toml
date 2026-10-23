@@ -4,7 +4,7 @@ artifacts = [{ source = "/app/work", exclude = ["__pycache__", "*.pyc", ".git", 
 
 [task]
 name = "terminal-bench/survival-concordance"
-version = "0.2.0"
+version = "0.3.0"
 description = "Optimize scikit-survival concordance while retaining its public statistical behavior."
 
 [metadata]

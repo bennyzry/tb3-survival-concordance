@@ -1,0 +1,21 @@
+{
+  "task": {
+    "path": "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/tasks/survival-concordance"
+  },
+  "trial_name": "numeric-v030-regrade-deepseek-standard-3",
+  "trials_dir": "[LOCAL_HOME]/tb3-numeric-revision-r2-20261023/regrades",
+  "agent": {
+    "name": "claude-code",
+    "model_name": "deepseek-flash",
+    "kwargs": {
+      "reasoning_effort": "max",
+      "version": "2.1.308"
+    }
+  },
+  "source_trial": {
+    "action": "regrade",
+    "type": "local",
+    "trial_id": "f5ff39a0-6427-4a33-977a-c8dfd5207811",
+    "path": "[LOCAL_HOME]/tb3-final-submission-20261023/jobs/deepseek-standard-3/survival-concordance__w8Y9to8"
+  }
+}

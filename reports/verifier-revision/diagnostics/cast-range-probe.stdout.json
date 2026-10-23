@@ -1,0 +1,4390 @@
+{
+  "diagnostic_only": true,
+  "new_model_inference": false,
+  "results": {
+    "oracle": {
+      "checked": 16,
+      "matched": 8,
+      "records": [
+        {
+          "case": "cast-range-float16--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": false
+        },
+        {
+          "case": "cast-range-float16-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": false
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": false
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": false
+        },
+        {
+          "case": "cast-range-float32--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": false
+        },
+        {
+          "case": "cast-range-float32-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": false
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": false
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": []
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": false
+        }
+      ]
+    },
+    "alternative": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "cast-range-float16--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        }
+      ]
+    },
+    "codex-standard-1-replacement": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "cast-range-float16--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        }
+      ]
+    },
+    "codex-standard-2": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "cast-range-float16--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        }
+      ]
+    },
+    "codex-standard-3": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "cast-range-float16--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        }
+      ]
+    },
+    "deepseek-standard-1": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "cast-range-float16--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        }
+      ]
+    },
+    "deepseek-standard-2": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "cast-range-float16--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        }
+      ]
+    },
+    "deepseek-standard-3": {
+      "checked": 16,
+      "matched": 16,
+      "records": [
+        {
+          "case": "cast-range-float16--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float16-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5280000000000001,
+              5,
+              5,
+              0,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32--1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5279999999999909,
+              330245,
+              330245,
+              0,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n6-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              10,
+              2
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ordinary",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        },
+        {
+          "case": "cast-range-float32-1-n1542-ipcw",
+          "actual": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "pristine": {
+            "status": "ok",
+            "result": [
+              0.5,
+              0,
+              0,
+              660490,
+              132098
+            ],
+            "numeric_score": true,
+            "integer_counts": true,
+            "warnings": [
+              "RuntimeWarning"
+            ]
+          },
+          "matches": true
+        }
+      ]
+    }
+  }
+}

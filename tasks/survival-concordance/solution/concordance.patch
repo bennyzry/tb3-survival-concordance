@@ -9,7 +9,7 @@
      order = np.argsort(event_time)
  
      tied_time = None
-@@ -143,6 +143,128 @@
+@@ -143,6 +143,132 @@
      if tied_time is None:
          raise NoComparablePairException("Data has no comparable pairs, cannot estimate concordance index.")
  
@@ -62,6 +62,10 @@
 +        overflow_span = len(estimate) > 0 and not np.isfinite(estimate.max() - estimate.min())
 +    if overflow_span:
 +        return _estimate_concordance_index_quadratic(event_indicator, event_time, estimate, weights, tied_tol)
++
++    # Preserve scalar-cast warning categories before the bounded searches
++    # suppress unused intermediate arithmetic warnings.
++    np.empty(0, dtype=estimate.dtype) <= tied_tol
 +
 +    n = len(event_time)
 +    order = np.argsort(event_time)  # Keep the original accumulation order.

@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-23T02:59:08.284907+00:00",
+  "target_pid": 71261,
+  "signal": "SIGINT to orchestrator only, not process group",
+  "reason": "Stop before verifier regrades: a genuine reference warning-compatibility defect requires a separately validated revision. Active control subprocess completes during ThreadPool shutdown."
+}

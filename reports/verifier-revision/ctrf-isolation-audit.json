@@ -1,0 +1,110 @@
+[
+  {
+    "run": "oracle",
+    "tests": 365,
+    "passed": 365,
+    "failed": 0,
+    "reward": 1.0,
+    "complete_unique_ctrf": true,
+    "observed_uid": 10001,
+    "observed_no_new_privileges": true,
+    "observed_cpus": 1,
+    "observed_memory_bytes": 2147483648
+  },
+  {
+    "run": "alternative",
+    "tests": 365,
+    "passed": 365,
+    "failed": 0,
+    "reward": 1.0,
+    "complete_unique_ctrf": true,
+    "observed_uid": 10001,
+    "observed_no_new_privileges": true,
+    "observed_cpus": 1,
+    "observed_memory_bytes": 2147483648
+  },
+  {
+    "run": "nop",
+    "tests": 365,
+    "passed": 359,
+    "failed": 6,
+    "reward": 0.0,
+    "complete_unique_ctrf": true,
+    "observed_uid": 10001,
+    "observed_no_new_privileges": true,
+    "observed_cpus": 1,
+    "observed_memory_bytes": 2147483648
+  },
+  {
+    "run": "codex-standard-2",
+    "tests": 365,
+    "passed": 365,
+    "failed": 0,
+    "reward": 1.0,
+    "complete_unique_ctrf": true,
+    "observed_uid": 10001,
+    "observed_no_new_privileges": true,
+    "observed_cpus": 1,
+    "observed_memory_bytes": 2147483648
+  },
+  {
+    "run": "codex-standard-1-replacement",
+    "tests": 365,
+    "passed": 365,
+    "failed": 0,
+    "reward": 1.0,
+    "complete_unique_ctrf": true,
+    "observed_uid": 10001,
+    "observed_no_new_privileges": true,
+    "observed_cpus": 1,
+    "observed_memory_bytes": 2147483648
+  },
+  {
+    "run": "codex-standard-3",
+    "tests": 365,
+    "passed": 357,
+    "failed": 8,
+    "reward": 0.0,
+    "complete_unique_ctrf": true,
+    "observed_uid": 10001,
+    "observed_no_new_privileges": true,
+    "observed_cpus": 1,
+    "observed_memory_bytes": 2147483648
+  },
+  {
+    "run": "deepseek-standard-1",
+    "tests": 365,
+    "passed": 365,
+    "failed": 0,
+    "reward": 1.0,
+    "complete_unique_ctrf": true,
+    "observed_uid": 10001,
+    "observed_no_new_privileges": true,
+    "observed_cpus": 1,
+    "observed_memory_bytes": 2147483648
+  },
+  {
+    "run": "deepseek-standard-3",
+    "tests": 365,
+    "passed": 365,
+    "failed": 0,
+    "reward": 1.0,
+    "complete_unique_ctrf": true,
+    "observed_uid": 10001,
+    "observed_no_new_privileges": true,
+    "observed_cpus": 1,
+    "observed_memory_bytes": 2147483648
+  },
+  {
+    "run": "deepseek-standard-2",
+    "tests": 365,
+    "passed": 365,
+    "failed": 0,
+    "reward": 1.0,
+    "complete_unique_ctrf": true,
+    "observed_uid": 10001,
+    "observed_no_new_privileges": true,
+    "observed_cpus": 1,
+    "observed_memory_bytes": 2147483648
+  }
+]

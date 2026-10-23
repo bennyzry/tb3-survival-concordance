@@ -1,10 +1,16 @@
 # Survival concordance optimization — Terminal-Bench 3 candidate
 
-Optimize the two public scikit-survival 0.28.0 concordance APIs while preserving their numerical and statistical behavior. The frozen task has 333 graded cases and a separate verifier.
+Optimize the two public scikit-survival 0.28.0 concordance APIs while preserving their numerical and statistical behavior. Version 0.3.0 has 365 graded cases and a separate verifier; the original 333-case task remains available at `baseline-v0.2.0`.
 
-Task revision SHA-256: `37426b6d562d2ef98657642a5f98420bb8ea4e4840a3da46379ad3856995b04b`. See [the file manifest](reports/task-manifest.json), [task instructions](tasks/survival-concordance/instruction.md), and [task explanations](tasks/survival-concordance/README.md).
+Current task revision SHA-256: `df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e`. See [the file manifest](reports/task-manifest.json), [task instructions](tasks/survival-concordance/instruction.md), and [task explanations](tasks/survival-concordance/README.md).
 
 Repository attributes preserve file bytes so that Windows Git line-ending settings cannot rewrite the pinned task or execution scripts. The final package is checked against the committed tree and the exact task snapshot used by Harbor.
+
+## Current verifier revision
+
+Version 0.3.0 adds 32 regressions for the already specified NumPy scalar-tolerance and warning behavior, plus a minimal reference warning fix. See the [revision report](reports/verifier-revision/report.md) for actual control results, commands and the six saved-artifact regrades; original trial rewards and trajectories remain unchanged. These are offline regrades with no new model inference. The task instruction, statistical contract, numeric tolerances, performance limits and resources are unchanged.
+
+The [preserved baseline](https://github.com/bennyzry/tb3-survival-concordance/tree/baseline-v0.2.0) remains usable. AI authorship, unavailable adversarial results and insufficient evidence of frontier-level difficulty remain explicit submission concerns. The actual deadline is October 23, 2026, 15:00 CST.
 
 ## Reproduce
 
@@ -36,7 +42,7 @@ Use fresh trial IDs. Keep generated `jobs/` files private; they are ignored by G
 
 Adversarial evaluation is currently unavailable: the official adversarial prompt was rejected by the Codex provider's safety check, and the same prompt was withheld from DeepSeek rather than rerouted. No adversarial robustness pass or valid adversarial model failure is claimed.
 
-## Observed validation
+## Preserved v0.2.0 validation
 
 | Implementation | Passed | Failed | Reward |
 | --- | ---: | ---: | ---: |
@@ -48,7 +54,7 @@ Both Docker images completed public-source cold builds. These are prior executed
 
 The later [fresh-checkout validation](reports/packaging-portability.json) records image builds, all 28 static checks and new Oracle/Nop controls after the Git line-ending repair. The earlier results above remain preserved; the later CTRF reports retain their actual failure counts rather than forcing them to match an older timing run.
 
-A standalone, ungraded diagnostic found a compatibility defect in the reward-1 `codex-standard-3` submission for a tiny negative tolerance and equal float16 risks. The frozen 333-test verifier did not detect it. [The evaluation report](reports/evaluation.md) preserves the exact fixture and outcomes; the original reward remains 1 and no test or threshold was changed.
+A standalone, ungraded diagnostic found a compatibility defect in the reward-1 `codex-standard-3` submission for a tiny negative tolerance and equal float16 risks. The v0.2.0 verifier did not detect it, and that baseline remains unchanged. [The original evaluation report](reports/evaluation.md) preserves the fixture and reward 1; the separate v0.3.0 offline regrade now detects the broader defect and receives reward 0 without altering the original trial result.
 
 ## Evaluation and compliance
 

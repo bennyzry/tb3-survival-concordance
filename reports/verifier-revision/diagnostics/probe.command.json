@@ -1,0 +1,30 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu-24.04",
+    "-u",
+    "zrybe",
+    "--",
+    "docker",
+    "run",
+    "--rm",
+    "--network",
+    "none",
+    "--cpus",
+    "1",
+    "--memory",
+    "2g",
+    "--user",
+    "10001:10001",
+    "--mount",
+    "type=bind,source=[WORKSPACE]/work/tb3-submission/numeric_compatibility_probe.py,target=/probe.py,readonly",
+    "--mount",
+    "type=bind,source=[WORKSPACE]/work/tb3-submission/repository,target=/snapshot,readonly",
+    "sha256:641a1731ccc3bed40d88701fbfd101c16a5d053aacdd2122e9779cb8feaa0505",
+    "python",
+    "/probe.py"
+  ],
+  "native_exit_code": 0,
+  "elapsed_sec": 5.670019299956039
+}
