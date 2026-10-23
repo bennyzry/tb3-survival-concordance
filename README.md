@@ -10,7 +10,7 @@ Repository attributes preserve file bytes so that Windows Git line-ending settin
 
 Version 0.3.0 adds 32 regressions for the already specified NumPy scalar-tolerance and warning behavior, plus a minimal reference warning fix. See the [revision report](reports/verifier-revision/report.md) for actual control results, commands and the six saved-artifact regrades; original trial rewards and trajectories remain unchanged. These are offline regrades with no new model inference. The task instruction, statistical contract, numeric tolerances, performance limits and resources are unchanged.
 
-The [preserved baseline](https://github.com/bennyzry/tb3-survival-concordance/tree/baseline-v0.2.0) remains usable. Unavailable adversarial results and insufficient evidence of frontier-level difficulty remain explicit submission concerns.
+The [preserved baseline](https://github.com/bennyzry/tb3-survival-concordance/tree/baseline-v0.2.0) remains usable. Unavailable adversarial results and insufficient evidence of frontier-level difficulty remain explicit concerns.
 
 ## Genuine final-version model trials
 
