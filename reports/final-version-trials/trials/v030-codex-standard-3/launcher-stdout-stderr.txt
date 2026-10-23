@@ -1,0 +1,27 @@
+Task terminal-bench/survival-concordance: Configured runtime overrides apply only to the agent environment and are not propagated to separate verifier environments (mounts: [LOCAL_HOME]/tb3-final-submission-20261023/cli/codex-complete -> /usr/local/bin/codex). Bake grading dependencies into the verifier image under tests/ or declare required agent outputs as artifacts.
+  1/1 Mean: 1.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:14:02 0:00:00
+
+adhoc • codex • gpt-6.1-sol
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│      1 │          0 │ 1.000 │
+└────────┴────────────┴───────┘
+
+┏━━━━━━━━┳━━━━━━━┓
+┃ Reward ┃ Count ┃
+┡━━━━━━━━╇━━━━━━━┩
+│ 1.0    │     1 │
+└────────┴───────┘
+
+Job Info
+Total runtime: 13m 37s
+Results written to 
+[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standa
+rd-3/result.json
+Inspect results by running `harbor view 
+[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs`
+Share results by running `harbor upload 
+[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standa
+rd-3`
+

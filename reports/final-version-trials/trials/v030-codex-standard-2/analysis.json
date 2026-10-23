@@ -1,0 +1,28 @@
+{
+  "reviewer": "Codex manual tool-timeline, submitted-source, native-result and verifier review; not an official upstream verdict",
+  "validity": "valid genuine final-version graded model completion",
+  "observed_reward": 1,
+  "graded_passed": 365,
+  "graded_total": 365,
+  "native_exit_code": 0,
+  "trajectory_steps": 20,
+  "agent_steps_reviewed": 15,
+  "top_level_tool_calls_reviewed": 14,
+  "candidate_sha256": "87c91d317f4cd5742b95913c0e1340024601813b42942dd116ca7fe1ca9e3f35",
+  "observed_model": "gpt-6.1-sol",
+  "observed_effort": "xhigh",
+  "implementation": "Uses a Python Fenwick tree over risk ranks, reverse time groups, dtype-preserving binary searches for tie intervals and ordered scalar weighted accumulation. It retains the pairwise implementation for irregular inputs and integer ranges whose subtraction can wrap; a source package overlay and local validation scripts are included in the transferred artifact.",
+  "outcome_analysis": "All 365 final-version cases passed, with no timeout or trial exception. This is a genuine reward-1 success from a fresh independent Codex session; the implementation uses no compiled helper.",
+  "trajectory_findings": [
+    "The agent inspected the supplied and installed release source, wrote the optimized estimator, and compared score/count/error/warning behavior against pristine 0.28.0.",
+    "Its own validation included random bit patterns, intermediate cohorts, large counts, an independently constructed histogram reference and relocated execution as UID/GID 10001. These local totals and timings remain agent-side evidence.",
+    "No external URL fetch, hidden-verifier read or reward mutation was observed. Indexed /tests/ markers refer to its own /app/work/tests validation files.",
+    "The submitted source computes results from the input arrays and preserves both public wrappers. No expected-answer lookup or workload-ID branch was found in the reviewed implementation.",
+    "Native turn_context fields identify gpt-6.1-sol and xhigh. Harbor exited 0 with no exception, a separate verifier, and 365 unique passed CTRF results.",
+    "All 20 recorded verifier worker processes had UID/GID 10001, no supplementary groups and NoNewPrivs=1, and exited 0 with no timeout. One CPU and 2147483648 bytes of RAM were enforced; recorded peak verifier memory was 364335104 bytes, with no OOM event."
+  ],
+  "limits": [
+    "Passing these cases does not prove compatibility on every possible input.",
+    "The observed success must not be counted as a model failure or evidence of frontier-level difficulty."
+  ]
+}

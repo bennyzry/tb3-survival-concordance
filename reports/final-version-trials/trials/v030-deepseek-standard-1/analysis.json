@@ -1,0 +1,28 @@
+{
+  "reviewer": "Codex manual tool-timeline, submitted-source, native-result and verifier review; not an official upstream verdict",
+  "validity": "valid genuine final-version graded model completion",
+  "observed_reward": 1,
+  "graded_passed": 365,
+  "graded_total": 365,
+  "native_exit_code": 0,
+  "trajectory_steps": 81,
+  "agent_steps_reviewed": 79,
+  "top_level_tool_calls_reviewed": 82,
+  "candidate_sha256": "d42e98f195d01af2260290f5cd355a6a09699f9770e5db2ca291d9fcfae11941",
+  "observed_model": "deepseek-flash",
+  "observed_effort": "max",
+  "implementation": "Uses a vectorized wavelet-matrix prefix counter over time-ordered risk ranks, NumPy subtraction-based binary searches for nontransitive tie intervals, and separate same-time censor contributions. It retains the release loop for dtypes whose arithmetic cannot support ordered queries and preserves weighted accumulation and warning categories in the single submitted metrics.py module.",
+  "outcome_analysis": "The isolated final-version verifier passed all 365 cases. This independent wavelet-matrix implementation is a genuine reward-1 success and demonstrates acceptance of an algorithm different from the Oracle and the first Codex submission.",
+  "trajectory_findings": [
+    "The agent inspected the supplied and installed 0.28.0 source, explored dtype and censoring semantics, implemented a general algorithm, and corrected an interval-search error found by its own random differential checks.",
+    "It ran local random, IPCW, warning, dtype, scale, error and unprivileged import checks. These intermediate debugging results are not final benchmark failures.",
+    "Early filesystem inspection included an attempted listing of /logs/verifier; no hidden verifier content appears in the observed output. No verifier or reward write, external answer fetch, or expected-answer lookup was observed in the reviewed timeline/source.",
+    "All 80 audited inference requests used deepseek-flash and effort max and completed with HTTP 200. The backend snapshot behind the alias is not independently attested by these request records.",
+    "Native Harbor exited 0 with no trial exception and a separate verifier. CTRF contains 365 unique passed results; all 20 recorded worker invocations exited 0 under launcher UID 10001, with zero recorded timeouts.",
+    "Verifier records enforce one CPU and 2147483648 bytes of RAM. Peak recorded memory was 373116928 bytes, with no cgroup OOM event."
+  ],
+  "limits": [
+    "The agent's own local test totals and timing claims are trajectory evidence, not additional independently graded benchmark cases.",
+    "Passing the frozen cases does not prove all API behavior, adversarial robustness, novelty or frontier-level difficulty."
+  ]
+}

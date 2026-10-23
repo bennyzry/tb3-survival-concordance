@@ -1,0 +1,138 @@
+{
+  "id": "56ad0780-4d17-4673-84f9-c6eff8c36109",
+  "task_name": "terminal-bench/survival-concordance",
+  "trial_name": "survival-concordance__L9xzvk2",
+  "trial_uri": "file://[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-deepseek-standard-3/survival-concordance__L9xzvk2",
+  "task_id": {
+    "path": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/tasks/survival-concordance"
+  },
+  "source": null,
+  "task_checksum": "ee1757663c03e451bc9516bbbbf00cd27ef52b4e5535fdf5d9b76a9681a8e1b7",
+  "config": {
+    "task": {
+      "path": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/tasks/survival-concordance",
+      "git_url": null,
+      "git_commit_id": null,
+      "name": null,
+      "ref": null,
+      "overwrite": false,
+      "download_dir": null,
+      "source": null
+    },
+    "trial_name": "survival-concordance__L9xzvk2",
+    "trials_dir": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-deepseek-standard-3",
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent_timeout_multiplier": null,
+    "verifier_timeout_multiplier": null,
+    "agent_setup_timeout_multiplier": null,
+    "environment_build_timeout_multiplier": null,
+    "agent": {
+      "name": "claude-code",
+      "import_path": null,
+      "model_name": "deepseek-flash",
+      "n_concurrent": null,
+      "concurrency_group": null,
+      "skills": [],
+      "override_timeout_sec": null,
+      "override_setup_timeout_sec": null,
+      "max_timeout_sec": null,
+      "resume_trajectory": false,
+      "load_trajectory": null,
+      "extra_allowed_hosts": [],
+      "kwargs": {
+        "version": "2.1.308",
+        "reasoning_effort": "max"
+      },
+      "mcp_servers": []
+    },
+    "user_agent": null,
+    "environment": {
+      "type": "docker",
+      "import_path": null,
+      "force_build": false,
+      "delete": true,
+      "stream": false,
+      "cpu_enforcement_policy": "auto",
+      "memory_enforcement_policy": "auto",
+      "override_cpus": null,
+      "override_memory_mb": null,
+      "override_storage_mb": null,
+      "override_gpus": null,
+      "override_tpu": null,
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "[LOCAL_HOME]/tb3-final-submission-20261023/cli/claude/package/claude",
+          "target": "/usr/local/bin/claude",
+          "read_only": true
+        }
+      ],
+      "extra_docker_compose": [
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-deepseek-standard-3-provider.compose.json"
+      ],
+      "kwargs": {},
+      "extra_allowed_hosts": []
+    },
+    "verifier": {
+      "override_timeout_sec": null,
+      "max_timeout_sec": null,
+      "disable": false
+    },
+    "artifacts": [],
+    "extra_instruction_paths": [],
+    "extra_instructions": [],
+    "job_id": "abf133b4-29d0-4a8a-b983-a6e62e80eb00",
+    "source_trial": null
+  },
+  "agent_info": {
+    "name": "claude-code",
+    "version": "2.1.308",
+    "model_info": {
+      "name": "deepseek-flash",
+      "provider": "anthropic"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 10302008,
+    "n_cache_tokens": 10209152,
+    "n_output_tokens": 153508,
+    "cost_usd": 9.650612999999996,
+    "model_usage": {
+      "deepseek-flash": {
+        "n_input_tokens": 10302008,
+        "n_cache_tokens": 10209152,
+        "n_output_tokens": 153508,
+        "cost_usd": null
+      }
+    },
+    "rollout_details": null,
+    "metadata": null
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "verifier_environment_mode": "separate",
+  "exception_info": null,
+  "started_at": "2026-10-23T04:54:07.862639Z",
+  "finished_at": "2026-10-23T05:36:06.241848Z",
+  "environment_setup": {
+    "started_at": "2026-10-23T04:54:07.919863Z",
+    "finished_at": "2026-10-23T04:54:19.097555Z"
+  },
+  "agent_setup": {
+    "started_at": "2026-10-23T04:54:19.097761Z",
+    "finished_at": "2026-10-23T04:54:20.006776Z"
+  },
+  "agent_execution": {
+    "started_at": "2026-10-23T04:54:20.007044Z",
+    "finished_at": "2026-10-23T05:33:23.319291Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-23T05:33:58.304318Z",
+    "finished_at": "2026-10-23T05:36:06.241764Z"
+  },
+  "step_results": null
+}

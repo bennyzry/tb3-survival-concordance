@@ -1,0 +1,28 @@
+{
+  "reviewer": "Codex manual complete indexed tool-timeline, submitted-source, native-result and verifier review; not an official upstream verdict",
+  "validity": "valid genuine final-version graded model completion",
+  "observed_reward": 1,
+  "graded_passed": 365,
+  "graded_total": 365,
+  "native_exit_code": 0,
+  "trajectory_steps": 111,
+  "agent_steps_reviewed": 109,
+  "top_level_tool_calls_reviewed": 115,
+  "candidate_sha256": "1cd1d55366a7bf8074a96dfa375e4ebc1813b6d8ed84ca1adbaaa780bd1240e5",
+  "observed_model": "deepseek-flash",
+  "observed_effort": "max",
+  "implementation": "Uses Python Fenwick rank counts over reverse survival-time groups, vectorized tie-window searches that evaluate the release's dtype subtraction/comparison, and sorted same-time censor ranks. Ordered weighted accumulation and the original loop for unsupported arithmetic remain in the single submitted metrics.py file.",
+  "outcome_analysis": "The isolated verifier passed all 365 final-version cases. This is a genuine reward-1 success from a new independent session. Its long local campaigns and intermediate implementation edits are not final benchmark failures.",
+  "trajectory_findings": [
+    "The agent inspected the supplied and installed release, developed and integrated a general prototype, and performed local differential, edge, warning, dtype and large-count checks.",
+    "It ran extensive small-cohort and IPCW campaigns, revised eligibility/aggregation behavior, stopped its own long exhaustive test processes, and reran smaller post-edit suites. These are ordinary local correctness checks within a standard trial, not the unavailable official adversarial evaluation.",
+    "The indexed URL strings come from retained GNU license text in edit payloads. No external answer fetch, hidden-verifier read, reward mutation or expected-answer lookup was observed in the reviewed timeline and source.",
+    "It tested a copied module from a temporary working directory as UID/GID 10001 on 200,000-record ordinary/IPCW workloads. Agent-reported local totals and timing measurements remain separate from the 365 graded results.",
+    "All 110 audited inference requests used deepseek-flash and max effort with HTTP 200. Harbor exited 0 with no trial exception and a separate verifier; CTRF contains 365 unique passed results.",
+    "All 20 verifier worker invocations exited 0 under UID/GID 10001, empty supplementary groups and NoNewPrivs=1. There were no recorded timeouts or cgroup OOM events. One CPU and 2147483648 bytes of RAM were enforced; peak verifier memory was 410935296 bytes."
+  ],
+  "limits": [
+    "Passing the frozen cases is not a proof of compatibility on every possible input or of adversarial robustness.",
+    "All six new final-version standard trials succeeded; this does not meet the intended model-failure-rate target or establish frontier-level difficulty."
+  ]
+}

@@ -1,0 +1,281 @@
+[
+  {
+    "utc": "2026-10-23T03:50:33.319366+00:00",
+    "argv": [
+      "git",
+      "clone",
+      "--no-checkout",
+      "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/v030-source.bundle",
+      "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository"
+    ],
+    "cwd": null,
+    "exit_code": 0,
+    "elapsed_sec": 0.1464028439950198,
+    "stdout": "",
+    "stderr": "Cloning into '[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository'...\n"
+  },
+  {
+    "utc": "2026-10-23T03:50:33.439077+00:00",
+    "argv": [
+      "git",
+      "checkout",
+      "--detach",
+      "69fd982b09b69d8223bd8626fa8f227a52760576"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.11557682399870828,
+    "stdout": "",
+    "stderr": "HEAD is now at 69fd982 Repair dtype compatibility verification and reference warnings; regrade saved artifacts\n"
+  },
+  {
+    "utc": "2026-10-23T03:50:33.447525+00:00",
+    "argv": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.004327307993662544,
+    "stdout": "69fd982b09b69d8223bd8626fa8f227a52760576\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T03:50:33.501734+00:00",
+    "argv": [
+      "git",
+      "status",
+      "--porcelain"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.04828318000363652,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T03:50:36.186799+00:00",
+    "argv": [
+      "harbor",
+      "--version"
+    ],
+    "cwd": null,
+    "exit_code": 0,
+    "elapsed_sec": 1.0968047700007446,
+    "stdout": "0.23.1.dev202609170426\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T03:50:36.222600+00:00",
+    "argv": [
+      "tmux",
+      "new-session",
+      "-d",
+      "-s",
+      "tb3-v030-final-trials",
+      "exec /opt/tb3/harbor/bin/python -u [LOCAL_HOME]/tb3-v030-final-evaluation-20261023/supervisor.py supervise > [LOCAL_HOME]/tb3-v030-final-evaluation-20261023/supervisor.log 2>&1"
+    ],
+    "cwd": null,
+    "exit_code": 0,
+    "elapsed_sec": 0.014633697996032424,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T03:50:36.232054+00:00",
+    "argv": [
+      "tmux",
+      "has-session",
+      "-t",
+      "=tb3-v030-final-trials"
+    ],
+    "cwd": null,
+    "exit_code": 0,
+    "elapsed_sec": 0.006486230995506048,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T03:50:36.328875+00:00",
+    "argv": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.0036943070008419454,
+    "stdout": "69fd982b09b69d8223bd8626fa8f227a52760576\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T03:50:36.328536+00:00",
+    "argv": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.004405785002745688,
+    "stdout": "69fd982b09b69d8223bd8626fa8f227a52760576\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T03:50:36.414567+00:00",
+    "argv": [
+      "git",
+      "status",
+      "--porcelain"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.07955975500226486,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T03:50:36.415441+00:00",
+    "argv": [
+      "git",
+      "status",
+      "--porcelain"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.08128071400278714,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T04:09:26.078622+00:00",
+    "argv": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.006686328008072451,
+    "stdout": "69fd982b09b69d8223bd8626fa8f227a52760576\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T04:09:26.095468+00:00",
+    "argv": [
+      "git",
+      "status",
+      "--porcelain"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.012604321993421763,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T04:14:12.874386+00:00",
+    "argv": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.00401181100460235,
+    "stdout": "69fd982b09b69d8223bd8626fa8f227a52760576\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T04:14:12.885343+00:00",
+    "argv": [
+      "git",
+      "status",
+      "--porcelain"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.0071183620020747185,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T04:26:02.682404+00:00",
+    "argv": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.004459069008589722,
+    "stdout": "69fd982b09b69d8223bd8626fa8f227a52760576\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T04:26:02.696534+00:00",
+    "argv": [
+      "git",
+      "status",
+      "--porcelain"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.00948478099599015,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T04:54:03.206327+00:00",
+    "argv": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.007208218987216242,
+    "stdout": "69fd982b09b69d8223bd8626fa8f227a52760576\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T04:54:03.223480+00:00",
+    "argv": [
+      "git",
+      "status",
+      "--porcelain"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.012810384010663256,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T05:05:58.006095+00:00",
+    "argv": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.0062664739962201566,
+    "stdout": "69fd982b09b69d8223bd8626fa8f227a52760576\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-23T05:05:58.022190+00:00",
+    "argv": [
+      "git",
+      "status",
+      "--porcelain"
+    ],
+    "cwd": "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository",
+    "exit_code": 0,
+    "elapsed_sec": 0.011738651999621652,
+    "stdout": "",
+    "stderr": ""
+  }
+]

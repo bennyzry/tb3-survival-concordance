@@ -1,0 +1,122 @@
+[
+  {
+    "utc": "2026-10-23T03:55:57.299969+00:00",
+    "tmux_session": "tb3-v030-final-trials",
+    "tmux_has_session_native_exit_code": 0,
+    "supervisor_process": {
+      "Name": "python",
+      "Pid": "85807",
+      "PPid": "44346"
+    },
+    "active_trials": {
+      "codex": "v030-codex-standard-1",
+      "deepseek": "v030-deepseek-standard-1"
+    },
+    "containers": [
+      {
+        "id": "d9007bc1ac602db3b9905c9c48329af1f347cf84f2d6b60cca988aafdd3a736d",
+        "name": "survival-concordance__w94efy5__env-main-1",
+        "image": "sha256:8e527d7a81aaa241da225f4ad05f4cbbb12a4447db4b4f861900f94e62ce2405",
+        "running": true,
+        "memory_bytes": 2147483648,
+        "nano_cpus": 1000000000,
+        "cpu_period": 0,
+        "cpu_quota": 0,
+        "privileged": false,
+        "readonly_rootfs": false
+      },
+      {
+        "id": "ca793e1f8f782b629714e1a57dabd54be69f38e69f23c11b282753c03338762b",
+        "name": "survival-concordance__7tibmnq__env-main-1",
+        "image": "sha256:eac78a1fca9d97c0fcd59c8006bff6442217ea9d9ca0492bc2d1a256bd22e565",
+        "running": true,
+        "memory_bytes": 2147483648,
+        "nano_cpus": 1000000000,
+        "cpu_period": 0,
+        "cpu_quota": 0,
+        "privileged": false,
+        "readonly_rootfs": false
+      },
+      {
+        "id": "5048bae4a6fd83451e7b2018e9993db5ff56ace0361f8207c36df9d4cc3d2a2c",
+        "name": "survival-concordance__w94efy5__env-tb3-provider-1",
+        "image": "sha256:adafcc17694d715c905b4c7bebd96907a1fd5cf183395f0ebc4d3428bd22d92d",
+        "running": true,
+        "memory_bytes": 134217728,
+        "nano_cpus": 250000000,
+        "cpu_period": 0,
+        "cpu_quota": 0,
+        "privileged": false,
+        "readonly_rootfs": true
+      }
+    ],
+    "authentication_material_inspected": false,
+    "note": "Supervisor is a tmux child after the initiating tool process exited. Only allowlisted process/resource fields are recorded; container environments and authentication files are excluded."
+  },
+  {
+    "utc": "2026-10-23T04:55:27.234870+00:00",
+    "tmux_session": "tb3-v030-final-trials",
+    "tmux_has_session_native_exit_code": 0,
+    "supervisor_process": {
+      "Name": "python",
+      "Pid": "85807",
+      "PPid": "44346"
+    },
+    "active_trials": {
+      "deepseek": "v030-deepseek-standard-2",
+      "deepseek_parallel": "v030-deepseek-standard-3"
+    },
+    "containers": [
+      {
+        "id": "eff9f3058ef38da28e68d1cca961d0bc9ac16b0cd2490cad124789c90859f036",
+        "name": "survival-concordance__l9xzvk2__env-main-1",
+        "image": "sha256:1fac8850dedff5d7f85fd1d68d885fc0f5c4aa975f4a94b4a7f242e48e0c5ad2",
+        "running": true,
+        "memory_bytes": 2147483648,
+        "nano_cpus": 1000000000,
+        "cpu_period": 0,
+        "cpu_quota": 0,
+        "privileged": false,
+        "readonly_rootfs": false
+      },
+      {
+        "id": "52885bf801bbd9853b3bd611ef9ac3b34d1de158e6ce540bffd65575d6d671fc",
+        "name": "survival-concordance__l9xzvk2__env-tb3-provider-1",
+        "image": "sha256:adafcc17694d715c905b4c7bebd96907a1fd5cf183395f0ebc4d3428bd22d92d",
+        "running": true,
+        "memory_bytes": 134217728,
+        "nano_cpus": 250000000,
+        "cpu_period": 0,
+        "cpu_quota": 0,
+        "privileged": false,
+        "readonly_rootfs": true
+      },
+      {
+        "id": "90cb8a2d112754605df8cc297f0c2f2d6dafb6a990548268d6e1aa3a72e73407",
+        "name": "survival-concordance__uscgz5j__env-main-1",
+        "image": "sha256:40611c6fa33a6fba012af1a1a3bb58a3d715e50cdf95365eb95ca3bfc4ac4cd1",
+        "running": true,
+        "memory_bytes": 2147483648,
+        "nano_cpus": 1000000000,
+        "cpu_period": 0,
+        "cpu_quota": 0,
+        "privileged": false,
+        "readonly_rootfs": false
+      },
+      {
+        "id": "4fd1bf395452e8172aa027e5aed42f0fda8fa84883df116cf7aa27c6014448dd",
+        "name": "survival-concordance__uscgz5j__env-tb3-provider-1",
+        "image": "sha256:adafcc17694d715c905b4c7bebd96907a1fd5cf183395f0ebc4d3428bd22d92d",
+        "running": true,
+        "memory_bytes": 134217728,
+        "nano_cpus": 250000000,
+        "cpu_period": 0,
+        "cpu_quota": 0,
+        "privileged": false,
+        "readonly_rootfs": true
+      }
+    ],
+    "authentication_material_inspected": false,
+    "note": "Supervisor is a tmux child after the initiating tool process exited. Only allowlisted process/resource fields are recorded; container environments and authentication files are excluded."
+  }
+]

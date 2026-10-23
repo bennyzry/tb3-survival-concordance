@@ -1,0 +1,28 @@
+{
+  "reviewer": "Codex manual tool-timeline, complete submitted-source, native-result and verifier review; not an official upstream verdict",
+  "validity": "valid genuine final-version graded model completion",
+  "observed_reward": 1,
+  "graded_passed": 365,
+  "graded_total": 365,
+  "native_exit_code": 0,
+  "trajectory_steps": 105,
+  "agent_steps_reviewed": 103,
+  "top_level_tool_calls_reviewed": 116,
+  "candidate_sha256": "72cf40e6f41fc0c6313153dc66c8d1097ed7c5a14bdae97c558733fc6101bfc2",
+  "observed_model": "deepseek-flash",
+  "observed_effort": "max",
+  "implementation": "Uses Python Fenwick rank counts over reverse survival-time groups, vectorized subtraction-based tie-window searches and separate same-time censor contributions. It selects the optimized path by estimated pairwise work and input arithmetic properties, retains the release implementation as a fallback, and includes a package bootstrap for relocated imports.",
+  "outcome_analysis": "The isolated verifier passed all 365 cases with no timeout or trial exception. The approximately fifty-minute run included lengthy agent-side reference calculations on 200,000-record cohorts; this was ordinary local validation work, not an authentication or infrastructure failure.",
+  "trajectory_findings": [
+    "The agent inspected the supplied/installed release, developed a general prototype, tested NumPy dtype arithmetic and distinguished the release's empty-comparison exception/NaN cases.",
+    "Its local validation forced the optimized path on small structured inputs, checked signed-integer eligibility, and compared large cohorts directly with the original quadratic code. Local reported case totals, bit-identical results and timings are agent-side evidence, separate from the 365 graded cases.",
+    "The timeline shows initial inspection of the empty /logs/verifier location, but no hidden-verifier content or reward write. No external answer fetch was observed; submitted metrics.py and __init__.py contain general calculations and normal import-path support, with no workload-ID or expected-answer lookup.",
+    "It corrected a package-bootstrap lookup issue and tested a clean copied package as UID/GID 10001 with the development import hook disabled. Changes outside /app/work were local test setup and did not transfer into the separate verifier.",
+    "All 104 audited inference requests used deepseek-flash with max effort and HTTP 200. Native Harbor exited 0 with no exception, a separate verifier and 365 unique passed CTRF results.",
+    "All 20 verifier worker invocations exited 0 with UID/GID 10001, no supplementary groups and NoNewPrivs=1. There were no recorded timeouts or cgroup OOM events; one CPU and 2147483648 bytes of RAM were enforced, with peak verifier memory 396406784 bytes."
+  ],
+  "limits": [
+    "Passing the frozen verifier does not prove all possible API behavior, including inputs excluded from the optimized path.",
+    "This is a retained reward-1 success and does not establish the required model-failure rate."
+  ]
+}

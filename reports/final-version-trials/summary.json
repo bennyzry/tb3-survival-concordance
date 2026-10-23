@@ -1,0 +1,1246 @@
+{
+  "generated_utc": "2026-10-23T05:37:43.536575+00:00",
+  "source_commit": "69fd982b09b69d8223bd8626fa8f227a52760576",
+  "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+  "grading_tests": 365,
+  "harbor_version": "0.23.1.dev202609170426",
+  "supervisor_complete": true,
+  "trial_type": "new genuine independent v0.3.0 standard model executions, not offline regrades",
+  "trials": [
+    {
+      "id": "v030-codex-standard-1",
+      "provider": "codex",
+      "model": "openai/gpt-6.1-sol",
+      "effort": "xhigh",
+      "source_commit": "69fd982b09b69d8223bd8626fa8f227a52760576",
+      "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+      "started_utc": "2026-10-23T03:50:36.425168+00:00",
+      "argv": [
+        "/opt/tb3/harbor/bin/python",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/scripts/run_standard.py",
+        "codex",
+        "--id",
+        "v030-codex-standard-1",
+        "--agent-directory",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/agents"
+      ],
+      "status": "completed; trajectory/source reviewed",
+      "evidence_type": "genuine independent Harbor agent trial",
+      "pid": 85819,
+      "exit_code": 0,
+      "finished_utc": "2026-10-23T04:09:26.036666+00:00",
+      "elapsed_sec": 1160.3295321879996,
+      "cutoff_interrupted": false,
+      "trial_result_files": [
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standard-1/survival-concordance__7tiBmNQ/result.json"
+      ],
+      "ctrf_files": [
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standard-1/survival-concordance__7tiBmNQ/verifier/ctrf.json",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standard-1/survival-concordance__7tiBmNQ/verifier/ctrf.raw.json"
+      ],
+      "reward": 1.0,
+      "validity": "valid genuine final-version graded model completion",
+      "native_trial_name": "survival-concordance__7tiBmNQ",
+      "native_trial_uuid": "ad7dcd61-e192-4e9e-8367-92babf4b1b94",
+      "harbor_task_checksum": "ee1757663c03e451bc9516bbbbf00cd27ef52b4e5535fdf5d9b76a9681a8e1b7",
+      "exception_info": null,
+      "agent_info": {
+        "name": "codex",
+        "version": "0.163.0",
+        "model_info": {
+          "name": "gpt-6.1-sol",
+          "provider": "openai"
+        }
+      },
+      "agent_execution": {
+        "started_at": "2026-10-23T03:51:01.004306Z",
+        "finished_at": "2026-10-23T04:06:32.887944Z"
+      },
+      "verifier_execution": {
+        "started_at": "2026-10-23T04:06:56.783753Z",
+        "finished_at": "2026-10-23T04:09:24.193635Z"
+      },
+      "verifier_environment_mode": "separate",
+      "ctrf": {
+        "summary": {
+          "tests": 365,
+          "passed": 365,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1792728431266,
+          "stop": 1792728551535
+        },
+        "unique_names": 365,
+        "complete": true,
+        "failed_tests": []
+      },
+      "binary_reward_consistent": true,
+      "verifier_environment": {
+        "python": "3.13.7",
+        "baseline_sha256": "52a01078d8883a588c55833d78d6c6e4d882ae40201280dddc256e53ad07e711",
+        "versions": {
+          "cloudpickle": "3.1.2",
+          "ecos": "2.0.14",
+          "jinja2": "3.1.6",
+          "joblib": "1.6.0",
+          "markupsafe": "3.0.4",
+          "narwhals": "2.27.1",
+          "numexpr": "2.14.2",
+          "numpy": "2.5.4",
+          "osqp": "1.1.3",
+          "packaging": "26.3",
+          "pandas": "3.0.6",
+          "python-dateutil": "3.0.0",
+          "scikit-learn": "1.9.1",
+          "scikit-survival": "0.28.0",
+          "scipy": "1.18.1",
+          "setuptools": "84.2.1",
+          "six": "1.17.0",
+          "threadpoolctl": "3.7.0",
+          "tzdata": "2026.5"
+        },
+        "uid": 0,
+        "candidate_uid": 10001,
+        "protected_directories": {
+          "/tests": {
+            "owner_uid": 0,
+            "mode": "0o700"
+          },
+          "/logs/verifier": {
+            "owner_uid": 1000,
+            "mode": "0o700"
+          }
+        },
+        "cpu.max": "100000 100000",
+        "memory.max": "2147483648",
+        "memory.swap.max": "2147483648"
+      },
+      "verifier_resources": {
+        "cpu.max": "100000 100000",
+        "memory.max": "2147483648",
+        "memory.peak": "438525952",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+      },
+      "worker_audit": {
+        "invocations": 20,
+        "launcher_uids": [
+          10001
+        ],
+        "recorded_timeouts": 0,
+        "all_observed_uid_gid_10001": true,
+        "all_observed_no_groups_no_new_privs": true,
+        "native_exit_codes": {
+          "0": 20
+        }
+      },
+      "raw_trajectory_sha256": "5e5a3dca84cbb626c8d29a270c995e58c2afa3406afafb59dabb245eca4ed075",
+      "trajectory_steps": 20,
+      "trajectory_agent": {
+        "name": "codex",
+        "version": "0.163.0",
+        "model_name": "gpt-6.1-sol",
+        "extra": {
+          "originator": "codex_exec",
+          "cwd": "/app/work"
+        }
+      },
+      "submission_manifest": [
+        {
+          "path": "sksurv/__init__.py",
+          "bytes": 5307,
+          "sha256": "eea1cd543cd98285f2095b8f82b8b992c86f5e694cf9b067f0c666da7370c1c0",
+          "published": true
+        },
+        {
+          "path": "sksurv/_concordance.py",
+          "bytes": 3134,
+          "sha256": "b5115db60cf9b50058bbdc12f48a4a9121bda00dc2bce0b5a61aae9d7f9417b6",
+          "published": true
+        },
+        {
+          "path": "sksurv/_concordance_counts.c",
+          "bytes": 2719,
+          "sha256": "48428e39edd6df93a18433641fcaa50d3ba6b8c7479ce825230f0cd81ca73bcb",
+          "published": true
+        },
+        {
+          "path": "sksurv/_concordance_counts.so",
+          "bytes": 15384,
+          "sha256": "0208fc97bc3fef7ab93e0664bc13f14f999e959de3323053a7e67f4f863910d0",
+          "published": true,
+          "artifact_type": "ELF compiled helper"
+        },
+        {
+          "path": "sksurv/metrics.py",
+          "bytes": 43391,
+          "sha256": "66bbc0576ee68a7201f14f609a899b85eec1e8805f4e46852a2ccc4fd15bfc74",
+          "published": true
+        },
+        {
+          "path": "tests/check_concordance.py",
+          "bytes": 6104,
+          "sha256": "13552bc0526c203e1106f64dbeca36798cf19de12d740ad9d03a8bfe408418d3",
+          "published": true
+        }
+      ],
+      "metrics_sha256": "66bbc0576ee68a7201f14f609a899b85eec1e8805f4e46852a2ccc4fd15bfc74",
+      "codex_native_model_contexts": [
+        {
+          "model": "gpt-6.1-sol",
+          "effort": "xhigh"
+        }
+      ],
+      "structurally_complete": true,
+      "trajectory_review": {
+        "reviewer": "Codex manual tool-timeline, submitted-source, native-result and verifier review; not an official upstream verdict",
+        "validity": "valid genuine final-version graded model completion",
+        "observed_reward": 1,
+        "graded_passed": 365,
+        "graded_total": 365,
+        "native_exit_code": 0,
+        "trajectory_steps": 20,
+        "agent_steps_reviewed": 15,
+        "top_level_tool_calls_reviewed": 14,
+        "candidate_sha256": "66bbc0576ee68a7201f14f609a899b85eec1e8805f4e46852a2ccc4fd15bfc74",
+        "observed_model": "gpt-6.1-sol",
+        "observed_effort": "xhigh",
+        "implementation": "Uses a compiled C rank-counting helper with a Fenwick tree, NumPy searches using the actual dtype subtraction for inclusive tie boundaries, and ordered weighted accumulation. It retains the original loop for small or irregular inputs and includes both the helper source and the exact shared library under the declared artifact scope.",
+        "outcome_analysis": "The isolated final-version verifier passed all 365 cases, including the 32 scalar-tolerance and warning regressions and the unchanged scale workloads. This is a genuine reward-1 success, not an offline regrade or an infrastructure failure.",
+        "trajectory_findings": [
+          "The agent inspected the supplied and installed release source, wrote a general input-dependent implementation, and ran its own differential, numerical-boundary, performance and unprivileged relocation checks.",
+          "The timeline contains no external URL fetch and no observed hidden-verifier or reward mutation. The /tests/ substring in the indexed arguments refers to its own /app/work/tests/check_concordance.py, not the protected verifier directory.",
+          "An initial local relocation script omitted a sys import; the agent corrected it and reran it successfully. This intermediate test-script error is not a final model failure.",
+          "Native session turn_context fields identify gpt-6.1-sol with xhigh. The native Harbor result has no exception, a separate verifier and reward 1; the CTRF report contains 365 unique passed results.",
+          "Verifier records show one CPU, 2147483648 bytes of RAM, protected grading directories and no cgroup OOM event. Peak recorded verifier memory was 438525952 bytes."
+        ],
+        "limits": [
+          "The model's own reported local check counts and timings are trajectory evidence, not additional independently graded benchmark cases.",
+          "Passing the frozen 365 cases is not a proof of all possible API behavior or of frontier-level difficulty."
+        ]
+      },
+      "execution_status_before_review": "process completed; requires evidence review"
+    },
+    {
+      "id": "v030-deepseek-standard-1",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "effort": "max",
+      "source_commit": "69fd982b09b69d8223bd8626fa8f227a52760576",
+      "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+      "started_utc": "2026-10-23T03:50:36.426485+00:00",
+      "argv": [
+        "/opt/tb3/harbor/bin/python",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/scripts/run_standard.py",
+        "deepseek",
+        "--id",
+        "v030-deepseek-standard-1",
+        "--agent-directory",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/agents"
+      ],
+      "status": "completed; trajectory/source reviewed",
+      "evidence_type": "genuine independent Harbor agent trial",
+      "pid": 85820,
+      "exit_code": 0,
+      "finished_utc": "2026-10-23T04:14:12.837405+00:00",
+      "elapsed_sec": 1455.4121621100057,
+      "cutoff_interrupted": false,
+      "trial_result_files": [
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-deepseek-standard-1/survival-concordance__w94EFy5/result.json"
+      ],
+      "ctrf_files": [
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-deepseek-standard-1/survival-concordance__w94EFy5/verifier/ctrf.json",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-deepseek-standard-1/survival-concordance__w94EFy5/verifier/ctrf.raw.json"
+      ],
+      "reward": 1.0,
+      "validity": "valid genuine final-version graded model completion",
+      "native_trial_name": "survival-concordance__w94EFy5",
+      "native_trial_uuid": "e86f2b0d-830a-4d3d-99d6-4957106f8efd",
+      "harbor_task_checksum": "ee1757663c03e451bc9516bbbbf00cd27ef52b4e5535fdf5d9b76a9681a8e1b7",
+      "exception_info": null,
+      "agent_info": {
+        "name": "claude-code",
+        "version": "2.1.308",
+        "model_info": {
+          "name": "deepseek-flash",
+          "provider": "anthropic"
+        }
+      },
+      "agent_execution": {
+        "started_at": "2026-10-23T03:50:56.395322Z",
+        "finished_at": "2026-10-23T04:11:32.145087Z"
+      },
+      "verifier_execution": {
+        "started_at": "2026-10-23T04:12:05.102210Z",
+        "finished_at": "2026-10-23T04:14:10.627213Z"
+      },
+      "verifier_environment_mode": "separate",
+      "ctrf": {
+        "summary": {
+          "tests": 365,
+          "passed": 365,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1792728735053,
+          "stop": 1792728838751
+        },
+        "unique_names": 365,
+        "complete": true,
+        "failed_tests": []
+      },
+      "binary_reward_consistent": true,
+      "verifier_environment": {
+        "python": "3.13.7",
+        "baseline_sha256": "52a01078d8883a588c55833d78d6c6e4d882ae40201280dddc256e53ad07e711",
+        "versions": {
+          "cloudpickle": "3.1.2",
+          "ecos": "2.0.14",
+          "jinja2": "3.1.6",
+          "joblib": "1.6.0",
+          "markupsafe": "3.0.4",
+          "narwhals": "2.27.1",
+          "numexpr": "2.14.2",
+          "numpy": "2.5.4",
+          "osqp": "1.1.3",
+          "packaging": "26.3",
+          "pandas": "3.0.6",
+          "python-dateutil": "3.0.0",
+          "scikit-learn": "1.9.1",
+          "scikit-survival": "0.28.0",
+          "scipy": "1.18.1",
+          "setuptools": "84.2.1",
+          "six": "1.17.0",
+          "threadpoolctl": "3.7.0",
+          "tzdata": "2026.5"
+        },
+        "uid": 0,
+        "candidate_uid": 10001,
+        "protected_directories": {
+          "/tests": {
+            "owner_uid": 0,
+            "mode": "0o700"
+          },
+          "/logs/verifier": {
+            "owner_uid": 1000,
+            "mode": "0o700"
+          }
+        },
+        "cpu.max": "100000 100000",
+        "memory.max": "2147483648",
+        "memory.swap.max": "2147483648"
+      },
+      "verifier_resources": {
+        "cpu.max": "100000 100000",
+        "memory.max": "2147483648",
+        "memory.peak": "373116928",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+      },
+      "worker_audit": {
+        "invocations": 20,
+        "launcher_uids": [
+          10001
+        ],
+        "recorded_timeouts": 0,
+        "all_observed_uid_gid_10001": true,
+        "all_observed_no_groups_no_new_privs": true,
+        "native_exit_codes": {
+          "0": 20
+        }
+      },
+      "raw_trajectory_sha256": "eae0da4608932ced24c10ffcc3ab0c4e1a36cafef6b99c23ed1a76d92f2bba86",
+      "trajectory_steps": 81,
+      "trajectory_agent": {
+        "name": "claude-code",
+        "version": "2.1.308",
+        "model_name": "deepseek-flash",
+        "extra": {
+          "cwds": [
+            "/app/work"
+          ],
+          "git_branches": [
+            "HEAD"
+          ]
+        }
+      },
+      "submission_manifest": [
+        {
+          "path": "sksurv/metrics.py",
+          "bytes": 54658,
+          "sha256": "d42e98f195d01af2260290f5cd355a6a09699f9770e5db2ca291d9fcfae11941",
+          "published": true
+        }
+      ],
+      "metrics_sha256": "d42e98f195d01af2260290f5cd355a6a09699f9770e5db2ca291d9fcfae11941",
+      "codex_native_model_contexts": [],
+      "provider_requests": {
+        "count": 80,
+        "models": [
+          "deepseek-flash"
+        ],
+        "efforts": [
+          "max"
+        ],
+        "statuses": {
+          "200": 80
+        },
+        "all_exact_flash_max": true
+      },
+      "structurally_complete": true,
+      "trajectory_review": {
+        "reviewer": "Codex manual tool-timeline, submitted-source, native-result and verifier review; not an official upstream verdict",
+        "validity": "valid genuine final-version graded model completion",
+        "observed_reward": 1,
+        "graded_passed": 365,
+        "graded_total": 365,
+        "native_exit_code": 0,
+        "trajectory_steps": 81,
+        "agent_steps_reviewed": 79,
+        "top_level_tool_calls_reviewed": 82,
+        "candidate_sha256": "d42e98f195d01af2260290f5cd355a6a09699f9770e5db2ca291d9fcfae11941",
+        "observed_model": "deepseek-flash",
+        "observed_effort": "max",
+        "implementation": "Uses a vectorized wavelet-matrix prefix counter over time-ordered risk ranks, NumPy subtraction-based binary searches for nontransitive tie intervals, and separate same-time censor contributions. It retains the release loop for dtypes whose arithmetic cannot support ordered queries and preserves weighted accumulation and warning categories in the single submitted metrics.py module.",
+        "outcome_analysis": "The isolated final-version verifier passed all 365 cases. This independent wavelet-matrix implementation is a genuine reward-1 success and demonstrates acceptance of an algorithm different from the Oracle and the first Codex submission.",
+        "trajectory_findings": [
+          "The agent inspected the supplied and installed 0.28.0 source, explored dtype and censoring semantics, implemented a general algorithm, and corrected an interval-search error found by its own random differential checks.",
+          "It ran local random, IPCW, warning, dtype, scale, error and unprivileged import checks. These intermediate debugging results are not final benchmark failures.",
+          "Early filesystem inspection included an attempted listing of /logs/verifier; no hidden verifier content appears in the observed output. No verifier or reward write, external answer fetch, or expected-answer lookup was observed in the reviewed timeline/source.",
+          "All 80 audited inference requests used deepseek-flash and effort max and completed with HTTP 200. The backend snapshot behind the alias is not independently attested by these request records.",
+          "Native Harbor exited 0 with no trial exception and a separate verifier. CTRF contains 365 unique passed results; all 20 recorded worker invocations exited 0 under launcher UID 10001, with zero recorded timeouts.",
+          "Verifier records enforce one CPU and 2147483648 bytes of RAM. Peak recorded memory was 373116928 bytes, with no cgroup OOM event."
+        ],
+        "limits": [
+          "The agent's own local test totals and timing claims are trajectory evidence, not additional independently graded benchmark cases.",
+          "Passing the frozen cases does not prove all API behavior, adversarial robustness, novelty or frontier-level difficulty."
+        ]
+      },
+      "execution_status_before_review": "process completed; requires evidence review"
+    },
+    {
+      "id": "v030-codex-standard-2",
+      "provider": "codex",
+      "model": "openai/gpt-6.1-sol",
+      "effort": "xhigh",
+      "source_commit": "69fd982b09b69d8223bd8626fa8f227a52760576",
+      "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+      "started_utc": "2026-10-23T04:09:26.103238+00:00",
+      "argv": [
+        "/opt/tb3/harbor/bin/python",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/scripts/run_standard.py",
+        "codex",
+        "--id",
+        "v030-codex-standard-2",
+        "--agent-directory",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/agents"
+      ],
+      "status": "completed; trajectory/source reviewed",
+      "evidence_type": "genuine independent Harbor agent trial",
+      "pid": 89068,
+      "exit_code": 0,
+      "finished_utc": "2026-10-23T04:26:02.648065+00:00",
+      "elapsed_sec": 1025.310231861993,
+      "cutoff_interrupted": false,
+      "trial_result_files": [
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standard-2/survival-concordance__mrMNDwy/result.json"
+      ],
+      "ctrf_files": [
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standard-2/survival-concordance__mrMNDwy/verifier/ctrf.json",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standard-2/survival-concordance__mrMNDwy/verifier/ctrf.raw.json"
+      ],
+      "reward": 1.0,
+      "validity": "valid genuine final-version graded model completion",
+      "native_trial_name": "survival-concordance__mrMNDwy",
+      "native_trial_uuid": "b089674a-6545-4bb4-ab3a-16298e9d3d45",
+      "harbor_task_checksum": "ee1757663c03e451bc9516bbbbf00cd27ef52b4e5535fdf5d9b76a9681a8e1b7",
+      "exception_info": null,
+      "agent_info": {
+        "name": "codex",
+        "version": "0.163.0",
+        "model_info": {
+          "name": "gpt-6.1-sol",
+          "provider": "openai"
+        }
+      },
+      "agent_execution": {
+        "started_at": "2026-10-23T04:09:45.299693Z",
+        "finished_at": "2026-10-23T04:22:52.422709Z"
+      },
+      "verifier_execution": {
+        "started_at": "2026-10-23T04:23:17.467279Z",
+        "finished_at": "2026-10-23T04:25:55.728627Z"
+      },
+      "verifier_environment_mode": "separate",
+      "ctrf": {
+        "summary": {
+          "tests": 365,
+          "passed": 365,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1792729409478,
+          "stop": 1792729543115
+        },
+        "unique_names": 365,
+        "complete": true,
+        "failed_tests": []
+      },
+      "binary_reward_consistent": true,
+      "verifier_environment": {
+        "python": "3.13.7",
+        "baseline_sha256": "52a01078d8883a588c55833d78d6c6e4d882ae40201280dddc256e53ad07e711",
+        "versions": {
+          "cloudpickle": "3.1.2",
+          "ecos": "2.0.14",
+          "jinja2": "3.1.6",
+          "joblib": "1.6.0",
+          "markupsafe": "3.0.4",
+          "narwhals": "2.27.1",
+          "numexpr": "2.14.2",
+          "numpy": "2.5.4",
+          "osqp": "1.1.3",
+          "packaging": "26.3",
+          "pandas": "3.0.6",
+          "python-dateutil": "3.0.0",
+          "scikit-learn": "1.9.1",
+          "scikit-survival": "0.28.0",
+          "scipy": "1.18.1",
+          "setuptools": "84.2.1",
+          "six": "1.17.0",
+          "threadpoolctl": "3.7.0",
+          "tzdata": "2026.5"
+        },
+        "uid": 0,
+        "candidate_uid": 10001,
+        "protected_directories": {
+          "/tests": {
+            "owner_uid": 0,
+            "mode": "0o700"
+          },
+          "/logs/verifier": {
+            "owner_uid": 1000,
+            "mode": "0o700"
+          }
+        },
+        "cpu.max": "100000 100000",
+        "memory.max": "2147483648",
+        "memory.swap.max": "2147483648"
+      },
+      "verifier_resources": {
+        "cpu.max": "100000 100000",
+        "memory.max": "2147483648",
+        "memory.peak": "364335104",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+      },
+      "worker_audit": {
+        "invocations": 20,
+        "launcher_uids": [
+          10001
+        ],
+        "recorded_timeouts": 0,
+        "all_observed_uid_gid_10001": true,
+        "all_observed_no_groups_no_new_privs": true,
+        "native_exit_codes": {
+          "0": 20
+        }
+      },
+      "raw_trajectory_sha256": "8913f752300a2e51e754ad43d05c1a70bae2002b6a12a80a5d2d584c643f2207",
+      "trajectory_steps": 20,
+      "trajectory_agent": {
+        "name": "codex",
+        "version": "0.163.0",
+        "model_name": "gpt-6.1-sol",
+        "extra": {
+          "originator": "codex_exec",
+          "cwd": "/app/work"
+        }
+      },
+      "submission_manifest": [
+        {
+          "path": "sksurv/__init__.py",
+          "bytes": 5310,
+          "sha256": "7bd0338de04cca07b5b5ad5b2dedc244a9b9b115ff60df31246d7c758857ee68",
+          "published": true
+        },
+        {
+          "path": "sksurv/metrics.py",
+          "bytes": 48424,
+          "sha256": "87c91d317f4cd5742b95913c0e1340024601813b42942dd116ca7fe1ca9e3f35",
+          "published": true
+        },
+        {
+          "path": "tests/validate_concordance.py",
+          "bytes": 6982,
+          "sha256": "e7d91ad0d3ef6b5b1330c6ff207ec01154a8c2f64055daecfaea7e0ea5bc9b2e",
+          "published": true
+        },
+        {
+          "path": "tests/validate_large_concordance.py",
+          "bytes": 4334,
+          "sha256": "ea860bb70e333619ce71908196b26c8c9e7dec6fa56a13d268ecf64726339aac",
+          "published": true
+        }
+      ],
+      "metrics_sha256": "87c91d317f4cd5742b95913c0e1340024601813b42942dd116ca7fe1ca9e3f35",
+      "codex_native_model_contexts": [
+        {
+          "model": "gpt-6.1-sol",
+          "effort": "xhigh"
+        }
+      ],
+      "structurally_complete": true,
+      "trajectory_review": {
+        "reviewer": "Codex manual tool-timeline, submitted-source, native-result and verifier review; not an official upstream verdict",
+        "validity": "valid genuine final-version graded model completion",
+        "observed_reward": 1,
+        "graded_passed": 365,
+        "graded_total": 365,
+        "native_exit_code": 0,
+        "trajectory_steps": 20,
+        "agent_steps_reviewed": 15,
+        "top_level_tool_calls_reviewed": 14,
+        "candidate_sha256": "87c91d317f4cd5742b95913c0e1340024601813b42942dd116ca7fe1ca9e3f35",
+        "observed_model": "gpt-6.1-sol",
+        "observed_effort": "xhigh",
+        "implementation": "Uses a Python Fenwick tree over risk ranks, reverse time groups, dtype-preserving binary searches for tie intervals and ordered scalar weighted accumulation. It retains the pairwise implementation for irregular inputs and integer ranges whose subtraction can wrap; a source package overlay and local validation scripts are included in the transferred artifact.",
+        "outcome_analysis": "All 365 final-version cases passed, with no timeout or trial exception. This is a genuine reward-1 success from a fresh independent Codex session; the implementation uses no compiled helper.",
+        "trajectory_findings": [
+          "The agent inspected the supplied and installed release source, wrote the optimized estimator, and compared score/count/error/warning behavior against pristine 0.28.0.",
+          "Its own validation included random bit patterns, intermediate cohorts, large counts, an independently constructed histogram reference and relocated execution as UID/GID 10001. These local totals and timings remain agent-side evidence.",
+          "No external URL fetch, hidden-verifier read or reward mutation was observed. Indexed /tests/ markers refer to its own /app/work/tests validation files.",
+          "The submitted source computes results from the input arrays and preserves both public wrappers. No expected-answer lookup or workload-ID branch was found in the reviewed implementation.",
+          "Native turn_context fields identify gpt-6.1-sol and xhigh. Harbor exited 0 with no exception, a separate verifier, and 365 unique passed CTRF results.",
+          "All 20 recorded verifier worker processes had UID/GID 10001, no supplementary groups and NoNewPrivs=1, and exited 0 with no timeout. One CPU and 2147483648 bytes of RAM were enforced; recorded peak verifier memory was 364335104 bytes, with no OOM event."
+        ],
+        "limits": [
+          "Passing these cases does not prove compatibility on every possible input.",
+          "The observed success must not be counted as a model failure or evidence of frontier-level difficulty."
+        ]
+      },
+      "execution_status_before_review": "process completed; requires evidence review"
+    },
+    {
+      "id": "v030-deepseek-standard-2",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "effort": "max",
+      "source_commit": "69fd982b09b69d8223bd8626fa8f227a52760576",
+      "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+      "started_utc": "2026-10-23T04:14:12.889867+00:00",
+      "argv": [
+        "/opt/tb3/harbor/bin/python",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/scripts/run_standard.py",
+        "deepseek",
+        "--id",
+        "v030-deepseek-standard-2",
+        "--agent-directory",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/agents"
+      ],
+      "status": "completed; trajectory/source reviewed",
+      "evidence_type": "genuine independent Harbor agent trial",
+      "pid": 91143,
+      "exit_code": 0,
+      "finished_utc": "2026-10-23T05:05:57.928793+00:00",
+      "elapsed_sec": 3200.9108043300075,
+      "cutoff_interrupted": false,
+      "trial_result_files": [
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-deepseek-standard-2/survival-concordance__uscGZ5j/result.json"
+      ],
+      "ctrf_files": [
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-deepseek-standard-2/survival-concordance__uscGZ5j/verifier/ctrf.json",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-deepseek-standard-2/survival-concordance__uscGZ5j/verifier/ctrf.raw.json"
+      ],
+      "reward": 1.0,
+      "validity": "valid genuine final-version graded model completion",
+      "native_trial_name": "survival-concordance__uscGZ5j",
+      "native_trial_uuid": "548b62d1-8360-43bf-9050-a39a66ba980d",
+      "harbor_task_checksum": "ee1757663c03e451bc9516bbbbf00cd27ef52b4e5535fdf5d9b76a9681a8e1b7",
+      "exception_info": null,
+      "agent_info": {
+        "name": "claude-code",
+        "version": "2.1.308",
+        "model_info": {
+          "name": "deepseek-flash",
+          "provider": "anthropic"
+        }
+      },
+      "agent_execution": {
+        "started_at": "2026-10-23T04:14:26.166485Z",
+        "finished_at": "2026-10-23T05:02:38.471843Z"
+      },
+      "verifier_execution": {
+        "started_at": "2026-10-23T05:03:13.735229Z",
+        "finished_at": "2026-10-23T05:05:53.059131Z"
+      },
+      "verifier_environment_mode": "separate",
+      "ctrf": {
+        "summary": {
+          "tests": 365,
+          "passed": 365,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1792731807016,
+          "stop": 1792731939594
+        },
+        "unique_names": 365,
+        "complete": true,
+        "failed_tests": []
+      },
+      "binary_reward_consistent": true,
+      "verifier_environment": {
+        "python": "3.13.7",
+        "baseline_sha256": "52a01078d8883a588c55833d78d6c6e4d882ae40201280dddc256e53ad07e711",
+        "versions": {
+          "cloudpickle": "3.1.2",
+          "ecos": "2.0.14",
+          "jinja2": "3.1.6",
+          "joblib": "1.6.0",
+          "markupsafe": "3.0.4",
+          "narwhals": "2.27.1",
+          "numexpr": "2.14.2",
+          "numpy": "2.5.4",
+          "osqp": "1.1.3",
+          "packaging": "26.3",
+          "pandas": "3.0.6",
+          "python-dateutil": "3.0.0",
+          "scikit-learn": "1.9.1",
+          "scikit-survival": "0.28.0",
+          "scipy": "1.18.1",
+          "setuptools": "84.2.1",
+          "six": "1.17.0",
+          "threadpoolctl": "3.7.0",
+          "tzdata": "2026.5"
+        },
+        "uid": 0,
+        "candidate_uid": 10001,
+        "protected_directories": {
+          "/tests": {
+            "owner_uid": 0,
+            "mode": "0o700"
+          },
+          "/logs/verifier": {
+            "owner_uid": 1000,
+            "mode": "0o700"
+          }
+        },
+        "cpu.max": "100000 100000",
+        "memory.max": "2147483648",
+        "memory.swap.max": "2147483648"
+      },
+      "verifier_resources": {
+        "cpu.max": "100000 100000",
+        "memory.max": "2147483648",
+        "memory.peak": "396406784",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+      },
+      "worker_audit": {
+        "invocations": 20,
+        "launcher_uids": [
+          10001
+        ],
+        "recorded_timeouts": 0,
+        "all_observed_uid_gid_10001": true,
+        "all_observed_no_groups_no_new_privs": true,
+        "native_exit_codes": {
+          "0": 20
+        }
+      },
+      "raw_trajectory_sha256": "20d92ccd297997a643278b156129b99aa9d4154592e3a679fde8fdb02e0ca11f",
+      "trajectory_steps": 105,
+      "trajectory_agent": {
+        "name": "claude-code",
+        "version": "2.1.308",
+        "model_name": "deepseek-flash",
+        "extra": {
+          "cwds": [
+            "/app/work"
+          ],
+          "git_branches": [
+            "HEAD"
+          ]
+        }
+      },
+      "submission_manifest": [
+        {
+          "path": "sksurv/__init__.py",
+          "bytes": 7066,
+          "sha256": "a3d4b109e8451a39c263597e358d414932a912882c16766f12d476dcc77ba297",
+          "published": true
+        },
+        {
+          "path": "sksurv/metrics.py",
+          "bytes": 53070,
+          "sha256": "72cf40e6f41fc0c6313153dc66c8d1097ed7c5a14bdae97c558733fc6101bfc2",
+          "published": true
+        }
+      ],
+      "metrics_sha256": "72cf40e6f41fc0c6313153dc66c8d1097ed7c5a14bdae97c558733fc6101bfc2",
+      "codex_native_model_contexts": [],
+      "provider_requests": {
+        "count": 104,
+        "models": [
+          "deepseek-flash"
+        ],
+        "efforts": [
+          "max"
+        ],
+        "statuses": {
+          "200": 104
+        },
+        "all_exact_flash_max": true
+      },
+      "structurally_complete": true,
+      "trajectory_review": {
+        "reviewer": "Codex manual tool-timeline, complete submitted-source, native-result and verifier review; not an official upstream verdict",
+        "validity": "valid genuine final-version graded model completion",
+        "observed_reward": 1,
+        "graded_passed": 365,
+        "graded_total": 365,
+        "native_exit_code": 0,
+        "trajectory_steps": 105,
+        "agent_steps_reviewed": 103,
+        "top_level_tool_calls_reviewed": 116,
+        "candidate_sha256": "72cf40e6f41fc0c6313153dc66c8d1097ed7c5a14bdae97c558733fc6101bfc2",
+        "observed_model": "deepseek-flash",
+        "observed_effort": "max",
+        "implementation": "Uses Python Fenwick rank counts over reverse survival-time groups, vectorized subtraction-based tie-window searches and separate same-time censor contributions. It selects the optimized path by estimated pairwise work and input arithmetic properties, retains the release implementation as a fallback, and includes a package bootstrap for relocated imports.",
+        "outcome_analysis": "The isolated verifier passed all 365 cases with no timeout or trial exception. The approximately fifty-minute run included lengthy agent-side reference calculations on 200,000-record cohorts; this was ordinary local validation work, not an authentication or infrastructure failure.",
+        "trajectory_findings": [
+          "The agent inspected the supplied/installed release, developed a general prototype, tested NumPy dtype arithmetic and distinguished the release's empty-comparison exception/NaN cases.",
+          "Its local validation forced the optimized path on small structured inputs, checked signed-integer eligibility, and compared large cohorts directly with the original quadratic code. Local reported case totals, bit-identical results and timings are agent-side evidence, separate from the 365 graded cases.",
+          "The timeline shows initial inspection of the empty /logs/verifier location, but no hidden-verifier content or reward write. No external answer fetch was observed; submitted metrics.py and __init__.py contain general calculations and normal import-path support, with no workload-ID or expected-answer lookup.",
+          "It corrected a package-bootstrap lookup issue and tested a clean copied package as UID/GID 10001 with the development import hook disabled. Changes outside /app/work were local test setup and did not transfer into the separate verifier.",
+          "All 104 audited inference requests used deepseek-flash with max effort and HTTP 200. Native Harbor exited 0 with no exception, a separate verifier and 365 unique passed CTRF results.",
+          "All 20 verifier worker invocations exited 0 with UID/GID 10001, no supplementary groups and NoNewPrivs=1. There were no recorded timeouts or cgroup OOM events; one CPU and 2147483648 bytes of RAM were enforced, with peak verifier memory 396406784 bytes."
+        ],
+        "limits": [
+          "Passing the frozen verifier does not prove all possible API behavior, including inputs excluded from the optimized path.",
+          "This is a retained reward-1 success and does not establish the required model-failure rate."
+        ]
+      },
+      "execution_status_before_review": "process completed; requires evidence review"
+    },
+    {
+      "id": "v030-codex-standard-3",
+      "provider": "codex",
+      "model": "openai/gpt-6.1-sol",
+      "effort": "xhigh",
+      "source_commit": "69fd982b09b69d8223bd8626fa8f227a52760576",
+      "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+      "started_utc": "2026-10-23T04:26:02.703786+00:00",
+      "argv": [
+        "/opt/tb3/harbor/bin/python",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/scripts/run_standard.py",
+        "codex",
+        "--id",
+        "v030-codex-standard-3",
+        "--agent-directory",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/agents"
+      ],
+      "status": "completed; trajectory/source reviewed",
+      "evidence_type": "genuine independent Harbor agent trial",
+      "pid": 93311,
+      "exit_code": 0,
+      "finished_utc": "2026-10-23T04:39:48.232486+00:00",
+      "elapsed_sec": 850.2566011220042,
+      "cutoff_interrupted": false,
+      "trial_result_files": [
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standard-3/survival-concordance__As8aLZH/result.json"
+      ],
+      "ctrf_files": [
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standard-3/survival-concordance__As8aLZH/verifier/ctrf.json",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standard-3/survival-concordance__As8aLZH/verifier/ctrf.raw.json"
+      ],
+      "reward": 1.0,
+      "validity": "valid genuine final-version graded model completion",
+      "native_trial_name": "survival-concordance__As8aLZH",
+      "native_trial_uuid": "14a0ae1a-acbb-4cd8-a404-60ff5ab9f822",
+      "harbor_task_checksum": "ee1757663c03e451bc9516bbbbf00cd27ef52b4e5535fdf5d9b76a9681a8e1b7",
+      "exception_info": null,
+      "agent_info": {
+        "name": "codex",
+        "version": "0.163.0",
+        "model_info": {
+          "name": "gpt-6.1-sol",
+          "provider": "openai"
+        }
+      },
+      "agent_execution": {
+        "started_at": "2026-10-23T04:26:20.696844Z",
+        "finished_at": "2026-10-23T04:36:36.982650Z"
+      },
+      "verifier_execution": {
+        "started_at": "2026-10-23T04:37:03.623932Z",
+        "finished_at": "2026-10-23T04:39:43.025224Z"
+      },
+      "verifier_environment_mode": "separate",
+      "ctrf": {
+        "summary": {
+          "tests": 365,
+          "passed": 365,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1792730239979,
+          "stop": 1792730369524
+        },
+        "unique_names": 365,
+        "complete": true,
+        "failed_tests": []
+      },
+      "binary_reward_consistent": true,
+      "verifier_environment": {
+        "python": "3.13.7",
+        "baseline_sha256": "52a01078d8883a588c55833d78d6c6e4d882ae40201280dddc256e53ad07e711",
+        "versions": {
+          "cloudpickle": "3.1.2",
+          "ecos": "2.0.14",
+          "jinja2": "3.1.6",
+          "joblib": "1.6.0",
+          "markupsafe": "3.0.4",
+          "narwhals": "2.27.1",
+          "numexpr": "2.14.2",
+          "numpy": "2.5.4",
+          "osqp": "1.1.3",
+          "packaging": "26.3",
+          "pandas": "3.0.6",
+          "python-dateutil": "3.0.0",
+          "scikit-learn": "1.9.1",
+          "scikit-survival": "0.28.0",
+          "scipy": "1.18.1",
+          "setuptools": "84.2.1",
+          "six": "1.17.0",
+          "threadpoolctl": "3.7.0",
+          "tzdata": "2026.5"
+        },
+        "uid": 0,
+        "candidate_uid": 10001,
+        "protected_directories": {
+          "/tests": {
+            "owner_uid": 0,
+            "mode": "0o700"
+          },
+          "/logs/verifier": {
+            "owner_uid": 1000,
+            "mode": "0o700"
+          }
+        },
+        "cpu.max": "100000 100000",
+        "memory.max": "2147483648",
+        "memory.swap.max": "2147483648"
+      },
+      "verifier_resources": {
+        "cpu.max": "100000 100000",
+        "memory.max": "2147483648",
+        "memory.peak": "328597504",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+      },
+      "worker_audit": {
+        "invocations": 20,
+        "launcher_uids": [
+          10001
+        ],
+        "recorded_timeouts": 0,
+        "all_observed_uid_gid_10001": true,
+        "all_observed_no_groups_no_new_privs": true,
+        "native_exit_codes": {
+          "0": 20
+        }
+      },
+      "raw_trajectory_sha256": "369a82a4c87ac1ba0a546a6149294e6c16041a7ac6a09797c307e474367949d3",
+      "trajectory_steps": 23,
+      "trajectory_agent": {
+        "name": "codex",
+        "version": "0.163.0",
+        "model_name": "gpt-6.1-sol",
+        "extra": {
+          "originator": "codex_exec",
+          "cwd": "/app/work"
+        }
+      },
+      "submission_manifest": [
+        {
+          "path": "sksurv/__init__.py",
+          "bytes": 5378,
+          "sha256": "5700732fee17368ad5b8bf318171c4428763d5a1c4a4b64e188dc35bf6701ca3",
+          "published": true
+        },
+        {
+          "path": "sksurv/_concordance.py",
+          "bytes": 3400,
+          "sha256": "32d2bcd7bafe2643ee188fe36bcf09d2477466191293e5efd8b955ab13898d3a",
+          "published": true
+        },
+        {
+          "path": "sksurv/_concordance_native.cpp",
+          "bytes": 4637,
+          "sha256": "afba45a70dc877f2ba126a81c14f943691fff17e25ae05c163d377c0e64702cb",
+          "published": true
+        },
+        {
+          "path": "sksurv/_concordance_native.so",
+          "bytes": 15952,
+          "sha256": "eb620de9bb8bab01de0eac1b6442be7a2ac9cbfa1b2b040fc0526f4f85bbc557",
+          "published": true,
+          "artifact_type": "ELF compiled helper"
+        },
+        {
+          "path": "sksurv/metrics.py",
+          "bytes": 42693,
+          "sha256": "abeff7cd2ce40c5431fc35ecd123f84f987e77fb11e33d3eb394dc882e465539",
+          "published": true
+        },
+        {
+          "path": "tests/check_concordance.py",
+          "bytes": 6684,
+          "sha256": "3b106dbeb103ff8c06f1d89e05acb3bbfe51db019c1d7c87032068ef57d2b496",
+          "published": true
+        }
+      ],
+      "metrics_sha256": "abeff7cd2ce40c5431fc35ecd123f84f987e77fb11e33d3eb394dc882e465539",
+      "codex_native_model_contexts": [
+        {
+          "model": "gpt-6.1-sol",
+          "effort": "xhigh"
+        }
+      ],
+      "structurally_complete": true,
+      "trajectory_review": {
+        "reviewer": "Codex manual tool-timeline, submitted-source, native-result and verifier review; not an official upstream verdict",
+        "validity": "valid genuine final-version graded model completion",
+        "observed_reward": 1,
+        "graded_passed": 365,
+        "graded_total": 365,
+        "native_exit_code": 0,
+        "trajectory_steps": 23,
+        "agent_steps_reviewed": 18,
+        "top_level_tool_calls_reviewed": 17,
+        "candidate_sha256": "abeff7cd2ce40c5431fc35ecd123f84f987e77fb11e33d3eb394dc882e465539",
+        "observed_model": "gpt-6.1-sol",
+        "observed_effort": "xhigh",
+        "implementation": "Uses a C++ rank tree that removes same-time events before querying the remaining subjects, with subtraction-based inclusive tie bounds and 64-bit pair counts. Python retains validation, IPCW weights and ordered NumPy accumulation; non-float64 risks and unusual tolerances use the original loop. The C++ source, exact shared library and Python adapter are all captured under the declared artifact scope.",
+        "outcome_analysis": "The isolated verifier passed all 365 cases, with no timeout or trial exception. This new v030-codex-standard-3 is a reward-1 success and is distinct from the earlier v0.2.0 codex-standard-3 submission whose separate offline regrade failed.",
+        "trajectory_findings": [
+          "The agent inspected the supplied release and package import layout, implemented a general native counter, checked reference behavior and exercised large analytical counts.",
+          "It tested dtype/tolerance/error/warning compatibility and a copied read-only package running both APIs as UID/GID 10001. Local differential totals and timings are agent-side observations, separate from the graded 365-case report.",
+          "The complete indexed tool timeline contains no external URL fetch or observed hidden-verifier/reward access. /tests/ markers refer to its own /app/work/tests files.",
+          "The reviewed Python and C++ source derives all counts from the input arrays, with no workload-ID or expected-answer lookup. The dtype-specific fallback is allowed by the public finite-float64 performance contract.",
+          "Native turn_context fields confirm gpt-6.1-sol and xhigh. Harbor exited 0 with no exception, a separate verifier and 365 unique passed CTRF results.",
+          "All 20 verifier worker invocations exited 0 with UID/GID 10001, empty supplementary groups, NoNewPrivs=1 and no recorded timeout. One CPU and 2147483648 bytes of RAM were enforced; peak verifier memory was 328597504 bytes with no OOM event."
+        ],
+        "limits": [
+          "Passing the frozen verifier is not a proof of every possible API input.",
+          "All three new Codex successes are retained and do not establish the desired model-failure rate."
+        ]
+      },
+      "execution_status_before_review": "process completed; requires evidence review"
+    },
+    {
+      "id": "v030-deepseek-standard-3",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "effort": "max",
+      "source_commit": "69fd982b09b69d8223bd8626fa8f227a52760576",
+      "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+      "started_utc": "2026-10-23T04:54:03.230004+00:00",
+      "argv": [
+        "/opt/tb3/harbor/bin/python",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/scripts/run_standard.py",
+        "deepseek",
+        "--id",
+        "v030-deepseek-standard-3",
+        "--agent-directory",
+        "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/agents"
+      ],
+      "status": "completed; trajectory/source reviewed",
+      "evidence_type": "genuine independent Harbor agent trial",
+      "pid": 95838,
+      "exit_code": 0,
+      "finished_utc": "2026-10-23T05:36:11.467649+00:00",
+      "elapsed_sec": 2616.0485360120074,
+      "cutoff_interrupted": false,
+      "reward": 1.0,
+      "validity": "valid genuine final-version graded model completion",
+      "native_trial_name": "survival-concordance__L9xzvk2",
+      "native_trial_uuid": "56ad0780-4d17-4673-84f9-c6eff8c36109",
+      "harbor_task_checksum": "ee1757663c03e451bc9516bbbbf00cd27ef52b4e5535fdf5d9b76a9681a8e1b7",
+      "exception_info": null,
+      "agent_info": {
+        "name": "claude-code",
+        "version": "2.1.308",
+        "model_info": {
+          "name": "deepseek-flash",
+          "provider": "anthropic"
+        }
+      },
+      "agent_execution": {
+        "started_at": "2026-10-23T04:54:20.007044Z",
+        "finished_at": "2026-10-23T05:33:23.319291Z"
+      },
+      "verifier_execution": {
+        "started_at": "2026-10-23T05:33:58.304318Z",
+        "finished_at": "2026-10-23T05:36:06.241764Z"
+      },
+      "verifier_environment_mode": "separate",
+      "ctrf": {
+        "summary": {
+          "tests": 365,
+          "passed": 365,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1792733651279,
+          "stop": 1792733753898
+        },
+        "unique_names": 365,
+        "complete": true,
+        "failed_tests": []
+      },
+      "binary_reward_consistent": true,
+      "verifier_environment": {
+        "python": "3.13.7",
+        "baseline_sha256": "52a01078d8883a588c55833d78d6c6e4d882ae40201280dddc256e53ad07e711",
+        "versions": {
+          "cloudpickle": "3.1.2",
+          "ecos": "2.0.14",
+          "jinja2": "3.1.6",
+          "joblib": "1.6.0",
+          "markupsafe": "3.0.4",
+          "narwhals": "2.27.1",
+          "numexpr": "2.14.2",
+          "numpy": "2.5.4",
+          "osqp": "1.1.3",
+          "packaging": "26.3",
+          "pandas": "3.0.6",
+          "python-dateutil": "3.0.0",
+          "scikit-learn": "1.9.1",
+          "scikit-survival": "0.28.0",
+          "scipy": "1.18.1",
+          "setuptools": "84.2.1",
+          "six": "1.17.0",
+          "threadpoolctl": "3.7.0",
+          "tzdata": "2026.5"
+        },
+        "uid": 0,
+        "candidate_uid": 10001,
+        "protected_directories": {
+          "/tests": {
+            "owner_uid": 0,
+            "mode": "0o700"
+          },
+          "/logs/verifier": {
+            "owner_uid": 1000,
+            "mode": "0o700"
+          }
+        },
+        "cpu.max": "100000 100000",
+        "memory.max": "2147483648",
+        "memory.swap.max": "2147483648"
+      },
+      "verifier_resources": {
+        "cpu.max": "100000 100000",
+        "memory.max": "2147483648",
+        "memory.peak": "410935296",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+      },
+      "worker_audit": {
+        "invocations": 20,
+        "launcher_uids": [
+          10001
+        ],
+        "recorded_timeouts": 0,
+        "all_observed_uid_gid_10001": true,
+        "all_observed_no_groups_no_new_privs": true,
+        "native_exit_codes": {
+          "0": 20
+        }
+      },
+      "raw_trajectory_sha256": "a01cac246482155a4087088ef6aaa96f017f48c0bf516d929b63ec99577a9bc1",
+      "trajectory_steps": 111,
+      "trajectory_agent": {
+        "name": "claude-code",
+        "version": "2.1.308",
+        "model_name": "deepseek-flash",
+        "extra": {
+          "cwds": [
+            "/app/work"
+          ],
+          "git_branches": [
+            "HEAD"
+          ]
+        }
+      },
+      "submission_manifest": [
+        {
+          "path": "sksurv/metrics.py",
+          "bytes": 53730,
+          "sha256": "1cd1d55366a7bf8074a96dfa375e4ebc1813b6d8ed84ca1adbaaa780bd1240e5",
+          "published": true
+        }
+      ],
+      "metrics_sha256": "1cd1d55366a7bf8074a96dfa375e4ebc1813b6d8ed84ca1adbaaa780bd1240e5",
+      "codex_native_model_contexts": [],
+      "provider_requests": {
+        "count": 110,
+        "models": [
+          "deepseek-flash"
+        ],
+        "efforts": [
+          "max"
+        ],
+        "statuses": {
+          "200": 110
+        },
+        "all_exact_flash_max": true
+      },
+      "structurally_complete": true,
+      "trajectory_review": {
+        "reviewer": "Codex manual complete indexed tool-timeline, submitted-source, native-result and verifier review; not an official upstream verdict",
+        "validity": "valid genuine final-version graded model completion",
+        "observed_reward": 1,
+        "graded_passed": 365,
+        "graded_total": 365,
+        "native_exit_code": 0,
+        "trajectory_steps": 111,
+        "agent_steps_reviewed": 109,
+        "top_level_tool_calls_reviewed": 115,
+        "candidate_sha256": "1cd1d55366a7bf8074a96dfa375e4ebc1813b6d8ed84ca1adbaaa780bd1240e5",
+        "observed_model": "deepseek-flash",
+        "observed_effort": "max",
+        "implementation": "Uses Python Fenwick rank counts over reverse survival-time groups, vectorized tie-window searches that evaluate the release's dtype subtraction/comparison, and sorted same-time censor ranks. Ordered weighted accumulation and the original loop for unsupported arithmetic remain in the single submitted metrics.py file.",
+        "outcome_analysis": "The isolated verifier passed all 365 final-version cases. This is a genuine reward-1 success from a new independent session. Its long local campaigns and intermediate implementation edits are not final benchmark failures.",
+        "trajectory_findings": [
+          "The agent inspected the supplied and installed release, developed and integrated a general prototype, and performed local differential, edge, warning, dtype and large-count checks.",
+          "It ran extensive small-cohort and IPCW campaigns, revised eligibility/aggregation behavior, stopped its own long exhaustive test processes, and reran smaller post-edit suites. These are ordinary local correctness checks within a standard trial, not the unavailable official adversarial evaluation.",
+          "The indexed URL strings come from retained GNU license text in edit payloads. No external answer fetch, hidden-verifier read, reward mutation or expected-answer lookup was observed in the reviewed timeline and source.",
+          "It tested a copied module from a temporary working directory as UID/GID 10001 on 200,000-record ordinary/IPCW workloads. Agent-reported local totals and timing measurements remain separate from the 365 graded results.",
+          "All 110 audited inference requests used deepseek-flash and max effort with HTTP 200. Harbor exited 0 with no trial exception and a separate verifier; CTRF contains 365 unique passed results.",
+          "All 20 verifier worker invocations exited 0 under UID/GID 10001, empty supplementary groups and NoNewPrivs=1. There were no recorded timeouts or cgroup OOM events. One CPU and 2147483648 bytes of RAM were enforced; peak verifier memory was 410935296 bytes."
+        ],
+        "limits": [
+          "Passing the frozen cases is not a proof of compatibility on every possible input or of adversarial robustness.",
+          "All six new final-version standard trials succeeded; this does not meet the intended model-failure-rate target or establish frontier-level difficulty."
+        ]
+      },
+      "execution_status_before_review": "process completed; requires evidence review"
+    }
+  ],
+  "adversarial": "Unavailable. Prior provider-blocked prompt was not retried, rephrased, or rerouted.",
+  "authorship": "Task instruction and four explanation paragraphs are AI-generated; upstream human-authorship requirement remains unresolved.",
+  "historical_evidence": "Six original v0.2.0 trials and six v0.3.0 offline regrades remain separate and unchanged.",
+  "controller_diagnostics": [
+    {
+      "provider": "deepseek",
+      "error": "FileExistsError(17, 'File exists')",
+      "utc": "2026-10-23T05:05:58.033941+00:00"
+    }
+  ],
+  "parallel_third_deepseek": true
+}

@@ -1,0 +1,32 @@
+{
+  "id": "v030-deepseek-standard-1",
+  "provider": "deepseek",
+  "source_commit": "69fd982b09b69d8223bd8626fa8f227a52760576",
+  "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+  "started_utc": "2026-10-23T03:50:36.426485+00:00",
+  "argv": [
+    "/opt/tb3/harbor/bin/python",
+    "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/scripts/run_standard.py",
+    "deepseek",
+    "--id",
+    "v030-deepseek-standard-1",
+    "--agent-directory",
+    "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/agents"
+  ],
+  "model": "deepseek-flash",
+  "effort": "max",
+  "status": "process completed; requires evidence review",
+  "evidence_type": "genuine independent Harbor agent trial",
+  "pid": 85820,
+  "exit_code": 0,
+  "finished_utc": "2026-10-23T04:14:12.837405+00:00",
+  "elapsed_sec": 1455.4121621100057,
+  "cutoff_interrupted": false,
+  "trial_result_files": [
+    "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-deepseek-standard-1/survival-concordance__w94EFy5/result.json"
+  ],
+  "ctrf_files": [
+    "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-deepseek-standard-1/survival-concordance__w94EFy5/verifier/ctrf.json",
+    "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-deepseek-standard-1/survival-concordance__w94EFy5/verifier/ctrf.raw.json"
+  ]
+}

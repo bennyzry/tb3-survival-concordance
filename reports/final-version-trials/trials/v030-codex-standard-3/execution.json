@@ -1,0 +1,32 @@
+{
+  "id": "v030-codex-standard-3",
+  "provider": "codex",
+  "source_commit": "69fd982b09b69d8223bd8626fa8f227a52760576",
+  "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+  "started_utc": "2026-10-23T04:26:02.703786+00:00",
+  "argv": [
+    "/opt/tb3/harbor/bin/python",
+    "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/scripts/run_standard.py",
+    "codex",
+    "--id",
+    "v030-codex-standard-3",
+    "--agent-directory",
+    "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/agents"
+  ],
+  "model": "openai/gpt-6.1-sol",
+  "effort": "xhigh",
+  "status": "process completed; requires evidence review",
+  "evidence_type": "genuine independent Harbor agent trial",
+  "pid": 93311,
+  "exit_code": 0,
+  "finished_utc": "2026-10-23T04:39:48.232486+00:00",
+  "elapsed_sec": 850.2566011220042,
+  "cutoff_interrupted": false,
+  "trial_result_files": [
+    "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standard-3/survival-concordance__As8aLZH/result.json"
+  ],
+  "ctrf_files": [
+    "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standard-3/survival-concordance__As8aLZH/verifier/ctrf.json",
+    "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/jobs/v030-codex-standard-3/survival-concordance__As8aLZH/verifier/ctrf.raw.json"
+  ]
+}

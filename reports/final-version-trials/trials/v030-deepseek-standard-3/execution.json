@@ -1,0 +1,25 @@
+{
+  "id": "v030-deepseek-standard-3",
+  "provider": "deepseek",
+  "model": "deepseek-flash",
+  "effort": "max",
+  "source_commit": "69fd982b09b69d8223bd8626fa8f227a52760576",
+  "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+  "started_utc": "2026-10-23T04:54:03.230004+00:00",
+  "argv": [
+    "/opt/tb3/harbor/bin/python",
+    "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/repository/scripts/run_standard.py",
+    "deepseek",
+    "--id",
+    "v030-deepseek-standard-3",
+    "--agent-directory",
+    "[LOCAL_HOME]/tb3-v030-final-evaluation-20261023/agents"
+  ],
+  "status": "process completed; requires evidence review",
+  "evidence_type": "genuine independent Harbor agent trial",
+  "pid": 95838,
+  "exit_code": 0,
+  "finished_utc": "2026-10-23T05:36:11.467649+00:00",
+  "elapsed_sec": 2616.0485360120074,
+  "cutoff_interrupted": false
+}

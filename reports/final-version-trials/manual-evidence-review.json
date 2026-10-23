@@ -1,0 +1,53 @@
+{
+  "reviewed_utc": "2026-10-23T05:37:44.569053+00:00",
+  "review_kind": "Manual source and execution-evidence delta review by Codex",
+  "official_upstream_verdict": false,
+  "additional_review_model_inference": false,
+  "source_commit": "69fd982b09b69d8223bd8626fa8f227a52760576",
+  "task_revision_sha256": "df90c60c5d428a34fcc24fbb493655d38bee8d56ea6505ab62c511db3f7b2c4e",
+  "unchanged_task_files": 26,
+  "static_checks": {
+    "count": 28,
+    "all_native_exits_zero": true,
+    "reexecuted_for_report_only_changes": false,
+    "source": "../verifier-revision/static/status.tsv"
+  },
+  "instruction_and_test_alignment": "Unchanged from validated v0.3.0. Both APIs, defaults/keywords, dtype arithmetic, warnings/errors, IPCW/tau, exact counts, numerical tolerances and declared timed-workload budgets remain as published.",
+  "execution_review": {
+    "reviewed_valid_standard_trials": 6,
+    "reward_1": 6,
+    "reward_0": 0,
+    "complete_ctrf_and_binary_rewards": true,
+    "uid_gid_10001_no_groups_no_new_privs": true,
+    "one_cpu_two_gib": true
+  },
+  "remaining_rubric_issues": [
+    {
+      "item": "Human authorship",
+      "status": "unmet",
+      "reason": "The frozen instruction and four README explanations are AI-generated; disclosure is preserved and fluent wording does not meet the human-only requirement."
+    },
+    {
+      "item": "Adversarial trials",
+      "status": "unavailable",
+      "reason": "The earlier provider-blocked prompt was not retried, rephrased or rerouted. No adversarial robustness or failure claim is made."
+    },
+    {
+      "item": "Difficulty / desired failure rate",
+      "status": "not established",
+      "reason": "Observed reward-1 model completions are retained. Oracle/Nop separation and numerical compatibility checks do not establish frontier-level difficulty."
+    },
+    {
+      "item": "Official hosted implementation review / PR CI",
+      "status": "unavailable",
+      "reason": "Preserved static scripts, a historical substituted review and manual delta reviews are not an official upstream approval."
+    },
+    {
+      "item": "Historical network schema flag",
+      "status": "outdated rubric flag",
+      "reason": "Pinned Harbor recognizes network_mode=public. The valid frozen configuration was not changed to fit the older field inventory."
+    }
+  ],
+  "preserved_historical_evidence": "Original v0.2.0 trials and v0.3.0 offline regrades remain separate and unchanged.",
+  "scope": "This review records checks of existing artifacts and actual execution evidence. It adds no verifier case, implementation restriction, runtime change or model trial."
+}

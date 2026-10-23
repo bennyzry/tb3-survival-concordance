@@ -12,6 +12,10 @@ Version 0.3.0 adds 32 regressions for the already specified NumPy scalar-toleran
 
 The [preserved baseline](https://github.com/bennyzry/tb3-survival-concordance/tree/baseline-v0.2.0) remains usable. AI authorship, unavailable adversarial results and insufficient evidence of frontier-level difficulty remain explicit submission concerns. The actual deadline is October 23, 2026, 15:00 CST.
 
+## Genuine final-version model trials
+
+The [final-version evaluation report](reports/final-version-trials/report.md) records new independent standard agent executions against the exact published v0.3.0 commit. These runs are separate from the six original v0.2.0 trials and the six v0.3.0 offline regrades. Native results, complete trajectories, submitted sources, model/effort evidence and CTRF reports accompany the report; unfinished or invalid attempts are not counted as model failures.
+
 ## Reproduce
 
 Use x86_64 Linux, Docker, Python 3.12+ and uv. The task containers use a digest-pinned Python 3.13.7 base and pinned dependencies; the supplied native agent bootstrap targets Linux x86_64.

@@ -1,0 +1,27 @@
+{
+  "reviewer": "Codex manual tool-timeline, submitted-source, native-result and verifier review; not an official upstream verdict",
+  "validity": "valid genuine final-version graded model completion",
+  "observed_reward": 1,
+  "graded_passed": 365,
+  "graded_total": 365,
+  "native_exit_code": 0,
+  "trajectory_steps": 20,
+  "agent_steps_reviewed": 15,
+  "top_level_tool_calls_reviewed": 14,
+  "candidate_sha256": "66bbc0576ee68a7201f14f609a899b85eec1e8805f4e46852a2ccc4fd15bfc74",
+  "observed_model": "gpt-6.1-sol",
+  "observed_effort": "xhigh",
+  "implementation": "Uses a compiled C rank-counting helper with a Fenwick tree, NumPy searches using the actual dtype subtraction for inclusive tie boundaries, and ordered weighted accumulation. It retains the original loop for small or irregular inputs and includes both the helper source and the exact shared library under the declared artifact scope.",
+  "outcome_analysis": "The isolated final-version verifier passed all 365 cases, including the 32 scalar-tolerance and warning regressions and the unchanged scale workloads. This is a genuine reward-1 success, not an offline regrade or an infrastructure failure.",
+  "trajectory_findings": [
+    "The agent inspected the supplied and installed release source, wrote a general input-dependent implementation, and ran its own differential, numerical-boundary, performance and unprivileged relocation checks.",
+    "The timeline contains no external URL fetch and no observed hidden-verifier or reward mutation. The /tests/ substring in the indexed arguments refers to its own /app/work/tests/check_concordance.py, not the protected verifier directory.",
+    "An initial local relocation script omitted a sys import; the agent corrected it and reran it successfully. This intermediate test-script error is not a final model failure.",
+    "Native session turn_context fields identify gpt-6.1-sol with xhigh. The native Harbor result has no exception, a separate verifier and reward 1; the CTRF report contains 365 unique passed results.",
+    "Verifier records show one CPU, 2147483648 bytes of RAM, protected grading directories and no cgroup OOM event. Peak recorded verifier memory was 438525952 bytes."
+  ],
+  "limits": [
+    "The model's own reported local check counts and timings are trajectory evidence, not additional independently graded benchmark cases.",
+    "Passing the frozen 365 cases is not a proof of all possible API behavior or of frontier-level difficulty."
+  ]
+}

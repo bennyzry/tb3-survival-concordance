@@ -1,0 +1,28 @@
+{
+  "reviewer": "Codex manual tool-timeline, submitted-source, native-result and verifier review; not an official upstream verdict",
+  "validity": "valid genuine final-version graded model completion",
+  "observed_reward": 1,
+  "graded_passed": 365,
+  "graded_total": 365,
+  "native_exit_code": 0,
+  "trajectory_steps": 23,
+  "agent_steps_reviewed": 18,
+  "top_level_tool_calls_reviewed": 17,
+  "candidate_sha256": "abeff7cd2ce40c5431fc35ecd123f84f987e77fb11e33d3eb394dc882e465539",
+  "observed_model": "gpt-6.1-sol",
+  "observed_effort": "xhigh",
+  "implementation": "Uses a C++ rank tree that removes same-time events before querying the remaining subjects, with subtraction-based inclusive tie bounds and 64-bit pair counts. Python retains validation, IPCW weights and ordered NumPy accumulation; non-float64 risks and unusual tolerances use the original loop. The C++ source, exact shared library and Python adapter are all captured under the declared artifact scope.",
+  "outcome_analysis": "The isolated verifier passed all 365 cases, with no timeout or trial exception. This new v030-codex-standard-3 is a reward-1 success and is distinct from the earlier v0.2.0 codex-standard-3 submission whose separate offline regrade failed.",
+  "trajectory_findings": [
+    "The agent inspected the supplied release and package import layout, implemented a general native counter, checked reference behavior and exercised large analytical counts.",
+    "It tested dtype/tolerance/error/warning compatibility and a copied read-only package running both APIs as UID/GID 10001. Local differential totals and timings are agent-side observations, separate from the graded 365-case report.",
+    "The complete indexed tool timeline contains no external URL fetch or observed hidden-verifier/reward access. /tests/ markers refer to its own /app/work/tests files.",
+    "The reviewed Python and C++ source derives all counts from the input arrays, with no workload-ID or expected-answer lookup. The dtype-specific fallback is allowed by the public finite-float64 performance contract.",
+    "Native turn_context fields confirm gpt-6.1-sol and xhigh. Harbor exited 0 with no exception, a separate verifier and 365 unique passed CTRF results.",
+    "All 20 verifier worker invocations exited 0 with UID/GID 10001, empty supplementary groups, NoNewPrivs=1 and no recorded timeout. One CPU and 2147483648 bytes of RAM were enforced; peak verifier memory was 328597504 bytes with no OOM event."
+  ],
+  "limits": [
+    "Passing the frozen verifier is not a proof of every possible API input.",
+    "All three new Codex successes are retained and do not establish the desired model-failure rate."
+  ]
+}

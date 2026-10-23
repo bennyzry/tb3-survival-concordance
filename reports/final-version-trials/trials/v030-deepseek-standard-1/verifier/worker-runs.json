@@ -1,0 +1,5761 @@
+[
+  {
+    "case_ids": [
+      "all-concordant",
+      "all-discordant",
+      "mixed-equal-times",
+      "one-time-events-censors",
+      "nontransitive-risk-ties",
+      "rounded-tolerance-boundary",
+      "early-censor",
+      "boundary-float16-0.0-False",
+      "boundary-float16-0.0-True",
+      "boundary-float16-1e-08-False",
+      "boundary-float16-1e-08-True",
+      "boundary-float16-0.5-False",
+      "boundary-float16-0.5-True",
+      "boundary-float16-1.0-False",
+      "boundary-float16-1.0-True",
+      "boundary-float32-0.0-False",
+      "boundary-float32-0.0-True",
+      "boundary-float32-1e-08-False",
+      "boundary-float32-1e-08-True",
+      "boundary-float32-0.5-False",
+      "boundary-float32-0.5-True",
+      "boundary-float32-1.0-False",
+      "boundary-float32-1.0-True",
+      "boundary-float64-0.0-False",
+      "boundary-float64-0.0-True",
+      "boundary-float64-1e-08-False",
+      "boundary-float64-1e-08-True",
+      "boundary-float64-0.5-False",
+      "boundary-float64-0.5-True",
+      "boundary-float64-1.0-False",
+      "boundary-float64-1.0-True",
+      "random-0",
+      "random-1",
+      "random-2",
+      "random-3",
+      "random-4",
+      "random-5",
+      "random-6",
+      "random-7",
+      "random-8",
+      "random-9",
+      "random-10",
+      "random-11",
+      "random-12",
+      "random-13",
+      "random-14",
+      "random-15",
+      "random-16",
+      "random-17",
+      "random-18",
+      "random-19",
+      "random-20",
+      "random-21",
+      "random-22",
+      "random-23",
+      "random-24",
+      "random-25",
+      "random-26",
+      "random-27",
+      "random-28",
+      "random-29",
+      "random-30",
+      "random-31",
+      "random-32",
+      "random-33",
+      "random-34",
+      "random-35",
+      "random-36",
+      "random-37",
+      "random-38",
+      "random-39",
+      "random-40",
+      "random-41",
+      "random-42",
+      "random-43",
+      "random-44",
+      "random-45",
+      "random-46",
+      "random-47",
+      "random-48",
+      "random-49",
+      "random-50",
+      "random-51",
+      "random-52",
+      "random-53",
+      "random-54",
+      "random-55",
+      "random-56",
+      "random-57",
+      "random-58",
+      "random-59",
+      "random-60",
+      "random-61",
+      "random-62",
+      "random-63",
+      "random-64",
+      "random-65",
+      "random-66",
+      "random-67",
+      "random-68",
+      "random-69",
+      "random-70",
+      "random-71",
+      "random-72",
+      "random-73",
+      "random-74",
+      "random-75",
+      "random-76",
+      "random-77",
+      "random-78",
+      "random-79",
+      "random-80",
+      "random-81",
+      "random-82",
+      "random-83",
+      "random-84",
+      "random-85",
+      "random-86",
+      "random-87",
+      "random-88",
+      "random-89",
+      "random-90",
+      "random-91",
+      "random-92",
+      "random-93",
+      "random-94",
+      "random-95",
+      "random-96",
+      "random-97",
+      "random-98",
+      "random-99",
+      "random-100",
+      "random-101",
+      "random-102",
+      "random-103",
+      "random-104",
+      "random-105",
+      "random-106",
+      "random-107",
+      "random-108",
+      "random-109",
+      "random-110",
+      "random-111",
+      "random-112",
+      "random-113",
+      "random-114",
+      "random-115",
+      "random-116",
+      "random-117",
+      "random-118",
+      "random-119",
+      "random-120",
+      "random-121",
+      "random-122",
+      "random-123",
+      "random-124",
+      "random-125",
+      "random-126",
+      "random-127",
+      "random-128",
+      "random-129",
+      "random-130",
+      "random-131",
+      "random-132",
+      "random-133",
+      "random-134",
+      "random-135",
+      "random-136",
+      "random-137",
+      "random-138",
+      "random-139",
+      "random-140",
+      "random-141",
+      "random-142",
+      "random-143",
+      "random-144",
+      "random-145",
+      "random-146",
+      "random-147",
+      "random-148",
+      "random-149",
+      "random-150",
+      "random-151",
+      "random-152",
+      "random-153",
+      "random-154",
+      "random-155",
+      "random-156",
+      "random-157",
+      "random-158",
+      "random-159",
+      "degenerate-0",
+      "degenerate-1",
+      "degenerate-2",
+      "degenerate-3",
+      "degenerate-4",
+      "degenerate-5",
+      "degenerate-6",
+      "degenerate-7",
+      "degenerate-8",
+      "degenerate-9",
+      "degenerate-10",
+      "integer-event-error",
+      "integer-risk",
+      "unusual-tol--1.0",
+      "unusual-tol-nan",
+      "unusual-tol-inf",
+      "extreme-float16",
+      "extreme-float32",
+      "extreme-float64",
+      "analytical-ipcw-None",
+      "analytical-ipcw-4.0",
+      "training-time-ties",
+      "random-ipcw-0",
+      "random-ipcw-1",
+      "random-ipcw-2",
+      "random-ipcw-3",
+      "random-ipcw-4",
+      "random-ipcw-5",
+      "random-ipcw-6",
+      "random-ipcw-7",
+      "random-ipcw-8",
+      "random-ipcw-9",
+      "random-ipcw-10",
+      "random-ipcw-11",
+      "random-ipcw-12",
+      "random-ipcw-13",
+      "random-ipcw-14",
+      "random-ipcw-15",
+      "random-ipcw-16",
+      "random-ipcw-17",
+      "random-ipcw-18",
+      "random-ipcw-19",
+      "random-ipcw-20",
+      "random-ipcw-21",
+      "random-ipcw-22",
+      "random-ipcw-23",
+      "random-ipcw-24",
+      "random-ipcw-25",
+      "random-ipcw-26",
+      "random-ipcw-27",
+      "random-ipcw-28",
+      "random-ipcw-29",
+      "random-ipcw-30",
+      "random-ipcw-31",
+      "random-ipcw-32",
+      "random-ipcw-33",
+      "random-ipcw-34",
+      "random-ipcw-35",
+      "random-ipcw-36",
+      "random-ipcw-37",
+      "random-ipcw-38",
+      "random-ipcw-39",
+      "ipcw-error-support",
+      "ipcw-error-zero-G",
+      "ipcw-error-tau-empty",
+      "ipcw-error-risk-length",
+      "all-risk-equal",
+      "all-censored-except-first",
+      "tied-last-events",
+      "signed-zero",
+      "api-censored-default-positional",
+      "api-censored-default-keywords",
+      "api-ipcw-defaults-positional",
+      "api-ipcw-defaults-keywords",
+      "api-ipcw-default-tau-keywords",
+      "api-ipcw-default-tied-tol-keywords",
+      "api-ipcw-explicit-keywords",
+      "scalar-promotion-float16--1.0-equal-ordinary",
+      "scalar-promotion-float16--1.0-equal-ipcw",
+      "scalar-promotion-float16--1.0-subnormal-ordinary",
+      "scalar-promotion-float16--1.0-subnormal-ipcw",
+      "scalar-promotion-float16--0.25-equal-ordinary",
+      "scalar-promotion-float16--0.25-equal-ipcw",
+      "scalar-promotion-float16--0.25-subnormal-ordinary",
+      "scalar-promotion-float16--0.25-subnormal-ipcw",
+      "scalar-promotion-float16-0.5-equal-ordinary",
+      "scalar-promotion-float16-0.5-equal-ipcw",
+      "scalar-promotion-float16-0.5-subnormal-ordinary",
+      "scalar-promotion-float16-0.5-subnormal-ipcw",
+      "scalar-promotion-float32--1.0-equal-ordinary",
+      "scalar-promotion-float32--1.0-equal-ipcw",
+      "scalar-promotion-float32--1.0-subnormal-ordinary",
+      "scalar-promotion-float32--1.0-subnormal-ipcw",
+      "scalar-promotion-float32--0.25-equal-ordinary",
+      "scalar-promotion-float32--0.25-equal-ipcw",
+      "scalar-promotion-float32--0.25-subnormal-ordinary",
+      "scalar-promotion-float32--0.25-subnormal-ipcw",
+      "scalar-promotion-float32-0.5-equal-ordinary",
+      "scalar-promotion-float32-0.5-equal-ipcw",
+      "scalar-promotion-float32-0.5-subnormal-ordinary",
+      "scalar-promotion-float32-0.5-subnormal-ipcw",
+      "scalar-promotion-float64--1.0-equal-ordinary",
+      "scalar-promotion-float64--1.0-equal-ipcw",
+      "scalar-promotion-float64-0.5-equal-ordinary",
+      "scalar-promotion-float64-0.5-equal-ipcw",
+      "scalar-cast-warning-float16-ordinary",
+      "scalar-cast-warning-float16-ipcw",
+      "scalar-cast-warning-float32-ordinary",
+      "scalar-cast-warning-float32-ipcw"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-g3hinzur/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 120,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.8140323880070355,
+    "stderr": "",
+    "response": {
+      "results": {
+        "all-concordant": {
+          "status": "ok",
+          "result": [
+            1.0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "all-discordant": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            3,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "mixed-equal-times": {
+          "status": "ok",
+          "result": [
+            1.0,
+            4,
+            0,
+            0,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "one-time-events-censors": {
+          "status": "ok",
+          "result": [
+            1.0,
+            4,
+            0,
+            0,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "nontransitive-risk-ties": {
+          "status": "ok",
+          "result": [
+            0.6666666666666666,
+            1,
+            0,
+            2,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "rounded-tolerance-boundary": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "early-censor": {
+          "status": "ok",
+          "result": [
+            1.0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float16-0.0-False": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            15,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float16-0.0-True": {
+          "status": "ok",
+          "result": [
+            1.0,
+            15,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float16-1e-08-False": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            15,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float16-1e-08-True": {
+          "status": "ok",
+          "result": [
+            1.0,
+            15,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float16-0.5-False": {
+          "status": "ok",
+          "result": [
+            0.2916666666666667,
+            0,
+            15,
+            21,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float16-0.5-True": {
+          "status": "ok",
+          "result": [
+            0.7083333333333334,
+            15,
+            0,
+            21,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float16-1.0-False": {
+          "status": "ok",
+          "result": [
+            0.3409090909090909,
+            0,
+            21,
+            45,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float16-1.0-True": {
+          "status": "ok",
+          "result": [
+            0.6590909090909091,
+            21,
+            0,
+            45,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float32-0.0-False": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            15,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float32-0.0-True": {
+          "status": "ok",
+          "result": [
+            1.0,
+            15,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float32-1e-08-False": {
+          "status": "ok",
+          "result": [
+            0.1,
+            0,
+            12,
+            3,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float32-1e-08-True": {
+          "status": "ok",
+          "result": [
+            0.9,
+            12,
+            0,
+            3,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float32-0.5-False": {
+          "status": "ok",
+          "result": [
+            0.2916666666666667,
+            0,
+            15,
+            21,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float32-0.5-True": {
+          "status": "ok",
+          "result": [
+            0.7083333333333334,
+            15,
+            0,
+            21,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float32-1.0-False": {
+          "status": "ok",
+          "result": [
+            0.3409090909090909,
+            0,
+            21,
+            45,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float32-1.0-True": {
+          "status": "ok",
+          "result": [
+            0.6590909090909091,
+            21,
+            0,
+            45,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float64-0.0-False": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            15,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float64-0.0-True": {
+          "status": "ok",
+          "result": [
+            1.0,
+            15,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float64-1e-08-False": {
+          "status": "ok",
+          "result": [
+            0.1590909090909091,
+            0,
+            45,
+            21,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float64-1e-08-True": {
+          "status": "ok",
+          "result": [
+            0.8409090909090909,
+            45,
+            0,
+            21,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float64-0.5-False": {
+          "status": "ok",
+          "result": [
+            0.2916666666666667,
+            0,
+            15,
+            21,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float64-0.5-True": {
+          "status": "ok",
+          "result": [
+            0.7083333333333334,
+            15,
+            0,
+            21,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float64-1.0-False": {
+          "status": "ok",
+          "result": [
+            0.3409090909090909,
+            0,
+            21,
+            45,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "boundary-float64-1.0-True": {
+          "status": "ok",
+          "result": [
+            0.6590909090909091,
+            21,
+            0,
+            45,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-0": {
+          "status": "ok",
+          "result": [
+            0.5603448275862069,
+            32,
+            25,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-1": {
+          "status": "ok",
+          "result": [
+            0.5255905511811023,
+            342,
+            303,
+            117,
+            42
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-2": {
+          "status": "ok",
+          "result": [
+            0.4533807829181495,
+            434,
+            565,
+            406,
+            88
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-3": {
+          "status": "ok",
+          "result": [
+            0.3247422680412371,
+            28,
+            62,
+            7,
+            5
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-4": {
+          "status": "ok",
+          "result": [
+            0.4774590163934426,
+            432,
+            476,
+            68,
+            58
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-5": {
+          "status": "ok",
+          "result": [
+            0.4484915378955114,
+            486,
+            626,
+            247,
+            66
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-6": {
+          "status": "ok",
+          "result": [
+            0.38372093023255816,
+            24,
+            44,
+            18,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-7": {
+          "status": "ok",
+          "result": [
+            0.6,
+            71,
+            46,
+            8,
+            3
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-8": {
+          "status": "ok",
+          "result": [
+            0.5326157860404436,
+            774,
+            674,
+            85,
+            89
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-9": {
+          "status": "ok",
+          "result": [
+            0.5039766702014846,
+            797,
+            782,
+            307,
+            77
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-10": {
+          "status": "ok",
+          "result": [
+            0.5212021407986825,
+            943,
+            840,
+            646,
+            102
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-11": {
+          "status": "ok",
+          "result": [
+            0.3694029850746269,
+            45,
+            80,
+            9,
+            5
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-12": {
+          "status": "ok",
+          "result": [
+            0.7065217391304348,
+            32,
+            13,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-13": {
+          "status": "ok",
+          "result": [
+            0.53125,
+            140,
+            120,
+            60,
+            12
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-14": {
+          "status": "ok",
+          "result": [
+            0.46262886597938147,
+            129,
+            158,
+            101,
+            28
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-15": {
+          "status": "ok",
+          "result": [
+            0.4713114754098361,
+            652,
+            736,
+            76,
+            76
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-16": {
+          "status": "ok",
+          "result": [
+            0.47644539614561027,
+            1036,
+            1146,
+            153,
+            94
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-17": {
+          "status": "ok",
+          "result": [
+            0.39787234042553193,
+            665,
+            1097,
+            353,
+            101
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-18": {
+          "status": "ok",
+          "result": [
+            0.46352140077821014,
+            333,
+            408,
+            287,
+            56
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-19": {
+          "status": "ok",
+          "result": [
+            0.48011049723756904,
+            414,
+            450,
+            41,
+            52
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-20": {
+          "status": "ok",
+          "result": [
+            0.7424242424242424,
+            24,
+            8,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-21": {
+          "status": "ok",
+          "result": [
+            0.4294205052005943,
+            462,
+            652,
+            232,
+            64
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-22": {
+          "status": "ok",
+          "result": [
+            0.46304347826086956,
+            451,
+            553,
+            376,
+            69
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-23": {
+          "status": "ok",
+          "result": [
+            0.5647887323943662,
+            189,
+            143,
+            23,
+            21
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-24": {
+          "status": "ok",
+          "result": [
+            0.39588377723970947,
+            150,
+            236,
+            27,
+            18
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-25": {
+          "status": "ok",
+          "result": [
+            0.3410041841004184,
+            564,
+            1248,
+            339,
+            93
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-26": {
+          "status": "ok",
+          "result": [
+            0.25,
+            0,
+            1,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-27": {
+          "status": "ok",
+          "result": [
+            0.36666666666666664,
+            5,
+            9,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-28": {
+          "status": "ok",
+          "result": [
+            0.4188012295081967,
+            763,
+            1080,
+            109,
+            109
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-29": {
+          "status": "ok",
+          "result": [
+            0.4488658973338639,
+            912,
+            1169,
+            432,
+            102
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-30": {
+          "status": "ok",
+          "result": [
+            0.45269631031220436,
+            330,
+            430,
+            297,
+            32
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-31": {
+          "status": "ok",
+          "result": [
+            0.47151898734177217,
+            417,
+            471,
+            60,
+            55
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-32": {
+          "status": "ok",
+          "result": [
+            0.40384615384615385,
+            10,
+            15,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-33": {
+          "status": "ok",
+          "result": [
+            0.4963350785340314,
+            400,
+            407,
+            148,
+            31
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-34": {
+          "status": "ok",
+          "result": [
+            0.5867158671586716,
+            605,
+            370,
+            380,
+            56
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-35": {
+          "status": "ok",
+          "result": [
+            0.5801447776628749,
+            538,
+            383,
+            46,
+            40
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-36": {
+          "status": "ok",
+          "result": [
+            0.36013986013986016,
+            46,
+            86,
+            11,
+            6
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-37": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-38": {
+          "status": "ok",
+          "result": [
+            0.46458333333333335,
+            533,
+            652,
+            495,
+            84
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-39": {
+          "status": "ok",
+          "result": [
+            0.5726872246696035,
+            124,
+            91,
+            12,
+            6
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-40": {
+          "status": "ok",
+          "result": [
+            0.4771662763466042,
+            376,
+            415,
+            63,
+            38
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-41": {
+          "status": "ok",
+          "result": [
+            0.45928030303030304,
+            201,
+            244,
+            83,
+            20
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-42": {
+          "status": "ok",
+          "result": [
+            0.5352040816326531,
+            383,
+            314,
+            283,
+            39
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-43": {
+          "status": "ok",
+          "result": [
+            0.6270226537216829,
+            371,
+            214,
+            33,
+            26
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-44": {
+          "status": "ok",
+          "result": [
+            0.48095238095238096,
+            49,
+            53,
+            3,
+            5
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-45": {
+          "status": "ok",
+          "result": [
+            0.4195223260643821,
+            326,
+            481,
+            156,
+            46
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-46": {
+          "status": "ok",
+          "result": [
+            0.5600591715976332,
+            710,
+            507,
+            473,
+            106
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-47": {
+          "status": "ok",
+          "result": [
+            0.5013736263736264,
+            521,
+            518,
+            53,
+            69
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-48": {
+          "status": "ok",
+          "result": [
+            0.5037037037037037,
+            191,
+            188,
+            26,
+            14
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-49": {
+          "status": "ok",
+          "result": [
+            0.39676616915422885,
+            115,
+            198,
+            89,
+            19
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-50": {
+          "status": "ok",
+          "result": [
+            0.25,
+            2,
+            11,
+            5,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-51": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-52": {
+          "status": "ok",
+          "result": [
+            0.49223529411764705,
+            982,
+            1015,
+            128,
+            103
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-53": {
+          "status": "ok",
+          "result": [
+            0.25,
+            0,
+            1,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-54": {
+          "status": "ok",
+          "result": [
+            0.5103244837758112,
+            128,
+            121,
+            90,
+            17
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-55": {
+          "status": "ok",
+          "result": [
+            0.48070412999322953,
+            665,
+            722,
+            90,
+            78
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-56": {
+          "status": "ok",
+          "result": [
+            0.4882075471698113,
+            195,
+            205,
+            24,
+            13
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-57": {
+          "status": "ok",
+          "result": [
+            0.5868421052631579,
+            190,
+            124,
+            66,
+            10
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-58": {
+          "status": "ok",
+          "result": [
+            0.5329949238578681,
+            80,
+            67,
+            50,
+            5
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-59": {
+          "status": "ok",
+          "result": [
+            0.5508373205741627,
+            435,
+            350,
+            51,
+            50
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-60": {
+          "status": "ok",
+          "result": [
+            0.48641304347826086,
+            83,
+            88,
+            13,
+            5
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-61": {
+          "status": "ok",
+          "result": [
+            1.0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-62": {
+          "status": "ok",
+          "result": [
+            0.41392649903288203,
+            275,
+            453,
+            306,
+            51
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-63": {
+          "status": "ok",
+          "result": [
+            0.4533333333333333,
+            33,
+            40,
+            2,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-64": {
+          "status": "ok",
+          "result": [
+            0.5613870665417057,
+            1134,
+            872,
+            128,
+            120
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-65": {
+          "status": "ok",
+          "result": [
+            0.22,
+            4,
+            18,
+            3,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-66": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-67": {
+          "status": "ok",
+          "result": [
+            0.5410031847133758,
+            646,
+            543,
+            67,
+            57
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-68": {
+          "status": "ok",
+          "result": [
+            0.5833333333333334,
+            31,
+            22,
+            1,
+            7
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-69": {
+          "status": "ok",
+          "result": [
+            0.5564705882352942,
+            206,
+            158,
+            61,
+            24
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-70": {
+          "status": "ok",
+          "result": [
+            0.48405253283302063,
+            562,
+            613,
+            424,
+            74
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-71": {
+          "status": "ok",
+          "result": [
+            0.47959183673469385,
+            23,
+            25,
+            1,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-72": {
+          "status": "ok",
+          "result": [
+            0.6190758293838863,
+            501,
+            300,
+            43,
+            57
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-73": {
+          "status": "ok",
+          "result": [
+            0.6363636363636364,
+            34,
+            16,
+            16,
+            6
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-74": {
+          "status": "ok",
+          "result": [
+            0.513317191283293,
+            317,
+            295,
+            214,
+            68
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-75": {
+          "status": "ok",
+          "result": [
+            0.28061224489795916,
+            25,
+            68,
+            5,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-76": {
+          "status": "ok",
+          "result": [
+            0.11538461538461539,
+            1,
+            11,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-77": {
+          "status": "ok",
+          "result": [
+            0.525974025974026,
+            387,
+            343,
+            117,
+            45
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-78": {
+          "status": "ok",
+          "result": [
+            0.8333333333333334,
+            2,
+            0,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-79": {
+          "status": "ok",
+          "result": [
+            0.5435779816513762,
+            443,
+            367,
+            62,
+            39
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-80": {
+          "status": "ok",
+          "result": [
+            0.5766215253029223,
+            766,
+            551,
+            86,
+            65
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-81": {
+          "status": "ok",
+          "result": [
+            0.5481927710843374,
+            39,
+            31,
+            13,
+            7
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-82": {
+          "status": "ok",
+          "result": [
+            0.5199859747545582,
+            542,
+            485,
+            399,
+            81
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-83": {
+          "status": "ok",
+          "result": [
+            0.5461538461538461,
+            833,
+            683,
+            109,
+            57
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-84": {
+          "status": "ok",
+          "result": [
+            0.33,
+            45,
+            96,
+            9,
+            9
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-85": {
+          "status": "ok",
+          "result": [
+            0.41935483870967744,
+            19,
+            29,
+            14,
+            7
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-86": {
+          "status": "ok",
+          "result": [
+            0.5,
+            2,
+            2,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-87": {
+          "status": "ok",
+          "result": [
+            0.531277926720286,
+            559,
+            489,
+            71,
+            61
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-88": {
+          "status": "ok",
+          "result": [
+            0.30925221799746516,
+            449,
+            1051,
+            78,
+            71
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-89": {
+          "status": "ok",
+          "result": [
+            0.4304561717352415,
+            786,
+            1097,
+            353,
+            140
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-90": {
+          "status": "ok",
+          "result": [
+            0.49525436598329536,
+            934,
+            959,
+            741,
+            109
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-91": {
+          "status": "ok",
+          "result": [
+            0.5304435483870967,
+            1249,
+            1098,
+            133,
+            102
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-92": {
+          "status": "ok",
+          "result": [
+            0.49317004239284035,
+            984,
+            1013,
+            126,
+            108
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-93": {
+          "status": "ok",
+          "result": [
+            0.3560747663551402,
+            142,
+            296,
+            97,
+            24
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-94": {
+          "status": "ok",
+          "result": [
+            0.3443579766536965,
+            57,
+            137,
+            63,
+            18
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-95": {
+          "status": "ok",
+          "result": [
+            0.41815616180620885,
+            415,
+            589,
+            59,
+            69
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-96": {
+          "status": "ok",
+          "result": [
+            0.45,
+            13,
+            16,
+            1,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-97": {
+          "status": "ok",
+          "result": [
+            0.2971014492753623,
+            33,
+            89,
+            16,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-98": {
+          "status": "ok",
+          "result": [
+            0.45746268656716416,
+            435,
+            549,
+            356,
+            70
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-99": {
+          "status": "ok",
+          "result": [
+            0.5098765432098765,
+            196,
+            188,
+            21,
+            18
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-100": {
+          "status": "ok",
+          "result": [
+            0.49537037037037035,
+            50,
+            51,
+            7,
+            6
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-101": {
+          "status": "ok",
+          "result": [
+            0.5554234062797336,
+            984,
+            751,
+            367,
+            105
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-102": {
+          "status": "ok",
+          "result": [
+            0.42792792792792794,
+            36,
+            52,
+            23,
+            5
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-103": {
+          "status": "ok",
+          "result": [
+            0.543010752688172,
+            239,
+            199,
+            27,
+            20
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-104": {
+          "status": "ok",
+          "result": [
+            0.1875,
+            4,
+            19,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-105": {
+          "status": "ok",
+          "result": [
+            0.4925639500297442,
+            707,
+            732,
+            242,
+            72
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-106": {
+          "status": "ok",
+          "result": [
+            0.75,
+            1,
+            0,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-107": {
+          "status": "ok",
+          "result": [
+            0.516390041493776,
+            1176,
+            1097,
+            137,
+            118
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-108": {
+          "status": "ok",
+          "result": [
+            0.48798586572438163,
+            650,
+            684,
+            81,
+            76
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-109": {
+          "status": "ok",
+          "result": [
+            0.5751953125,
+            748,
+            517,
+            271,
+            89
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-110": {
+          "status": "ok",
+          "result": [
+            0.5130018248175182,
+            838,
+            781,
+            573,
+            86
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-111": {
+          "status": "ok",
+          "result": [
+            0.512311901504788,
+            348,
+            330,
+            53,
+            34
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-112": {
+          "status": "ok",
+          "result": [
+            0.4034229828850856,
+            154,
+            233,
+            22,
+            15
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-113": {
+          "status": "ok",
+          "result": [
+            0.5378843338213762,
+            1228,
+            1021,
+            483,
+            101
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-114": {
+          "status": "ok",
+          "result": [
+            0.5242110990206746,
+            706,
+            617,
+            515,
+            99
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-115": {
+          "status": "ok",
+          "result": [
+            0.4126126126126126,
+            214,
+            311,
+            30,
+            32
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-116": {
+          "status": "ok",
+          "result": [
+            0.5163043478260869,
+            1030,
+            961,
+            125,
+            95
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-117": {
+          "status": "ok",
+          "result": [
+            0.07142857142857142,
+            0,
+            6,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-118": {
+          "status": "ok",
+          "result": [
+            0.5166666666666667,
+            180,
+            164,
+            136,
+            20
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-119": {
+          "status": "ok",
+          "result": [
+            0.5830921868540719,
+            1345,
+            943,
+            131,
+            107
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-120": {
+          "status": "ok",
+          "result": [
+            0.5,
+            38,
+            38,
+            8,
+            5
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-121": {
+          "status": "ok",
+          "result": [
+            0.595771144278607,
+            1035,
+            650,
+            325,
+            98
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-122": {
+          "status": "ok",
+          "result": [
+            0.7,
+            14,
+            4,
+            7,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-123": {
+          "status": "ok",
+          "result": [
+            0.48282442748091603,
+            355,
+            382,
+            49,
+            35
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-124": {
+          "status": "ok",
+          "result": [
+            0.5714285714285714,
+            33,
+            24,
+            6,
+            3
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-125": {
+          "status": "ok",
+          "result": [
+            0.4790296052631579,
+            479,
+            530,
+            207,
+            47
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-126": {
+          "status": "ok",
+          "result": [
+            0.6280487804878049,
+            38,
+            17,
+            27,
+            5
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-127": {
+          "status": "ok",
+          "result": [
+            0.46612296110414053,
+            351,
+            405,
+            41,
+            38
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-128": {
+          "status": "ok",
+          "result": [
+            0.5258493353028065,
+            669,
+            599,
+            86,
+            60
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-129": {
+          "status": "ok",
+          "result": [
+            0.5140728476821192,
+            254,
+            237,
+            113,
+            27
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-130": {
+          "status": "ok",
+          "result": [
+            0.55,
+            7,
+            5,
+            8,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-131": {
+          "status": "ok",
+          "result": [
+            0.48717948717948717,
+            36,
+            38,
+            4,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-132": {
+          "status": "ok",
+          "result": [
+            0.46534653465346537,
+            45,
+            52,
+            4,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-133": {
+          "status": "ok",
+          "result": [
+            0.5389221556886228,
+            226,
+            187,
+            88,
+            18
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-134": {
+          "status": "ok",
+          "result": [
+            0.5817120622568094,
+            115,
+            73,
+            69,
+            14
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-135": {
+          "status": "ok",
+          "result": [
+            0.5677611940298507,
+            903,
+            676,
+            96,
+            88
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-136": {
+          "status": "ok",
+          "result": [
+            0.5469107551487414,
+            451,
+            369,
+            54,
+            44
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-137": {
+          "status": "ok",
+          "result": [
+            0.5147058823529411,
+            28,
+            26,
+            14,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-138": {
+          "status": "ok",
+          "result": [
+            0.5214723926380368,
+            444,
+            395,
+            302,
+            58
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-139": {
+          "status": "ok",
+          "result": [
+            0.4452054794520548,
+            29,
+            37,
+            7,
+            3
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-140": {
+          "status": "ok",
+          "result": [
+            0.5364583333333334,
+            48,
+            41,
+            7,
+            6
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-141": {
+          "status": "ok",
+          "result": [
+            0.36,
+            7,
+            14,
+            4,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-142": {
+          "status": "ok",
+          "result": [
+            0.46247300215982723,
+            584,
+            723,
+            545,
+            100
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-143": {
+          "status": "ok",
+          "result": [
+            0.3157894736842105,
+            5,
+            12,
+            2,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-144": {
+          "status": "ok",
+          "result": [
+            0.5049019607843137,
+            194,
+            190,
+            24,
+            16
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-145": {
+          "status": "ok",
+          "result": [
+            0.5881885593220338,
+            955,
+            622,
+            311,
+            70
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-146": {
+          "status": "ok",
+          "result": [
+            0.5379292670425423,
+            783,
+            635,
+            533,
+            76
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-147": {
+          "status": "ok",
+          "result": [
+            0.575880758807588,
+            404,
+            292,
+            42,
+            22
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-148": {
+          "status": "ok",
+          "result": [
+            0.5248041775456919,
+            187,
+            168,
+            28,
+            22
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-149": {
+          "status": "ok",
+          "result": [
+            0.5280502157708905,
+            1130,
+            987,
+            432,
+            128
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-150": {
+          "status": "ok",
+          "result": [
+            0.47172111165285224,
+            683,
+            799,
+            569,
+            110
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-151": {
+          "status": "ok",
+          "result": [
+            0.6299212598425197,
+            153,
+            87,
+            14,
+            9
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-152": {
+          "status": "ok",
+          "result": [
+            0.4236760124610592,
+            124,
+            173,
+            24,
+            19
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-153": {
+          "status": "ok",
+          "result": [
+            0.6207430340557275,
+            515,
+            281,
+            173,
+            40
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-154": {
+          "status": "ok",
+          "result": [
+            0.6379310344827587,
+            16,
+            8,
+            5,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-155": {
+          "status": "ok",
+          "result": [
+            0.5086737548964745,
+            857,
+            826,
+            104,
+            105
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-156": {
+          "status": "ok",
+          "result": [
+            0.5340314136125655,
+            191,
+            165,
+            26,
+            18
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-157": {
+          "status": "ok",
+          "result": [
+            0.6453068592057761,
+            317,
+            156,
+            81,
+            38
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-158": {
+          "status": "ok",
+          "result": [
+            0.6573033707865169,
+            97,
+            41,
+            40,
+            8
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-159": {
+          "status": "ok",
+          "result": [
+            0.6666666666666666,
+            2,
+            1,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "degenerate-0": {
+          "status": "ok",
+          "result": [
+            NaN,
+            0,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": [
+            "RuntimeWarning"
+          ]
+        },
+        "degenerate-1": {
+          "status": "error",
+          "error": "NoComparablePairException",
+          "message": "Data has no comparable pairs, cannot estimate concordance index.",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError",
+            "sksurv.exceptions.NoComparablePairException"
+          ]
+        },
+        "degenerate-2": {
+          "status": "ok",
+          "result": [
+            NaN,
+            0,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": [
+            "RuntimeWarning"
+          ]
+        },
+        "degenerate-3": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "All samples are censored",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "degenerate-4": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "Need a minimum of two samples",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "degenerate-5": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "Found array with 0 sample(s) (shape=(0,)) while a minimum of 1 is required.",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "degenerate-6": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "Found input variables with inconsistent numbers of samples: [2, 2, 1]",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "degenerate-7": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "Input estimate contains NaN.",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "degenerate-8": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "Input estimate contains infinity or a value too large for dtype('float64').",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "degenerate-9": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "Input event_time contains NaN.",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "degenerate-10": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "Expected 1D array, got 2D array instead:\narray=[[1.]\n [2.]].\n",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "integer-event-error": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "only boolean arrays are supported as class labels for survival analysis, got int64",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "integer-risk": {
+          "status": "ok",
+          "result": [
+            1.0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "unusual-tol--1.0": {
+          "status": "ok",
+          "result": [
+            1.0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "unusual-tol-nan": {
+          "status": "ok",
+          "result": [
+            1.0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "unusual-tol-inf": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            3,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "extreme-float16": {
+          "status": "ok",
+          "result": [
+            0.6666666666666666,
+            2,
+            1,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": [
+            "RuntimeWarning"
+          ]
+        },
+        "extreme-float32": {
+          "status": "ok",
+          "result": [
+            0.6666666666666666,
+            2,
+            1,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": [
+            "RuntimeWarning"
+          ]
+        },
+        "extreme-float64": {
+          "status": "ok",
+          "result": [
+            0.6666666666666666,
+            2,
+            1,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": [
+            "RuntimeWarning"
+          ]
+        },
+        "analytical-ipcw-None": {
+          "status": "ok",
+          "result": [
+            0.5294117647058822,
+            2,
+            1,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "analytical-ipcw-4.0": {
+          "status": "ok",
+          "result": [
+            1.0,
+            2,
+            1,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "training-time-ties": {
+          "status": "ok",
+          "result": [
+            0.7448979591836734,
+            4,
+            1,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-0": {
+          "status": "ok",
+          "result": [
+            0.5453031627046612,
+            77,
+            42,
+            42,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-1": {
+          "status": "ok",
+          "result": [
+            0.45781133290309955,
+            67,
+            88,
+            54,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-2": {
+          "status": "ok",
+          "result": [
+            0.4728280482379928,
+            73,
+            95,
+            56,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-3": {
+          "status": "ok",
+          "result": [
+            0.45210305586234617,
+            80,
+            99,
+            55,
+            6
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-4": {
+          "status": "ok",
+          "result": [
+            0.4771965683673523,
+            47,
+            50,
+            40,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-5": {
+          "status": "ok",
+          "result": [
+            0.40870335213122555,
+            69,
+            115,
+            69,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-6": {
+          "status": "ok",
+          "result": [
+            0.6411842004876176,
+            85,
+            54,
+            45,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-7": {
+          "status": "ok",
+          "result": [
+            0.4782818730639376,
+            72,
+            91,
+            54,
+            5
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-8": {
+          "status": "ok",
+          "result": [
+            0.4466038471157398,
+            51,
+            61,
+            47,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-9": {
+          "status": "ok",
+          "result": [
+            0.5787165202981903,
+            80,
+            46,
+            62,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-10": {
+          "status": "ok",
+          "result": [
+            0.6503340413258085,
+            76,
+            47,
+            47,
+            7
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-11": {
+          "status": "ok",
+          "result": [
+            0.49963966684630945,
+            78,
+            75,
+            52,
+            3
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-12": {
+          "status": "ok",
+          "result": [
+            0.37012965412135806,
+            43,
+            77,
+            63,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-13": {
+          "status": "ok",
+          "result": [
+            0.47751563419784476,
+            57,
+            65,
+            45,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-14": {
+          "status": "ok",
+          "result": [
+            0.5411540448058405,
+            62,
+            47,
+            42,
+            6
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-15": {
+          "status": "ok",
+          "result": [
+            0.5613791684049106,
+            102,
+            72,
+            78,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-16": {
+          "status": "ok",
+          "result": [
+            0.6458164515586492,
+            97,
+            44,
+            49,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-17": {
+          "status": "ok",
+          "result": [
+            0.3348113016139763,
+            47,
+            117,
+            57,
+            3
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-18": {
+          "status": "ok",
+          "result": [
+            0.561494853073319,
+            81,
+            48,
+            74,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-19": {
+          "status": "ok",
+          "result": [
+            0.4061432532623546,
+            59,
+            102,
+            55,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-20": {
+          "status": "ok",
+          "result": [
+            0.526645937107216,
+            78,
+            70,
+            53,
+            3
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-21": {
+          "status": "ok",
+          "result": [
+            0.3455170457520729,
+            53,
+            116,
+            46,
+            6
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-22": {
+          "status": "ok",
+          "result": [
+            0.47907896438127756,
+            60,
+            68,
+            49,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-23": {
+          "status": "ok",
+          "result": [
+            0.46457902079539726,
+            60,
+            76,
+            40,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-24": {
+          "status": "ok",
+          "result": [
+            0.3670014164613726,
+            59,
+            123,
+            64,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-25": {
+          "status": "ok",
+          "result": [
+            0.5497007357362328,
+            59,
+            53,
+            40,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-26": {
+          "status": "ok",
+          "result": [
+            0.5846327312369132,
+            92,
+            57,
+            45,
+            3
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-27": {
+          "status": "ok",
+          "result": [
+            0.5160081100696355,
+            79,
+            75,
+            66,
+            6
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-28": {
+          "status": "ok",
+          "result": [
+            0.5280031537247349,
+            66,
+            59,
+            52,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-29": {
+          "status": "ok",
+          "result": [
+            0.40656712436355863,
+            71,
+            112,
+            49,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-30": {
+          "status": "ok",
+          "result": [
+            0.5695438917899321,
+            83,
+            70,
+            45,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-31": {
+          "status": "ok",
+          "result": [
+            0.5750788296899395,
+            87,
+            53,
+            49,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-32": {
+          "status": "ok",
+          "result": [
+            0.5010395260750663,
+            78,
+            89,
+            57,
+            1
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-33": {
+          "status": "ok",
+          "result": [
+            0.5577717536121494,
+            79,
+            57,
+            44,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-34": {
+          "status": "ok",
+          "result": [
+            0.568587753672758,
+            55,
+            42,
+            45,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-35": {
+          "status": "ok",
+          "result": [
+            0.49740022798247885,
+            67,
+            75,
+            53,
+            7
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-36": {
+          "status": "ok",
+          "result": [
+            0.5682513176853553,
+            76,
+            55,
+            43,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-37": {
+          "status": "ok",
+          "result": [
+            0.5533244423829113,
+            91,
+            66,
+            58,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-38": {
+          "status": "ok",
+          "result": [
+            0.5212755664914088,
+            69,
+            53,
+            37,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "random-ipcw-39": {
+          "status": "ok",
+          "result": [
+            0.3902526758892515,
+            53,
+            93,
+            45,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-error-support": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "censoring survival function is zero at one or more time points",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "ipcw-error-zero-G": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "censoring survival function is zero at one or more time points",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "ipcw-error-tau-empty": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "Found array with 0 sample(s) (shape=(0,)) while a minimum of 1 is required.",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "ipcw-error-risk-length": {
+          "status": "error",
+          "error": "ValueError",
+          "message": "Found input variables with inconsistent numbers of samples: [2, 1]",
+          "error_types": [
+            "builtins.Exception",
+            "builtins.ValueError"
+          ]
+        },
+        "all-risk-equal": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            465,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "all-censored-except-first": {
+          "status": "ok",
+          "result": [
+            1.0,
+            30,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "tied-last-events": {
+          "status": "ok",
+          "result": [
+            1.0,
+            30,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "signed-zero": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            465,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "api-censored-default-positional": {
+          "status": "ok",
+          "result": [
+            0.16666666666666666,
+            0,
+            2,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "api-censored-default-keywords": {
+          "status": "ok",
+          "result": [
+            0.16666666666666666,
+            0,
+            2,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "api-ipcw-defaults-positional": {
+          "status": "ok",
+          "result": [
+            0.13235294117647056,
+            0,
+            2,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "api-ipcw-defaults-keywords": {
+          "status": "ok",
+          "result": [
+            0.13235294117647056,
+            0,
+            2,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "api-ipcw-default-tau-keywords": {
+          "status": "ok",
+          "result": [
+            0.3676470588235294,
+            0,
+            1,
+            2,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "api-ipcw-default-tied-tol-keywords": {
+          "status": "ok",
+          "result": [
+            0.25,
+            0,
+            2,
+            1,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "api-ipcw-explicit-keywords": {
+          "status": "ok",
+          "result": [
+            0.25,
+            0,
+            1,
+            2,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float16--1.0-equal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            10,
+            0,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float16--1.0-equal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            10,
+            0,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float16--1.0-subnormal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.5,
+            5,
+            5,
+            0,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float16--1.0-subnormal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5280000000000001,
+            5,
+            5,
+            0,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float16--0.25-equal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float16--0.25-equal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float16--0.25-subnormal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.55,
+            5,
+            4,
+            1,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float16--0.25-subnormal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5640000000000001,
+            5,
+            4,
+            1,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float16-0.5-equal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float16-0.5-equal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float16-0.5-subnormal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.55,
+            5,
+            4,
+            1,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float16-0.5-subnormal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5640000000000001,
+            5,
+            4,
+            1,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float32--1.0-equal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            10,
+            0,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float32--1.0-equal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            10,
+            0,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float32--1.0-subnormal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.5,
+            5,
+            5,
+            0,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float32--1.0-subnormal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5280000000000001,
+            5,
+            5,
+            0,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float32--0.25-equal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float32--0.25-equal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float32--0.25-subnormal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.55,
+            5,
+            4,
+            1,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float32--0.25-subnormal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5640000000000001,
+            5,
+            4,
+            1,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float32-0.5-equal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float32-0.5-equal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float32-0.5-subnormal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.55,
+            5,
+            4,
+            1,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float32-0.5-subnormal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5640000000000001,
+            5,
+            4,
+            1,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float64--1.0-equal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            10,
+            0,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float64--1.0-equal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.0,
+            0,
+            10,
+            0,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float64-0.5-equal-ordinary": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-promotion-float64-0.5-equal-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "scalar-cast-warning-float16-ordinary": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": [
+            "RuntimeWarning"
+          ]
+        },
+        "scalar-cast-warning-float16-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": [
+            "RuntimeWarning"
+          ]
+        },
+        "scalar-cast-warning-float32-ordinary": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": [
+            "RuntimeWarning"
+          ]
+        },
+        "scalar-cast-warning-float32-ipcw": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            10,
+            2
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": [
+            "RuntimeWarning"
+          ]
+        }
+      },
+      "diagnostic_call_seconds": 0.49459819799812976
+    }
+  },
+  {
+    "case_ids": [
+      "censored-continuous-n127-s731000",
+      "ipcw-continuous-n127-s731001",
+      "censored-discrete-n127-s731010",
+      "ipcw-discrete-n127-s731011",
+      "censored-boundary-n127-s731020",
+      "ipcw-boundary-n127-s731021",
+      "censored-lognormal-n127-s731030",
+      "ipcw-lognormal-n127-s731031",
+      "censored-constant-n127-s731040",
+      "ipcw-constant-n127-s731041",
+      "censored-censored-n127-s731050",
+      "ipcw-censored-n127-s731051",
+      "censored-continuous-n513-s731100",
+      "ipcw-continuous-n513-s731101",
+      "censored-discrete-n513-s731110",
+      "ipcw-discrete-n513-s731111",
+      "censored-boundary-n513-s731120",
+      "ipcw-boundary-n513-s731121",
+      "censored-lognormal-n513-s731130",
+      "ipcw-lognormal-n513-s731131",
+      "censored-constant-n513-s731140",
+      "ipcw-constant-n513-s731141",
+      "censored-censored-n513-s731150",
+      "ipcw-censored-n513-s731151",
+      "censored-continuous-n2049-s731200",
+      "ipcw-continuous-n2049-s731201",
+      "censored-discrete-n2049-s731210",
+      "ipcw-discrete-n2049-s731211",
+      "censored-boundary-n2049-s731220",
+      "ipcw-boundary-n2049-s731221",
+      "censored-lognormal-n2049-s731230",
+      "ipcw-lognormal-n2049-s731231",
+      "censored-constant-n2049-s731240",
+      "ipcw-constant-n2049-s731241",
+      "censored-censored-n2049-s731250",
+      "ipcw-censored-n2049-s731251",
+      "censored-continuous-n8193-s731300",
+      "ipcw-continuous-n8193-s731301",
+      "censored-discrete-n8193-s731310",
+      "ipcw-discrete-n8193-s731311",
+      "censored-boundary-n8193-s731320",
+      "ipcw-boundary-n8193-s731321",
+      "censored-lognormal-n8193-s731330",
+      "ipcw-lognormal-n8193-s731331",
+      "censored-constant-n8193-s731340",
+      "ipcw-constant-n8193-s731341",
+      "censored-censored-n8193-s731350",
+      "ipcw-censored-n8193-s731351",
+      "censored-continuous-n16387-s742000",
+      "censored-continuous-n8193-s731300-permuted",
+      "ipcw-continuous-n16387-s742001",
+      "ipcw-continuous-n8193-s731301-permuted",
+      "censored-discrete-n16387-s742010",
+      "censored-discrete-n8193-s731310-permuted",
+      "ipcw-discrete-n16387-s742011",
+      "ipcw-discrete-n8193-s731311-permuted"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-pt2puawm/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 120,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.8369340770004783,
+    "stderr": "",
+    "response": {
+      "results": {
+        "censored-continuous-n127-s731000": {
+          "status": "ok",
+          "result": [
+            0.5934123387940049,
+            3405,
+            2333,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-continuous-n127-s731001": {
+          "status": "ok",
+          "result": [
+            0.6350386522082795,
+            3509,
+            1930,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-discrete-n127-s731010": {
+          "status": "ok",
+          "result": [
+            0.4924797531816429,
+            2286,
+            2364,
+            536,
+            6
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-discrete-n127-s731011": {
+          "status": "ok",
+          "result": [
+            0.5017007119388133,
+            2166,
+            2068,
+            511,
+            13
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-boundary-n127-s731020": {
+          "status": "ok",
+          "result": [
+            0.502713567839196,
+            2278,
+            2251,
+            446,
+            9
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-boundary-n127-s731021": {
+          "status": "ok",
+          "result": [
+            0.48005830090060087,
+            2156,
+            2398,
+            578,
+            10
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-lognormal-n127-s731030": {
+          "status": "ok",
+          "result": [
+            0.49990791896869247,
+            2704,
+            2705,
+            21,
+            9
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-lognormal-n127-s731031": {
+          "status": "ok",
+          "result": [
+            0.5062610092905141,
+            2556,
+            2467,
+            18,
+            13
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-constant-n127-s731040": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            4946,
+            122
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-constant-n127-s731041": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            5232,
+            125
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-censored-n127-s731050": {
+          "status": "ok",
+          "result": [
+            0.7958236658932715,
+            686,
+            176,
+            0,
+            4
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-censored-n127-s731051": {
+          "status": "ok",
+          "result": [
+            0.8224083141673606,
+            1184,
+            299,
+            0,
+            6
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-continuous-n513-s731100": {
+          "status": "ok",
+          "result": [
+            0.602019056261343,
+            53074,
+            35086,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-continuous-n513-s731101": {
+          "status": "ok",
+          "result": [
+            0.5973132345775627,
+            47171,
+            31221,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-discrete-n513-s731110": {
+          "status": "ok",
+          "result": [
+            0.5119389693659463,
+            38966,
+            36955,
+            8299,
+            138
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-discrete-n513-s731111": {
+          "status": "ok",
+          "result": [
+            0.5088720663376052,
+            36982,
+            34774,
+            8014,
+            173
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-boundary-n513-s731120": {
+          "status": "ok",
+          "result": [
+            0.5184552091783521,
+            40536,
+            37351,
+            8403,
+            163
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-boundary-n513-s731121": {
+          "status": "ok",
+          "result": [
+            0.48415970214886167,
+            35907,
+            38786,
+            7760,
+            166
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-lognormal-n513-s731130": {
+          "status": "ok",
+          "result": [
+            0.5040302541787373,
+            41418,
+            40753,
+            330,
+            149
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-lognormal-n513-s731131": {
+          "status": "ok",
+          "result": [
+            0.4810079619184971,
+            42289,
+            45271,
+            372,
+            141
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-constant-n513-s731140": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            81853,
+            1937
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-constant-n513-s731141": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            86425,
+            1920
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-censored-n513-s731150": {
+          "status": "ok",
+          "result": [
+            0.7728658536585366,
+            6591,
+            1937,
+            0,
+            41
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-censored-n513-s731151": {
+          "status": "ok",
+          "result": [
+            0.7616658621341403,
+            10035,
+            3301,
+            0,
+            68
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-continuous-n2049-s731200": {
+          "status": "ok",
+          "result": [
+            0.5992074926900051,
+            819300,
+            548006,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-continuous-n2049-s731201": {
+          "status": "ok",
+          "result": [
+            0.5929668021306314,
+            824974,
+            554243,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-discrete-n2049-s731210": {
+          "status": "ok",
+          "result": [
+            0.4903643094020251,
+            602594,
+            628994,
+            138319,
+            2389
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-discrete-n2049-s731211": {
+          "status": "ok",
+          "result": [
+            0.5095958069632456,
+            637787,
+            611893,
+            137739,
+            2353
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-boundary-n2049-s731220": {
+          "status": "ok",
+          "result": [
+            0.49954257443377487,
+            614453,
+            615696,
+            128542,
+            2434
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-boundary-n2049-s731221": {
+          "status": "ok",
+          "result": [
+            0.48707597305994704,
+            585431,
+            624300,
+            129411,
+            2450
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-lognormal-n2049-s731230": {
+          "status": "ok",
+          "result": [
+            0.49340920267251587,
+            681519,
+            699800,
+            5539,
+            2465
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-lognormal-n2049-s731231": {
+          "status": "ok",
+          "result": [
+            0.4933414355448541,
+            684182,
+            704694,
+            4779,
+            2383
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-constant-n2049-s731240": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            1331005,
+            31615
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-constant-n2049-s731241": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            1317979,
+            31307
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-censored-n2049-s731250": {
+          "status": "ok",
+          "result": [
+            0.7536557705136758,
+            112973,
+            36927,
+            0,
+            674
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-censored-n2049-s731251": {
+          "status": "ok",
+          "result": [
+            0.7728248227235971,
+            129066,
+            42449,
+            0,
+            804
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-continuous-n8193-s731300": {
+          "status": "ok",
+          "result": [
+            0.593228414939897,
+            13044063,
+            8944201,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-continuous-n8193-s731301": {
+          "status": "ok",
+          "result": [
+            0.5883470979820207,
+            13012054,
+            8880491,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-discrete-n8193-s731310": {
+          "status": "ok",
+          "result": [
+            0.4892677963151382,
+            9655888,
+            10127426,
+            2185054,
+            38466
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-discrete-n8193-s731311": {
+          "status": "ok",
+          "result": [
+            0.4968342607992977,
+            9795831,
+            9981183,
+            2175168,
+            38084
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-boundary-n8193-s731320": {
+          "status": "ok",
+          "result": [
+            0.4983105709853915,
+            9677037,
+            9749623,
+            2055746,
+            39017
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-boundary-n8193-s731321": {
+          "status": "ok",
+          "result": [
+            0.48991043187747124,
+            9421015,
+            9985104,
+            2062698,
+            38820
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-lognormal-n8193-s731330": {
+          "status": "ok",
+          "result": [
+            0.5041692463938756,
+            10895228,
+            10714353,
+            81989,
+            38908
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-lognormal-n8193-s731331": {
+          "status": "ok",
+          "result": [
+            0.4950969814927389,
+            10552719,
+            10825629,
+            83421,
+            38813
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-constant-n8193-s731340": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            21748252,
+            491429
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-constant-n8193-s731341": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            21767037,
+            485207
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-censored-n8193-s731350": {
+          "status": "ok",
+          "result": [
+            0.7562341866111942,
+            2075791,
+            669114,
+            0,
+            12457
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-censored-n8193-s731351": {
+          "status": "ok",
+          "result": [
+            0.7579019939545898,
+            1997132,
+            682395,
+            0,
+            12521
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-continuous-n16387-s742000": {
+          "status": "ok",
+          "result": [
+            0.5929245080222245,
+            51951542,
+            35667609,
+            0,
+            152262
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-continuous-n8193-s731300-permuted": {
+          "status": "ok",
+          "result": [
+            0.593228414939897,
+            13044063,
+            8944201,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-continuous-n16387-s742001": {
+          "status": "ok",
+          "result": [
+            0.5957899143065577,
+            50966394,
+            35006315,
+            0,
+            154775
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-continuous-n8193-s731301-permuted": {
+          "status": "ok",
+          "result": [
+            0.5883470979820207,
+            13012054,
+            8880491,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-discrete-n16387-s742010": {
+          "status": "ok",
+          "result": [
+            0.5012140560135245,
+            39276943,
+            39065675,
+            8666547,
+            154415
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "censored-discrete-n8193-s731310-permuted": {
+          "status": "ok",
+          "result": [
+            0.4892677963151382,
+            9655888,
+            10127426,
+            2185054,
+            38466
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-discrete-n16387-s742011": {
+          "status": "ok",
+          "result": [
+            0.5005217635758062,
+            38828014,
+            38777623,
+            8576597,
+            154578
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        },
+        "ipcw-discrete-n8193-s731311-permuted": {
+          "status": "ok",
+          "result": [
+            0.49683426079929766,
+            9795831,
+            9981183,
+            2175168,
+            38084
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.43651740498899017
+    }
+  },
+  {
+    "case_ids": [
+      "censored-boundary-n24593-s810011"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-mj5t_vqn/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 19,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.2319860690040514,
+    "stderr": "",
+    "response": {
+      "results": {
+        "censored-boundary-n24593-s810011": {
+          "status": "ok",
+          "result": [
+            0.5002389204456302,
+            89631470,
+            89536775,
+            19004414,
+            343801
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.05210069099848624
+    }
+  },
+  {
+    "case_ids": [
+      "censored-boundary-n24593-s810011"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-83l6fzxc/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 19,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.279786642990075,
+    "stderr": "",
+    "response": {
+      "results": {
+        "censored-boundary-n24593-s810011": {
+          "status": "ok",
+          "result": [
+            0.5002389204456302,
+            89631470,
+            89536775,
+            19004414,
+            343801
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.055680236997432075
+    }
+  },
+  {
+    "case_ids": [
+      "ipcw-discrete-n49157-s810127"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-8t_o7ev_/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 25,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.7535466980043566,
+    "stderr": "",
+    "response": {
+      "results": {
+        "ipcw-discrete-n49157-s810127": {
+          "status": "ok",
+          "result": [
+            0.4995586062328229,
+            352159303,
+            354584034,
+            78393066,
+            1384170
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.13021074399875943
+    }
+  },
+  {
+    "case_ids": [
+      "ipcw-discrete-n49157-s810127"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-fmnmgk7h/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 25,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.61462876299629,
+    "stderr": "",
+    "response": {
+      "results": {
+        "ipcw-discrete-n49157-s810127": {
+          "status": "ok",
+          "result": [
+            0.4995586062328229,
+            352159303,
+            354584034,
+            78393066,
+            1384170
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.12812237000616733
+    }
+  },
+  {
+    "case_ids": [
+      "censored-lognormal-n73747-s810233"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-_7u8xzq3/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 31,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.3024769430048764,
+    "stderr": "",
+    "response": {
+      "results": {
+        "censored-lognormal-n73747-s810233": {
+          "status": "ok",
+          "result": [
+            0.4973728596950965,
+            199143714,
+            201255455,
+            1509514,
+            1726527
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.10774940399278421
+    }
+  },
+  {
+    "case_ids": [
+      "censored-lognormal-n73747-s810233"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-nlpboe1h/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 31,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.555302203996689,
+    "stderr": "",
+    "response": {
+      "results": {
+        "censored-lognormal-n73747-s810233": {
+          "status": "ok",
+          "result": [
+            0.4973728596950965,
+            199143714,
+            201255455,
+            1509514,
+            1726527
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.1779110840143403
+    }
+  },
+  {
+    "case_ids": [
+      "ipcw-continuous-n98317-s810347"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-hgdfahmk/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 37,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.7611564779945184,
+    "stderr": "",
+    "response": {
+      "results": {
+        "ipcw-continuous-n98317-s810347": {
+          "status": "ok",
+          "result": [
+            0.5850240647127921,
+            1861218800,
+            1282839424,
+            15,
+            5536184
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.2749575659981929
+    }
+  },
+  {
+    "case_ids": [
+      "ipcw-continuous-n98317-s810347"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-2idx9huo/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 37,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.60098035800911,
+    "stderr": "",
+    "response": {
+      "results": {
+        "ipcw-continuous-n98317-s810347": {
+          "status": "ok",
+          "result": [
+            0.5850240647127921,
+            1861218800,
+            1282839424,
+            15,
+            5536184
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.23938533599721268
+    }
+  },
+  {
+    "case_ids": [
+      "censored-discrete-n131101-s810451"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-ogurd5uc/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 45,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.705760557000758,
+    "stderr": "",
+    "response": {
+      "results": {
+        "censored-discrete-n131101-s810451": {
+          "status": "ok",
+          "result": [
+            0.5009760572716349,
+            3484002376,
+            3468930379,
+            767924124,
+            3902986
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.36258367099799216
+    }
+  },
+  {
+    "case_ids": [
+      "censored-discrete-n131101-s810451"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-l34arrey/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 45,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.844543896993855,
+    "stderr": "",
+    "response": {
+      "results": {
+        "censored-discrete-n131101-s810451": {
+          "status": "ok",
+          "result": [
+            0.5009760572716349,
+            3484002376,
+            3468930379,
+            767924124,
+            3902986
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.3668924589874223
+    }
+  },
+  {
+    "case_ids": [
+      "ipcw-continuous-n147457-s810563"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-41sg902b/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 49,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.8191808749979828,
+    "stderr": "",
+    "response": {
+      "results": {
+        "ipcw-continuous-n147457-s810563": {
+          "status": "ok",
+          "result": [
+            0.5941300528530812,
+            5150828695,
+            3550154230,
+            35,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.46481208699697163
+    }
+  },
+  {
+    "case_ids": [
+      "ipcw-continuous-n147457-s810563"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-qsixyxek/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 49,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.965417168001295,
+    "stderr": "",
+    "response": {
+      "results": {
+        "ipcw-continuous-n147457-s810563": {
+          "status": "ok",
+          "result": [
+            0.5941300528530812,
+            5150828695,
+            3550154230,
+            35,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.4429189570073504
+    }
+  },
+  {
+    "case_ids": [
+      "censored-constant-n163841-s810677"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-19nz1bmo/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 53,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 3.207820495008491,
+    "stderr": "",
+    "response": {
+      "results": {
+        "censored-constant-n163841-s810677": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            8630280341,
+            197137984
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.2688405899971258
+    }
+  },
+  {
+    "case_ids": [
+      "censored-constant-n163841-s810677"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-sotvu2lg/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 53,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.5587333040020894,
+    "stderr": "",
+    "response": {
+      "results": {
+        "censored-constant-n163841-s810677": {
+          "status": "ok",
+          "result": [
+            0.5,
+            0,
+            0,
+            8630280341,
+            197137984
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.23807685299834702
+    }
+  },
+  {
+    "case_ids": [
+      "censored-continuous-n196613-s810781"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-b1negmm2/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 61,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 3.021642449995852,
+    "stderr": "",
+    "response": {
+      "results": {
+        "censored-continuous-n196613-s810781": {
+          "status": "ok",
+          "result": [
+            0.592581063394653,
+            9154301990,
+            6293883160,
+            68,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.5803376120020403
+    }
+  },
+  {
+    "case_ids": [
+      "censored-continuous-n196613-s810781"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-5pr6sxq5/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 61,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 3.06980895200104,
+    "stderr": "",
+    "response": {
+      "results": {
+        "censored-continuous-n196613-s810781": {
+          "status": "ok",
+          "result": [
+            0.592581063394653,
+            9154301990,
+            6293883160,
+            68,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.5681433559948346
+    }
+  },
+  {
+    "case_ids": [
+      "closed-form-n110503"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-uj_oxle7/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 39,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.4146868770039873,
+    "stderr": "",
+    "response": {
+      "results": {
+        "closed-form-n110503": {
+          "status": "ok",
+          "result": [
+            1.0,
+            6105401253,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.19008460000623018
+    }
+  },
+  {
+    "case_ids": [
+      "closed-form-n110503"
+    ],
+    "command": [
+      "/usr/local/bin/python",
+      "-I",
+      "/runner/worker.py",
+      "/tmp/concordance-input-ds2_znpo/input.json"
+    ],
+    "uid": 10001,
+    "timeout_seconds": 39,
+    "baseline": false,
+    "observed_process": {
+      "Uid": "10001\t10001\t10001\t10001",
+      "Gid": "10001\t10001\t10001\t10001",
+      "Groups": "",
+      "NoNewPrivs": "1"
+    },
+    "exit_code": 0,
+    "termination_exit_code": 0,
+    "elapsed_seconds": 2.4446525639941683,
+    "stderr": "",
+    "response": {
+      "results": {
+        "closed-form-n110503": {
+          "status": "ok",
+          "result": [
+            1.0,
+            6105401253,
+            0,
+            0,
+            0
+          ],
+          "numeric_score": true,
+          "integer_counts": true,
+          "warnings": []
+        }
+      },
+      "diagnostic_call_seconds": 0.19405830001051072
+    }
+  }
+]
